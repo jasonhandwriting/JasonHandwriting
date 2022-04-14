@@ -1,0 +1,1057 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<JasonQuery>
+  <!-- 特殊字符 -->
+    <!-- (<) &lt; -->
+    <!-- (>) &gt; -->
+    <!-- (&) &amp; -->
+    <!-- (") &quot; -->
+    <!-- (换行) &#x000A; -->
+  <!-- 大括号括起来的变量名称，请保留不更动。 -->
+  <!-- frmInitialize -->
+  <language category="form" class="frmInitialize" type="object" id="this" attribute="Text" name="第一次使用 JasonQuery" />
+  <language category="form" class="frmInitialize" type="object" id="lblTitle" attribute="Text" name="欢迎使用 JasonQuery" />
+  <language category="form" class="frmInitialize" type="object" id="lblTitle1" attribute="Text" name="感谢您对 JasonQuery 感兴趣。" />
+  <language category="form" class="frmInitialize" type="object" id="lblTitle2" attribute="Text" name="JasonQuery 可免费用于商业和个人用途。" />
+  <language category="form" class="frmInitialize" type="object" id="grpLocalization" attribute="Text" name="语言" />
+  <language category="form" class="frmInitialize" type="object" id="lblGuarantee" attribute="Text" name="以下三点保证，您可以安心地使用 JasonQuery：" />
+  <language category="form" class="frmInitialize" type="object" id="lblGuarantee1" attribute="Text" name="1. JasonQuery 不会读取或写入注册表。" />
+  <language category="form" class="frmInitialize" type="object" id="lblGuarantee2" attribute="Text" name="2. JasonQuery 不会异动您的数据库，除非您手动执行 DDL/DML SQL 陈述式。" />
+  <language category="form" class="frmInitialize" type="object" id="lblGuarantee21" attribute="Text" name="2-1. DDL/DML SQL 陈述式，例如：Create/Alter/Insert/Update/Delete ..." />
+  <language category="form" class="frmInitialize" type="object" id="lblGuarantee22" attribute="Text" name="2-2. 您需要按下「Commit」按钮或是手动执行「Commit」指令。 " />
+  <language category="form" class="frmInitialize" type="object" id="lblGuarantee3" attribute="Text" name="3. 所有的设定或 SQL 历史记录将会被保存在以下文件中：" />
+  <language category="form" class="frmInitialize" type="object" id="lblFeature" attribute="Text" name="特色：" />
+  <language category="form" class="frmInitialize" type="object" id="lblFeature1" attribute="Text" name="1. 免安装、多国语言、轻巧、易于使用" />
+  <language category="form" class="frmInitialize" type="object" id="lblFeature2" attribute="Text" name="2. 支援版本检查和一键更新" />
+  <language category="form" class="frmInitialize" type="object" id="lblFeature3" attribute="Text" name="3. 支援 Oracle/PostgreSQL/SQL Server/MySQL/MariaDB" />
+  <language category="form" class="frmInitialize" type="object" id="lblFeature4" attribute="Text" name="4. 支持透过 TCP/IP 直接联机到 Oracle，无需透过 Oracle Client" />
+  <language category="form" class="frmInitialize" type="object" id="lblFeature5" attribute="Text" name="5. 带有语法高亮的进阶 SQL 编辑器" />
+  <language category="form" class="frmInitialize" type="object" id="lblFeature6" attribute="Text" name="6. 支持分页查询(可自订)：每页500条记录" />
+  <language category="form" class="frmInitialize" type="object" id="lblFeature7" attribute="Text" name="7. 支持自动替换(可自订)：针对喜爱的查询进行关键词绑定，例如：&quot;sf =&gt; select * from&quot;" />
+  <language category="form" class="frmInitialize" type="object" id="lblFeature8" attribute="Text" name="8. 自动侦测参数，例如：&quot;WHERE id = :id AND name = :name&quot;" />
+  <language category="form" class="frmInitialize" type="object" id="lblFeature9" attribute="Text" name="9. 自动指引到 SQL 陈述式的错误位置并显示错误信息" />
+  <language category="form" class="frmInitialize" type="object" id="lblFeature10" attribute="Text" name="10. 架构浏览器、SQL 历史记录和许多实用的功能..." />
+  <language category="form" class="frmInitialize" type="object" id="lblFeature11" attribute="Text" name="11. 不定时修复错误和添加功能" />
+  <language category="form" class="frmInitialize" type="object" id="lblNote" attribute="Text" name="现在按下「确定」开始操作您的数据库。 " />
+  <language category="form" class="frmInitialize" type="object" id="btnOK" attribute="Text" name="确定(&amp;O)" />
+  <!-- frmCellViewer -->
+  <language category="form" class="frmCellViewer" type="object" id="this" attribute="Text" name="单元格查看器" />
+  <language category="form" class="frmCellViewer" type="object" id="lblColumnName" attribute="Text" name="字段名称：" />
+  <language category="form" class="frmCellViewer" type="object" id="lblColumnType" attribute="Text" name="字段型态：" />
+  <language category="form" class="frmCellViewer" type="object" id="btnSelectAll" attribute="ToolTipText" name="全选" />
+  <language category="form" class="frmCellViewer" type="object" id="btnCopy" attribute="ToolTipText" name="复制" />
+  <language category="form" class="frmCellViewer" type="object" id="btnWordWrap" attribute="ToolTipText" name="自动换行" />
+  <language category="form" class="frmCellViewer" type="object" id="btnWordWrap2" attribute="ToolTipText" name="自动换行" />
+  <language category="form" class="frmCellViewer" type="object" id="btnShowAllCharacters" attribute="ToolTipText" name="显示所有字符" />
+  <language category="form" class="frmCellViewer" type="object" id="btnShowAllCharacters2" attribute="ToolTipText" name="显示所有字符" />
+  <language category="form" class="frmCellViewer" type="menueditor" id="SelectAll" attribute="Text" name="全选" />
+  <language category="form" class="frmCellViewer" type="menueditor" id="Copy" attribute="Text" name="复制" />
+  <!-- frmSingleRecordViewer -->
+  <language category="form" class="frmSingleRecordViewer" type="object" id="this" attribute="Text" name="单笔记录查看器" />
+  <language category="form" class="frmSingleRecordViewer" type="object" id="btnFirst" attribute="ToolTipText" name="第一笔记录" />
+  <language category="form" class="frmSingleRecordViewer" type="object" id="btnPrevious" attribute="ToolTipText" name="前一笔记录" />
+  <language category="form" class="frmSingleRecordViewer" type="object" id="btnNext" attribute="ToolTipText" name="下一笔记录" />
+  <language category="form" class="frmSingleRecordViewer" type="object" id="btnLast" attribute="ToolTipText" name="最后一笔记录" />
+  <language category="form" class="frmSingleRecordViewer" type="object" id="btnSelectAll" attribute="ToolTipText" name="全选" />
+  <language category="form" class="frmSingleRecordViewer" type="object" id="btnCopy" attribute="ToolTipText" name="复制" />
+  <language category="form" class="frmSingleRecordViewer" type="object" id="btnExportToFile" attribute="ToolTipText" name="导出到 Excel" />
+  <language category="form" class="frmSingleRecordViewer" type="object" id="chkShowFilterRow" attribute="Text" name="显示筛选行" />
+  <language category="form" class="frmSingleRecordViewer" type="menugrid" id="SelectAll" attribute="Text" name="全选" />
+  <language category="form" class="frmSingleRecordViewer" type="menugrid" id="Copy" attribute="Text" name="复制" />
+  <language category="form" class="frmSingleRecordViewer" type="menugrid" id="ExportToFile" attribute="Text" name="导出到 Excel" />
+  <!-- frmSQLStatementViewer -->
+  <language category="form" class="frmSQLStatementViewer" type="object" id="this" attribute="Text" name="SQL 陈述式查看器" />
+  <language category="form" class="frmSQLStatementViewer" type="object" id="btnSelectAll" attribute="ToolTipText" name="全选" />
+  <language category="form" class="frmSQLStatementViewer" type="object" id="btnCopy" attribute="ToolTipText" name="复制" />
+  <language category="form" class="frmSQLStatementViewer" type="object" id="btnWordWrap" attribute="ToolTipText" name="自动换行" />
+  <language category="form" class="frmSQLStatementViewer" type="object" id="btnWordWrap2" attribute="ToolTipText" name="自动换行" />
+  <language category="form" class="frmSQLStatementViewer" type="object" id="btnShowAllCharacters" attribute="ToolTipText" name="显示所有字符" />
+  <language category="form" class="frmSQLStatementViewer" type="object" id="btnShowAllCharacters2" attribute="ToolTipText" name="显示所有字符" />
+  <language category="form" class="frmSQLStatementViewer" type="menueditor" id="SelectAll" attribute="Text" name="全选" />
+  <language category="form" class="frmSQLStatementViewer" type="menueditor" id="Copy" attribute="Text" name="复制" />
+  <!-- frmAbout -->
+  <language category="form" class="frmAbout" type="object" id="this" attribute="Text" name="关于 JasonQuery" />
+  <language category="form" class="frmAbout" type="object" id="lblInfo" attribute="Text" name="免费供商业和个人使用。" />
+  <language category="form" class="frmAbout" type="object" id="lblReportBugs" attribute="Text" name="回报错误，请发送邮件至 tachiroyu@gmail.com。" />
+  <language category="form" class="frmAbout" type="object" id="lnkMap" attribute="Text" name="台湾谷歌地图" />
+  <language category="form" class="frmAbout" type="object" id="btnOK" attribute="Text" name="确定(&amp;O)" />
+  <language category="form" class="frmAbout" type="object" id="lblIcons8" attribute="Text" name="免费图示 - Icons8 (下载 PNG / SVG 格式的免费图示)" />
+  <language category="form" class="frmAbout" type="object" id="lblFreeFont" attribute="Text" name="免费中文手写字体 - 清松手写体系列 (SIL Open Font License)" />
+  <!-- frmParameters -->
+  <language category="form" class="frmParameters" type="object" id="this" attribute="Text" name="参数" />
+  <language category="form" class="frmParameters" type="object" id="btnOK" attribute="Text" name="确定(&amp;O)" />
+  <language category="form" class="frmParameters" type="object" id="btnCancel" attribute="Text" name="取消(&amp;C)" />
+  <language category="form" class="frmParameters" type="object" id="btnPreview" attribute="Text" name="预览(&amp;P)" />
+  <language category="form" class="frmParameters" type="object" id="lblPreview" attribute="Text" name="预览:" />
+  <language category="form" class="frmParameters" type="gridheader" id="Name" attribute="Text" name="名称" />
+  <language category="form" class="frmParameters" type="gridheader" id="Value" attribute="Text" name="值" />
+  <language category="form" class="frmParameters" type="gridheader" id="Type" attribute="Text" name="型态" />
+  <language category="form" class="frmParameters" type="object" id="String" attribute="Text" name="字符串" />
+  <language category="form" class="frmParameters" type="object" id="Number" attribute="Text" name="数字" />
+  <language category="form" class="frmParameters" type="object" id="Custom" attribute="Text" name="自定义" />
+  <language category="form" class="frmParameters" type="object" id="btnSelectAll" attribute="ToolTipText" name="全选" />
+  <language category="form" class="frmParameters" type="object" id="btnCopy" attribute="ToolTipText" name="复制" />
+  <language category="form" class="frmParameters" type="object" id="btnWordWrap" attribute="ToolTipText" name="自动换行" />
+  <language category="form" class="frmParameters" type="object" id="btnWordWrap2" attribute="ToolTipText" name="自动换行" />
+  <!-- frmHelpParametersType -->
+  <language category="form" class="frmHelpParametersType" type="object" id="this" attribute="Text" name="&quot;型态&quot; 的使用范例" />
+  <language category="form" class="frmHelpParametersType" type="object" id="btnClose" attribute="Text" name="关闭(&amp;C)" />
+  <language category="form" class="frmHelpParametersType" type="object" id="lblInfoParameters" attribute="Text" name="这是 SQL 语句中的参数名称。" />
+  <language category="form" class="frmHelpParametersType" type="object" id="lblInfoValue" attribute="Text" name="这是您输入的内容。" />
+  <language category="form" class="frmHelpParametersType" type="object" id="lblInfoResult" attribute="Text" name="这是 JasonQuery 置换的结果。" />
+  <language category="form" class="frmHelpParametersType" type="object" id="lblBlank" attribute="Text" name="最前面或最后面一个字符是空白。" />
+  <language category="form" class="frmHelpParametersType" type="object" id="grpString" attribute="Text" name="字符串" />
+  <language category="form" class="frmHelpParametersType" type="object" id="grpNumber" attribute="Text" name="数值" />
+  <language category="form" class="frmHelpParametersType" type="object" id="grpCustom" attribute="Text" name="自定义" />
+  <language category="form" class="frmHelpParametersType" type="msg" id="Example" attribute="Text" name="范例" />
+  <!-- frmFileSplitter -->
+  <language category="form" class="frmFileSplitter" type="object" id="this" attribute="Text" name="大型文字档拆分器" />
+  <language category="form" class="frmFileSplitter" type="object" id="lblOriginalFile" attribute="Text" name="原始文件：" />
+  <language category="form" class="frmFileSplitter" type="object" id="txtOriginalFile" attribute="ToolTipText" name="将文件拖曳至此处!" />
+  <language category="form" class="frmFileSplitter" type="object" id="lblDestinationFolder" attribute="Text" name="目的地路径：" />
+  <language category="form" class="frmFileSplitter" type="object" id="txtDestinationFolder" attribute="ToolTipText" name="将目录拖曳至此处!" />
+  <language category="form" class="frmFileSplitter" type="object" id="btnBrowseFile" attribute="Text" name="浏览文件" />
+  <language category="form" class="frmFileSplitter" type="object" id="btnBrowseFolder" attribute="Text" name="浏览路径" />
+  <language category="form" class="frmFileSplitter" type="object" id="lblSaveAsEncoding" attribute="Text" name="保存编码：" />
+  <language category="form" class="frmFileSplitter" type="object" id="lblLineBreakSymbol" attribute="Text" name="换行符：" />
+  <language category="form" class="frmFileSplitter" type="object" id="lblSizeOfAPieceFile" attribute="Text" name="单一文件的大小：" />
+  <language category="form" class="frmFileSplitter" type="object" id="lblInfo" attribute="Text" name="(根据 &quot;文件大小&quot; 及 &quot;换行符&quot; 进行拆分)" />
+  <language category="form" class="frmFileSplitter" type="object" id="btnSplit" attribute="Text" name="拆分(&amp;S)" />
+  <language category="form" class="frmFileSplitter" type="object" id="btnClose" attribute="Text" name="关闭(&amp;C)" />
+  <language category="form" class="frmFileSplitter" type="object" id="lblFileSize0" attribute="Text" name="文件大小：" />
+  <language category="form" class="frmFileSplitter" type="msg" id="SelectLargeFile" attribute="Text" name="选择一个大型的文本文件..." />
+  <language category="form" class="frmFileSplitter" type="msg" id="SelectDestinationFolder" attribute="Text" name="选择目的地路径..." />
+  <language category="form" class="frmFileSplitter" type="msg" id="SeemsBinaryFile" attribute="Text" name="它似乎是一个二进制的文件。" />
+  <language category="form" class="frmFileSplitter" type="msg" id="SeemsBeA" attribute="Text" name="它似乎是一个" />
+  <language category="form" class="frmFileSplitter" type="msg" id="File." attribute="Text" name="文件。" />
+  <language category="form" class="frmFileSplitter" type="msg" id="FileContainsBinaryData" attribute="Text" name="无法打开以下文件，因为它包含无法解释的字符。" />
+  <language category="form" class="frmFileSplitter" type="msg" id="SelectSource" attribute="Text" name="请选择一个已存在的来源文件。" />
+  <language category="form" class="frmFileSplitter" type="msg" id="SelectFolder" attribute="Text" name="您必须指定一个存放分割文件的目的地路径。" />
+  <language category="form" class="frmFileSplitter" type="msg" id="SelectExistingFolder" attribute="Text" name="请选择一个已存在的目的地路径。" />
+  <language category="form" class="frmFileSplitter" type="msg" id="DefineSize" attribute="Text" name="请定义拆分文件的大小。" />
+  <language category="form" class="frmFileSplitter" type="msg" id="DecreaseSize" attribute="Text" name="请缩减拆分的大小，使其小于原始文件的大小。" />
+  <language category="form" class="frmFileSplitter" type="msg" id="FileBeenFound" attribute="Text" name="发现部份的拆分文件已存在目的地路径下。" />
+  <language category="form" class="frmFileSplitter" type="msg" id="SomeWillBeDelete" attribute="Text" name="这些已存在的文件将会被删除！" />
+  <language category="form" class="frmFileSplitter" type="msg" id="ContinueAnyway" attribute="Text" name="是否继续？" />
+  <language category="form" class="frmFileSplitter" type="msg" id="UsedByAnother" attribute="Text" name="无法存取以下文件，请检查其他程序是否已开启此文件。" />
+  <language category="form" class="frmFileSplitter" type="msg" id="SkipAndContinue" attribute="Text" name="略过这个文件并继绩？" />
+  <language category="form" class="frmFileSplitter" type="msg" id="OpenDestinationFolder" attribute="Text" name="是否要在资源管理器开启目的地文件夹？" />
+  <language category="form" class="frmFileSplitter" type="msg" id="SplittingCompleted" attribute="Text" name="文件拆分完毕！" />
+  <language category="form" class="frmFileSplitter" type="msg" id="FollowingFileNotFound" attribute="Text" name="找不到以下的文件。" />
+  <language category="form" class="frmFileSplitter" type="msg" id="CheckFileAndTry" attribute="Text" name="请检查文件名称并再试一次。" />
+  <!-- frmCheckForUpdates -->
+  <language category="form" class="frmCheckForUpdates" type="object" id="this" attribute="Text" name="检查更新" />
+  <language category="form" class="frmCheckForUpdates" type="object" id="lblInfoHasNewVersion" attribute="Text" name="有新版的 JasonQuery：" />
+  <language category="form" class="frmCheckForUpdates" type="object" id="lblInfoLatest" attribute="Text" name="您正在使用最新版的 JasonQuery。" />
+  <language category="form" class="frmCheckForUpdates" type="object" id="grpCheckInfo" attribute="Text" name="手动检查更新" />
+  <language category="form" class="frmCheckForUpdates" type="object" id="grpDownloadInfo" attribute="Text" name="手动下载最新版本" />
+  <language category="form" class="frmCheckForUpdates" type="object" id="lblDownloadInfoWithout" attribute="Text" name="7z 压缩文件：免安装版本, 多国语言" />
+  <language category="form" class="frmCheckForUpdates" type="object" id="btnCheckForUpdates" attribute="Text" name="立刻检查更新" />
+  <language category="form" class="frmCheckForUpdates" type="object" id="btnClose" attribute="Text" name="关闭(&amp;C)" />
+  <language category="form" class="frmCheckForUpdates" type="object" id="lblRecommended" attribute="Text" name="(推荐的)" />
+  <language category="form" class="frmCheckForUpdates" type="object" id="btnHelp_HowToUpdate" attribute="ToolTipText" name="如何手动更新" />
+  <language category="form" class="frmCheckForUpdates" type="object" id="grpUpdateNow" attribute="Text" name="自动下载并更新" />
+  <language category="form" class="frmCheckForUpdates" type="object" id="lblUpdateNow" attribute="Text" name="执行 Updater.exe 并下载和更新最新文件。" />
+  <language category="form" class="frmCheckForUpdates" type="object" id="btnUpdateNow" attribute="Text" name="立即更新 (一键更新)" />
+  <language category="form" class="frmCheckForUpdates" type="msg" id="CheckforUpdatesTitle" attribute="Text" name="检查更新" />
+  <language category="form" class="frmCheckForUpdates" type="msg" id="CheckforUpdatesInfo" attribute="Text" name="启动时检查更新..." />
+  <language category="form" class="frmCheckForUpdates" type="msg" id="Recommended" attribute="Text" name="建议的" />
+  <language category="form" class="frmCheckForUpdates" type="msg" id="DownloadUpdate1" attribute="Text" name="正在下载更新" />
+  <language category="form" class="frmCheckForUpdates" type="msg" id="DownloadUpdate2" attribute="Text" name="正在下载更新...请稍候！" />
+  <language category="form" class="frmCheckForUpdates" type="msg" id="From" attribute="Text" name="从" />
+  <language category="form" class="frmCheckForUpdates" type="msg" id="To" attribute="Text" name="到" />
+  <language category="form" class="frmCheckForUpdates" type="msg" id="OpenWithBrowser" attribute="Text" name="使用预设浏览器开启网址" />
+  <language category="form" class="frmCheckForUpdates" type="msg" id="DownloadWithJasonQuery" attribute="Text" name="使用 JasonQuery 直接下载文件" />
+  <language category="form" class="frmCheckForUpdates" type="msg" id="HowToUpdate0" attribute="Text" name="如何手动将 JasonQuery 更新到最新版本：" />
+  <language category="form" class="frmCheckForUpdates" type="msg" id="HowToUpdate1" attribute="Text" name="1. 下载最新的 JasonQuery.7z" />
+  <language category="form" class="frmCheckForUpdates" type="msg" id="HowToUpdate2" attribute="Text" name="2. 关闭所有执行中的 JasonQuery" />
+  <language category="form" class="frmCheckForUpdates" type="msg" id="HowToUpdate3" attribute="Text" name="3. 将 &quot;JasonQuery x64&quot; 或 &quot;JasonQuery x86&quot; 解压缩到 JasonQuery 目前所在的文件夹（全部覆盖，JasonQuery.7z 不包含 JasonQuery.db）" />
+  <language category="form" class="frmCheckForUpdates" type="msg" id="HowToUpdate4" attribute="Text" name="4. 执行 JasonQuery" />
+  <language category="form" class="frmCheckForUpdates" type="msg" id="UpdaterNotFound" attribute="Text" name="文件找不到：" />
+  <!-- frmUpdater -->
+  <language category="form" class="frmUpdater" type="object" id="this" attribute="Text" name="更新程序 - JasonQuery" />
+  <language category="form" class="frmUpdater" type="object" id="lblTitle" attribute="Text" name="下载并更新" />
+  <language category="form" class="frmUpdater" type="object" id="lblStep1" attribute="Text" name="步骤 1: 手动关闭所有执行中的 JasonQuery" />
+  <language category="form" class="frmUpdater" type="object" id="lblStep2" attribute="Text" name="步骤 2: 下载 JasonQuery.zip 至暂存路径" />
+  <language category="form" class="frmUpdater" type="object" id="lblStep3" attribute="Text" name="步骤 3: 解压缩 JasonQuery.zip 至暂存路径" />
+  <language category="form" class="frmUpdater" type="object" id="lblStep4" attribute="Text" name="步骤 4: 更新文件并删除暂存文件" />
+  <language category="form" class="frmUpdater" type="object" id="lblFrom" attribute="Text" name="从:" />
+  <language category="form" class="frmUpdater" type="object" id="lblTo" attribute="Text" name="到: (JasonQuery.exe 的所在路径)" />
+  <language category="form" class="frmUpdater" type="object" id="btnUpdate" attribute="Text" name="更新(&amp;U)" />
+  <language category="form" class="frmUpdater" type="object" id="btnClose" attribute="Text" name="关闭(&amp;C)" />
+  <language category="form" class="frmUpdater" type="object" id="btnCancel" attribute="Text" name="取消" />
+  <language category="form" class="frmUpdater" type="object" id="grpComplete" attribute="Text" name="更新完毕后" />
+  <language category="form" class="frmUpdater" type="object" id="chkLaunchJQ" attribute="Text" name="启动 JasonQuery" />
+  <language category="form" class="frmUpdater" type="object" id="chkClose" attribute="Text" name="关闭本程序" />
+  <language category="form" class="frmUpdater" type="msg" id="UpdateOK" attribute="Text" name="所有文件已成功更新！" />
+  <language category="form" class="frmUpdater" type="msg" id="CloseJQManually" attribute="Text" name="请手动关闭所有执行中的 JasonQuery！" />
+  <language category="form" class="frmUpdater" type="msg" id="UpdateCompleted" attribute="Text" name="更新完毕！" />
+  <language category="form" class="frmUpdater" type="msg" id="PressOK" attribute="Text" name="按下确定关闭本程序。" />
+  <language category="form" class="frmUpdater" type="msg" id="PressOKAndLaunchJasonQuery" attribute="Text" name="按下确定关闭本程序，并自动启动 JasonQuery。" />
+  <language category="form" class="frmUpdater" type="msg" id="UpdateFailed" attribute="Text" name="更新失败！" />
+  <language category="form" class="frmUpdater" type="msg" id="FailedTryAgain" attribute="Text" name="请再试一次或自行手动更新！" />
+  <!-- frmConnect -->
+  <language category="form" class="frmConnect" type="object" id="this" attribute="Text" name="数据库连线" />
+  <language category="form" class="frmConnect" type="object" id="lblDataSource" attribute="Text" name="数据来源:" />
+  <language category="form" class="frmConnect" type="object" id="lblConnectionName" attribute="Text" name="连线名称:" />
+  <language category="form" class="frmConnect" type="object" id="lblServer" attribute="Text" name="服务器/主机:" />
+  <language category="form" class="frmConnect" type="object" id="lblDatabase" attribute="Text" name="数据库:" />
+  <language category="form" class="frmConnect" type="object" id="lblPort" attribute="Text" name="连接端口:" />
+  <language category="form" class="frmConnect" type="object" id="lblRemark" attribute="Text" name="备注:" />
+  <language category="form" class="frmConnect" type="object" id="lblUserID" attribute="Text" name="用户名称:" />
+  <language category="form" class="frmConnect" type="object" id="lblPassword" attribute="Text" name="密码:" />
+  <language category="form" class="frmConnect" type="object" id="lblSID" attribute="Text" name="SID:" />
+  <language category="form" class="frmConnect" type="object" id="lblConnectAs" attribute="Text" name="连线角色:" />
+  <language category="form" class="frmConnect" type="object" id="chkUnicode" attribute="Text" name="启用 Unicode" />
+  <language category="form" class="frmConnect" type="object" id="chkAutoRollback" attribute="Text" name="启用 Auto Rollback" />
+  <language category="form" class="frmConnect" type="object" id="chkPooling" attribute="Text" name="启用 Pooling" />
+  <language category="form" class="frmConnect" type="object" id="lblTabBackColor" attribute="Text" name="页签背景颜色:" />
+  <language category="form" class="frmConnect" type="object" id="btnNew" attribute="Text" name="新建" />
+  <language category="form" class="frmConnect" type="object" id="btnSave" attribute="Text" name="储存" />
+  <language category="form" class="frmConnect" type="object" id="btnDelete" attribute="Text" name="删除" />
+  <language category="form" class="frmConnect" type="object" id="btnConnect" attribute="Text" name="连线" />
+  <language category="form" class="frmConnect" type="object" id="btnTest" attribute="Text" name="测试" />
+  <language category="form" class="frmConnect" type="object" id="btnCopy" attribute="Text" name="复制" />
+  <language category="form" class="frmConnect" type="object" id="btnCreateShortcut" attribute="Text" name="快捷方式" />
+  <language category="form" class="frmConnect" type="object" id="btnCreateShortcut" attribute="ToolTipText" name="建立桌面快捷方式" />
+  <language category="form" class="frmConnect" type="object" id="chkSavePasswords" attribute="Text" name="保存密码" />
+  <language category="form" class="frmConnect" type="object" id="grpLocalization" attribute="Text" name="语言" />
+  <language category="form" class="frmConnect" type="object" id="grpColorTheme" attribute="Text" name="色彩布景主题" />
+  <language category="form" class="frmConnect" type="object" id="chkDarkMode" attribute="Text" name="深色模式" />
+  <language category="form" class="frmConnect" type="object" id="chkShowColumnInfo" attribute="Text" name="显示字段信息" />
+  <language category="form" class="frmConnect" type="object" id="rdoCreate" attribute="Text" name="建立新的数据库文件" />
+  <language category="form" class="frmConnect" type="object" id="rdoOpen" attribute="Text" name="开启已存在的数据库文件" />
+  <language category="form" class="frmConnect" type="object" id="lblDatabaseFile" attribute="Text" name="数据库文件:" />
+  <language category="form" class="frmConnect" type="object" id="lblDatabaseType" attribute="Text" name="数据库型态:" />
+  <language category="form" class="frmConnect" type="object" id="btnBrowse" attribute="ToolTipText" name="浏览已存在的数据库文件" />
+  <language category="form" class="frmConnect" type="gridheader" id="ConnectionName" attribute="Text" name="连线名称" />
+  <language category="form" class="frmConnect" type="gridheader" id="DataSource" attribute="Text" name="数据来源" />
+  <language category="form" class="frmConnect" type="gridheader" id="Server" attribute="Text" name="服务器/主机" />
+  <language category="form" class="frmConnect" type="gridheader" id="SID" attribute="Text" name="SID" />
+  <language category="form" class="frmConnect" type="gridheader" id="DirectMode" attribute="Text" name="直接模式" />
+  <language category="form" class="frmConnect" type="gridheader" id="Database" attribute="Text" name="数据库" />
+  <language category="form" class="frmConnect" type="gridheader" id="ConnectAs" attribute="Text" name="连线角色" />
+  <language category="form" class="frmConnect" type="gridheader" id="Port" attribute="Text" name="连接端口" />
+  <language category="form" class="frmConnect" type="gridheader" id="UserID" attribute="Text" name="用户名称" />
+  <language category="form" class="frmConnect" type="gridheader" id="LastConnect" attribute="Text" name="最后连线时间" />
+  <language category="form" class="frmConnect" type="gridheader" id="Remarks" attribute="Text" name="备注" />
+  <language category="form" class="frmConnect" type="gridheader" id="TabBackColor" attribute="Text" name="页签背景颜色" />
+  <language category="form" class="frmConnect" type="object" id="grpTabColor" attribute="Text" name="页签颜色" />
+  <language category="form" class="frmConnect" type="object" id="lblBackColor" attribute="Text" name="背景颜色:" />
+  <language category="form" class="frmConnect" type="object" id="lblActiveForeColor" attribute="Text" name="使用中前景颜色:" />
+  <language category="form" class="frmConnect" type="object" id="lblInactiveForeColor" attribute="Text" name="非使用中前景颜色:" />
+  <language category="form" class="frmConnect" type="object" id="chkDirectMode" attribute="Text" name="启用直接模式" />
+  <language category="form" class="frmConnect" type="object" id="grpOpenFile" attribute="Text" name="连接至数据库后，开启下方的指定文件" />
+  <language category="form" class="frmConnect" type="msg" id="WrongPasswordOrNotDBFile" attribute="Text" name="密码错误或不是一个数据库文件！" />
+  <language category="form" class="frmConnect" type="msg" id="NotDBFile" attribute="Text" name="它並不是一個数据库文件！" />
+  <language category="form" class="frmConnect" type="msg" id="Help_ConnectionName1" attribute="Text" name="它是一个易于识别的别名或昵称。" />
+  <language category="form" class="frmConnect" type="msg" id="Help_ConnectionName2" attribute="Text" name="如果有需要的话，您可以在下次连线时再重新命名。" />
+  <language category="form" class="frmConnect" type="msg" id="DeleteRecord" attribute="Text" name="您确定要删除以下的数据?" />
+  <language category="form" class="frmConnect" type="msg" id="AllRelatedRecords" attribute="Text" name="所有相关记录会被一并删除。" />
+  <language category="form" class="frmConnect" type="msg" id="AlreadyExists" attribute="Text" name="已存在！" />
+  <language category="form" class="frmConnect" type="msg" id="EnterAnotherConnectionName" attribute="Text" name="请输入其他的连线名称！" />
+  <language category="form" class="frmConnect" type="msg" id="InfoGetSID" attribute="Text" name="您可以使用以下其中一个 SQL 陈述式取得 SID：" />
+  <language category="form" class="frmConnect" type="msg" id="InfoEnableUnicode1" attribute="Text" name="如果您在执行 SQL 陈述式时接收到以下的错误讯息：" />
+  <language category="form" class="frmConnect" type="msg" id="InfoEnableUnicode2" attribute="Text" name="您可以启用 Unicode 功能，然后再重试一次。" />
+  <language category="form" class="frmConnect" type="msg" id="InfoCheckDataSource" attribute="Text" name="请选择数据来源！" />
+  <language category="form" class="frmConnect" type="msg" id="InfoCheckConnection" attribute="Text" name="请输入连线名称！" />
+  <language category="form" class="frmConnect" type="msg" id="InfoCheckServer" attribute="Text" name="请输入服务器名称！" />
+  <language category="form" class="frmConnect" type="msg" id="InfoCheckSID" attribute="Text" name="请输入 SID！" />
+  <language category="form" class="frmConnect" type="msg" id="InfoCheckDatabase" attribute="Text" name="请输入数据库名称！" />
+  <language category="form" class="frmConnect" type="msg" id="InfoCheckPort" attribute="Text" name="请输入连接埠！" />
+  <language category="form" class="frmConnect" type="msg" id="InfoCheckUser" attribute="Text" name="请输入用户名称！" />
+  <language category="form" class="frmConnect" type="msg" id="InfoCheckPassword" attribute="Text" name="请输入密码！" />
+  <language category="form" class="frmConnect" type="msg" id="AutoRollback1" attribute="Text" name="当您执行了有错误的 SQL 陈述式时，PostgreSQL 并不会自行终止执行。" />
+  <language category="form" class="frmConnect" type="msg" id="AutoRollback2" attribute="Text" name="此时，您需要手动 rollback，才可以继续执行其他的 SQL 陈述式。" />
+  <language category="form" class="frmConnect" type="msg" id="DirectMode1" attribute="Text" name="在直接模式下，JasonQuery 调用第三方元件 Devart.Data.Oracle 直接连线到 Oracle 服务器。" />
+  <language category="form" class="frmConnect" type="msg" id="DirectMode2" attribute="Text" name="它允许 JasonQuery 直接通过 TCP/IP 协定与 Oracle 协同运作，而无需透过 Oracle Client。" />
+  <language category="form" class="frmConnect" type="msg" id="DirectMode3" attribute="Text" name="您只需要具有支持 TCP/IP 协定的操作系统即可。" />
+  <language category="form" class="frmConnect" type="msg" id="ColorTheme" attribute="Text" name="您可以从 [工具] > [选项] > [一般] 变更色彩布景主题。" />
+  <language category="form" class="frmConnect" type="msg" id="Shortcut" attribute="Text" name="已在桌面建立快捷方式！" />
+  <language category="form" class="frmConnect" type="msg" id="PasswordEncrypt" attribute="Text" name="密码将使用您的网域用户名称进行加密。" />
+  <language category="form" class="frmConnect" type="msg" id="SavePassword" attribute="Text" name="如果您不希望您的密码被存放至 &quot;JasonQuery.db&quot;，请不要勾选「保存密码」。 " />
+  <language category="form" class="frmConnect" type="msg" id="WrongPassword" attribute="Text" name="密码错误！" />
+  <language category="form" class="frmConnect" type="msg" id="Resolve" attribute="Text" name="无法正确地解析您的密码。" />
+  <language category="form" class="frmConnect" type="msg" id="ReEnter" attribute="Text" name="您必须重新输入您的密码。" />
+  <language category="form" class="frmConnect" type="msg" id="Pooling" attribute="Text" name="Connection pooling enables JasonQuery to use a connection from a pool of connections that do not need to be reestablished for each use. Once a connection has been created and placed in a pool, JasonQuery can reuse that connection without performing the complete connection process." />
+  <language category="form" class="frmConnect" type="msg" id="Pooling1" attribute="Text" name="如果启用此功能，当连线中断后，实际连线并不会关闭，以便稍后由 JasonQuery 继续使用。这极大地提高了效能。" />
+  <language category="form" class="frmConnect" type="msg" id="Pooling2" attribute="Text" name="如果停用此功能，当连线中断后，从服务器上将看不到该数据库连线。" />
+  <!-- frmGenerateSQL -->
+  <language category="form" class="frmGenerateSQL" type="object" id="this" attribute="Text" name="产生 SQL 陈述式" />
+  <language category="form" class="frmGenerateSQL" type="object" id="rdoUpperAll" attribute="Text" name="全部转成大写" />
+  <language category="form" class="frmGenerateSQL" type="object" id="rdoUpperKeywords" attribute="Text" name="只有关键词转成大写" />
+  <language category="form" class="frmGenerateSQL" type="object" id="rdoLowerAll" attribute="Text" name="全部转成小写" />
+  <language category="form" class="frmGenerateSQL" type="object" id="rdoLowerKeywords" attribute="Text" name="只有关键词转成小写" />
+  <language category="form" class="frmGenerateSQL" type="object" id="lblNumbers" attribute="Text" name="每行的字段名称数量:" />
+  <language category="form" class="frmGenerateSQL" type="object" id="chkDisplayColumnTypeInfo" attribute="Text" name="显示字段信息" />
+  <language category="form" class="frmGenerateSQL" type="object" id="chkDisplayPKInfo" attribute="Text" name="显示 Primary Key 信息" />
+  <language category="form" class="frmGenerateSQL" type="object" id="chkDisplayLimit" attribute="Text" name="显示 Limit 信息" />
+  <language category="form" class="frmGenerateSQL" type="object" id="btnSelectAll" attribute="Text" name="全选(&amp;A)" />
+  <language category="form" class="frmGenerateSQL" type="object" id="btnUnselectAll" attribute="Text" name="取消全选(&amp;U)" />
+  <language category="form" class="frmGenerateSQL" type="object" id="btnPreview" attribute="Text" name="预览(&amp;P)" />
+  <language category="form" class="frmGenerateSQL" type="object" id="grpPreview" attribute="Text" name="预览" />
+  <language category="form" class="frmGenerateSQL" type="object" id="btnPasteToQueryEditor" attribute="Text" name="粘贴到查询编辑器" />
+  <language category="form" class="frmGenerateSQL" type="object" id="btnCopyToClipboard" attribute="Text" name="复制到粘贴板" />
+  <language category="form" class="frmGenerateSQL" type="object" id="btnClose" attribute="Text" name="关闭(&amp;C)" />
+  <language category="form" class="frmGenerateSQL" type="gridheader" id="Column_Name" attribute="Text" name="字段名称" />
+  <language category="form" class="frmGenerateSQL" type="gridheader" id="Column_ID" attribute="Text" name="顺序" />
+  <language category="form" class="frmGenerateSQL" type="gridheader" id="DataType" attribute="Text" name="字段型态" />
+  <!-- frmSchemaBrowser -->
+  <language category="form" class="frmSchemaBrowser" type="object" id="this" attribute="Text" name="架构浏览器" />
+  <language category="form" class="frmSchemaBrowser" type="object" id="btnRefresh" attribute="ToolTipText" name="更新" />
+  <language category="form" class="frmSchemaBrowser" type="object" id="btnExpandCollapse" attribute="ToolTipText" name="展开／收合" />
+  <language category="form" class="frmSchemaBrowser" type="object" id="mnuExpandAll" attribute="Text" name="全部展开" />
+  <language category="form" class="frmSchemaBrowser" type="object" id="mnuCollapseAll" attribute="Text" name="全部收合" />
+  <language category="form" class="frmSchemaBrowser" type="object" id="lblSchemaType" attribute="Text" name="架构型态:" />
+  <language category="form" class="frmSchemaBrowser" type="object" id="lblFilter" attribute="Text" name="筛选:" />
+  <language category="form" class="frmSchemaBrowser" type="object" id="tabSQLPane" attribute="Text" name="SQL 窗格" />
+  <language category="form" class="frmSchemaBrowser" type="object" id="tabTableStructure" attribute="Text" name="表结构" />
+  <language category="form" class="frmSchemaBrowser" type="object" id="tabView100RowsTop" attribute="Text" name="查看前 100 个记录" />
+  <language category="form" class="frmSchemaBrowser" type="object" id="tabView100RowsLast" attribute="Text" name="查看最后 100 个记录" />
+  <language category="form" class="frmSchemaBrowser" type="object" id="btnSelectAll" attribute="ToolTipText" name="全选" />
+  <language category="form" class="frmSchemaBrowser" type="object" id="btnCopy" attribute="ToolTipText" name="复制" />
+  <language category="form" class="frmSchemaBrowser" type="object" id="btnWordWrap" attribute="ToolTipText" name="自动换行" />
+  <language category="form" class="frmSchemaBrowser" type="object" id="btnWordWrap2" attribute="ToolTipText" name="自动换行" />
+  <language category="form" class="frmSchemaBrowser" type="object" id="lblTableName" attribute="Text" name="表名称:" />
+  <language category="form" class="frmSchemaBrowser" type="object" id="lblViewName" attribute="Text" name="视图名称:" />
+  <language category="form" class="frmSchemaBrowser" type="object" id="lblTableName1" attribute="Text" name="表名称:" />
+  <language category="form" class="frmSchemaBrowser" type="object" id="btnTableSelectAll" attribute="ToolTipText" name="全选" />
+  <language category="form" class="frmSchemaBrowser" type="object" id="btnTableCopy" attribute="ToolTipText" name="复制" />
+  <language category="form" class="frmSchemaBrowser" type="object" id="btnTableExportToFile" attribute="ToolTipText" name="导出到文件" />
+  <language category="form" class="frmSchemaBrowser" type="object" id="lblTableName2" attribute="Text" name="表名称:" />
+  <language category="form" class="frmSchemaBrowser" type="object" id="btnTopSelectAll" attribute="ToolTipText" name="全选" />
+  <language category="form" class="frmSchemaBrowser" type="object" id="btnTopCopy" attribute="ToolTipText" name="复制" />
+  <language category="form" class="frmSchemaBrowser" type="object" id="btnTopExportToFile" attribute="ToolTipText" name="导出到文件" />
+  <language category="form" class="frmSchemaBrowser" type="object" id="lblTableName3" attribute="Text" name="表名称:" />
+  <language category="form" class="frmSchemaBrowser" type="object" id="btnLastSelectAll" attribute="ToolTipText" name="全选" />
+  <language category="form" class="frmSchemaBrowser" type="object" id="btnLastCopy" attribute="ToolTipText" name="复制" />
+  <language category="form" class="frmSchemaBrowser" type="object" id="btnLastExportToFile" attribute="ToolTipText" name="导出到文件" />
+  <language category="form" class="frmSchemaBrowser" type="object" id="chkCopyAsHTML" attribute="Text" name="将 SQL 陈述式复制成 HTML 格式" />
+  <language category="form" class="frmSchemaBrowser" type="menueditor" id="SelectAll" attribute="Text" name="全选" />
+  <language category="form" class="frmSchemaBrowser" type="menueditor" id="Copy" attribute="Text" name="复制" />
+  <language category="form" class="frmSchemaBrowser" type="menugrid1" id="Copy" attribute="Text" name="复制" />
+  <language category="form" class="frmSchemaBrowser" type="menugrid1" id="SelectedCell" attribute="Text" name="选定的单元格" />
+  <language category="form" class="frmSchemaBrowser" type="menugrid1" id="SelectedCells" attribute="Text" name="选定的所有单元格" />
+  <language category="form" class="frmSchemaBrowser" type="menugrid2" id="SelectAll" attribute="Text" name="全选" />
+  <language category="form" class="frmSchemaBrowser" type="menugrid2" id="Copy" attribute="Text" name="复制" />
+  <language category="form" class="frmSchemaBrowser" type="menugrid2" id="ExportToFile" attribute="Text" name="导出到文件" />
+  <language category="form" class="frmSchemaBrowser" type="msg" id="GetSchemaInformation" attribute="Text" name="取得架构信息" />
+  <!-- frmSQLHistory -->
+  <language category="form" class="frmSQLHistory" type="object" id="this" attribute="Text" name="SQL 历史记录" />
+  <language category="form" class="frmSQLHistory" type="object" id="lblDataSource" attribute="Text" name="数据来源:" />
+  <language category="form" class="frmSQLHistory" type="object" id="lblConnectionName" attribute="Text" name="连线名称:" />
+  <language category="form" class="frmSQLHistory" type="object" id="lblHistoryPeriod" attribute="Text" name="历史区间:" />
+  <language category="form" class="frmSQLHistory" type="object" id="btnSearch" attribute="ToolTipText" name="搜寻 SQL 历史记录" />
+  <language category="form" class="frmSQLHistory" type="object" id="btnSelectAll" attribute="ToolTipText" name="全选" />
+  <language category="form" class="frmSQLHistory" type="object" id="btnUnselectAll" attribute="ToolTipText" name="取消全选" />
+  <language category="form" class="frmSQLHistory" type="object" id="btnDelete" attribute="ToolTipText" name="删除选取的历史记录" />
+  <language category="form" class="frmSQLHistory" type="object" id="btnCompact" attribute="ToolTipText" name="压缩 'JasonQuery.db'" />
+  <language category="form" class="frmSQLHistory" type="object" id="chkShowFilterRow" attribute="Text" name="显示筛选行" />
+  <language category="form" class="frmSQLHistory" type="object" id="btnSelectAll2" attribute="ToolTipText" name="全选" />
+  <language category="form" class="frmSQLHistory" type="object" id="btnCopy" attribute="ToolTipText" name="复制" />
+  <language category="form" class="frmSQLHistory" type="object" id="btnWordWrap" attribute="ToolTipText" name="自动换行" />
+  <language category="form" class="frmSQLHistory" type="object" id="btnWordWrap2" attribute="ToolTipText" name="自动换行" />
+  <language category="form" class="frmSQLHistory" type="object" id="btnShowAllCharacters" attribute="ToolTipText" name="显示所有字符" />
+  <language category="form" class="frmSQLHistory" type="object" id="btnShowAllCharacters2" attribute="ToolTipText" name="显示所有字符" />
+  <language category="form" class="frmSQLHistory" type="object" id="btnCompact" attribute="ToolTipText" name="压缩 'JasonQuery.db'" />
+  <language category="form" class="frmSQLHistory" type="object" id="chkCopyAsHTML" attribute="Text" name="将 SQL 陈述式复制成 HTML 格式" />
+  <language category="form" class="frmSQLHistory" type="gridheader" id="DataSource" attribute="Text" name="数据来源" />
+  <language category="form" class="frmSQLHistory" type="gridheader" id="ConnectionName" attribute="Text" name="连线名称" />
+  <language category="form" class="frmSQLHistory" type="gridheader" id="ExecutionDate" attribute="Text" name="执行日期" />
+  <language category="form" class="frmSQLHistory" type="gridheader" id="ExecutionTime" attribute="Text" name="执行时间" />
+  <language category="form" class="frmSQLHistory" type="gridheader" id="QueryTime" attribute="Text" name="查询时间" />
+  <language category="form" class="frmSQLHistory" type="gridheader" id="Rows" attribute="Text" name="笔数" />
+  <language category="form" class="frmSQLHistory" type="gridheader" id="Result" attribute="Text" name="结果" />
+  <language category="form" class="frmSQLHistory" type="gridheader" id="Message" attribute="Text" name="讯息" />
+  <language category="form" class="frmSQLHistory" type="gridheader" id="SQLStatement" attribute="Text" name="SQL 陈述式" />
+  <language category="form" class="frmSQLHistory" type="dropdownlist" id="HistoryPeriod_within7days" attribute="Text" name="7 天内" />
+  <language category="form" class="frmSQLHistory" type="dropdownlist" id="HistoryPeriod_within14days" attribute="Text" name="14 天内" />
+  <language category="form" class="frmSQLHistory" type="dropdownlist" id="HistoryPeriod_within30days" attribute="Text" name="30 天内" />
+  <language category="form" class="frmSQLHistory" type="dropdownlist" id="HistoryPeriod_before30days" attribute="Text" name="30 天前" />
+  <language category="form" class="frmSQLHistory" type="dropdownlist" id="HistoryPeriod_All" attribute="Text" name="全部" />
+  <language category="form" class="frmSQLHistory" type="menugrid" id="ExportAllDataToFile" attribute="Text" name="将所有数据导出到文件" />
+  <language category="form" class="frmSQLHistory" type="menueditor" id="SelectAll" attribute="Text" name="全选" />
+  <language category="form" class="frmSQLHistory" type="menueditor" id="Copy" attribute="Text" name="复制" />
+  <language category="form" class="frmSQLHistory" type="msg" id="AllWillBeDeleted" attribute="Text" name="所有选取的记录将会被删除！" />
+  <language category="form" class="frmSQLHistory" type="msg" id="WantToContinue" attribute="Text" name="确定要继续？" />
+  <language category="form" class="frmSQLHistory" type="msg" id="AllHaveBeenDeleted" attribute="Text" name="所有选取的记录已被删除！" />
+  <!-- frmQuery -->
+  <language category="form" class="frmQuery" type="object" id="btnNew" attribute="ToolTipText" name="新建 (Ctrl+N)" />
+  <language category="form" class="frmQuery" type="object" id="btnOpen" attribute="ToolTipText" name="打开 (Ctrl+O)" />
+  <language category="form" class="frmQuery" type="object" id="btnSave" attribute="ToolTipText" name="保存 (Ctrl+S)&#x000A;保存编码: UTF8" />
+  <language category="form" class="frmQuery" type="object" id="btnSaveRed" attribute="ToolTipText" name="保存 (Ctrl+S)&#x000A;保存编码: UTF8" />
+  <language category="form" class="frmQuery" type="object" id="btnSaveAs" attribute="ToolTipText" name="另存为 (F12)&#x000A;保存编码: UTF8" />
+  <language category="form" class="frmQuery" type="object" id="btnQuery" attribute="ToolTipText" name="执行 SQL 陈述式 (F5)&#x000A;(选取的或全部的)" />
+  <language category="form" class="frmQuery" type="object" id="btnSelectCurrentBlock" attribute="ToolTipText" name="选取目前区块 (Ctrl+B)" />
+  <language category="form" class="frmQuery" type="object" id="btnExecuteCurrentBlock" attribute="ToolTipText" name="执行目前区块 (Ctrl+Enter)" />
+  <language category="form" class="frmQuery" type="object" id="btnCancelQuery" attribute="ToolTipText" name="中断执行" />
+  <language category="form" class="frmQuery" type="object" id="btnCode2SQL" attribute="ToolTipText" name="将程序代码转成 SQL 陈述式&#x000A;(从程序代码中取出 SQL 陈述式)" />
+  <language category="form" class="frmQuery" type="object" id="btnSQL2Code" attribute="ToolTipText" name="将 SQL 陈述式转成程序代码&#x000A;(从 SQL 陈述式产生程序代码)" />
+  <language category="form" class="frmQuery" type="object" id="btnComment" attribute="ToolTipText" name="设置注释块" />
+  <language category="form" class="frmQuery" type="object" id="btnRemoveComment" attribute="ToolTipText" name="解除注释块" />
+  <language category="form" class="frmQuery" type="object" id="btnIndent" attribute="ToolTipText" name="缩进 (Tab)" />
+  <language category="form" class="frmQuery" type="object" id="btnUnIndent" attribute="ToolTipText" name="凸出 (Shift + Tab)" />
+  <language category="form" class="frmQuery" type="object" id="txtIndentWord" attribute="ToolTipText" name="缩进/凸出 宽度设定" />
+  <language category="form" class="frmQuery" type="object" id="btnWordWrap" attribute="ToolTipText" name="自动换行" />
+  <language category="form" class="frmQuery" type="object" id="btnWordWrap2" attribute="ToolTipText" name="自动换行" />
+  <language category="form" class="frmQuery" type="object" id="btnShowAllCharacters" attribute="ToolTipText" name="显示所有字符" />
+  <language category="form" class="frmQuery" type="object" id="btnShowAllCharacters2" attribute="ToolTipText" name="显示所有字符" />
+  <language category="form" class="frmQuery" type="object" id="btnShowIndentGuide" attribute="ToolTipText" name="显示缩进辅助线" />
+  <language category="form" class="frmQuery" type="object" id="btnShowIndentGuide2" attribute="ToolTipText" name="显示缩进辅助线" />
+  <language category="form" class="frmQuery" type="object" id="lblFind" attribute="Text" name="查找:" />
+  <language category="form" class="frmQuery" type="object" id="btnFindNext" attribute="ToolTipText" name="查找下一个" />
+  <language category="form" class="frmQuery" type="object" id="btnFindPrevious" attribute="ToolTipText" name="查找上一个" />
+  <language category="form" class="frmQuery" type="object" id="btnCount" attribute="ToolTipText" name="计算次数" />
+  <language category="form" class="frmQuery" type="object" id="btnHighlightAll" attribute="ToolTipText" name="将所有的关键词以高亮显示" />
+  <language category="form" class="frmQuery" type="object" id="btnClearHighlights" attribute="ToolTipText" name="清除所有的高亮显示" />
+  <language category="form" class="frmQuery" type="object" id="lblFindGrid" attribute="Text" name="查找:" />
+  <language category="form" class="frmQuery" type="object" id="btnFindNextGrid" attribute="ToolTipText" name="查找下一个" />
+  <language category="form" class="frmQuery" type="object" id="btnFindPreviousGrid" attribute="ToolTipText" name="查找上一个" />
+  <language category="form" class="frmQuery" type="object" id="btnCountGrid" attribute="ToolTipText" name="计算次数" />
+  <language category="form" class="frmQuery" type="object" id="btnHighlightAllGrid" attribute="ToolTipText" name="将所有的关键词以高亮显示" />
+  <language category="form" class="frmQuery" type="object" id="btnClearHighlightsGrid" attribute="ToolTipText" name="清除所有的高亮显示" />
+  <language category="form" class="frmQuery" type="object" id="btnCommit" attribute="ToolTipText" name="Commit" />
+  <language category="form" class="frmQuery" type="object" id="btnRollback" attribute="ToolTipText" name="Rollback" />
+  <language category="form" class="frmQuery" type="object" id="btnExportToFile" attribute="ToolTipText" name="将所有数据导出到文件 (Excel/CSV...)" />
+  <language category="form" class="frmQuery" type="object" id="btnFreezeColumn" attribute="ToolTipText" name="冻结字段" />
+  <language category="form" class="frmQuery" type="object" id="btnAutoSize" attribute="ToolTipText" name="自动依据查询结果调整列宽" />
+  <language category="form" class="frmQuery" type="object" id="btnAutoSort" attribute="ToolTipText" name="自动依据字段名称将查询结果排序" />
+  <language category="form" class="frmQuery" type="object" id="chkShowFilterRow" attribute="Text" name="显示筛选行" />
+  <language category="form" class="frmQuery" type="object" id="chkShowFilterRow" attribute="ToolTipText" name="显示筛选行" />
+  <language category="form" class="frmQuery" type="object" id="chkSize" attribute="Text" name="调整列宽" />
+  <language category="form" class="frmQuery" type="object" id="chkSize" attribute="ToolTipText" name="自动依据查询结果调整列宽" />
+  <language category="form" class="frmQuery" type="object" id="Width" attribute="Text" name="宽度" />
+  <language category="form" class="frmQuery" type="object" id="chkSort" attribute="Text" name="排序" />
+  <language category="form" class="frmQuery" type="object" id="chkSort" attribute="ToolTipText" name="自动依据字段名称将查询结果排序" />
+  <language category="form" class="frmQuery" type="object" id="chkRawDataMode" attribute="Text" name="原始数据模式" />
+  <language category="form" class="frmQuery" type="object" id="chkShowColumnType" attribute="Text" name="显示字段型态" />
+  <language category="form" class="frmQuery" type="object" id="tabMessage" attribute="Text" name="讯息" />
+  <language category="form" class="frmQuery" type="object" id="tabDataGrid" attribute="Text" name="数据表格" />
+  <language category="form" class="frmQuery" type="object" id="tabSQLHistory" attribute="Text" name="SQL 历史记录" />
+  <language category="form" class="frmQuery" type="menueditor" id="Execute" attribute="Text" name="执行" />
+  <language category="form" class="frmQuery" type="menueditor" id="ExecuteCurrentBlock" attribute="Text" name="执行目前区块" />
+  <language category="form" class="frmQuery" type="menueditor" id="Undo" attribute="Text" name="撤消" />
+  <language category="form" class="frmQuery" type="menueditor" id="Redo" attribute="Text" name="重做" />
+  <language category="form" class="frmQuery" type="menueditor" id="Cut" attribute="Text" name="剪切" />
+  <language category="form" class="frmQuery" type="menueditor" id="Copy" attribute="Text" name="复制" />
+  <language category="form" class="frmQuery" type="menueditor" id="CopyTo" attribute="Text" name="CopyTo..." />
+  <language category="form" class="frmQuery" type="menueditor" id="Paste" attribute="Text" name="粘贴" />
+  <language category="form" class="frmQuery" type="menueditor" id="Delete" attribute="Text" name="删除" />
+  <language category="form" class="frmQuery" type="menueditor" id="Find" attribute="Text" name="查找" />
+  <language category="form" class="frmQuery" type="menueditor" id="Replace" attribute="Text" name="替换" />
+  <language category="form" class="frmQuery" type="menueditor" id="SelectAll" attribute="Text" name="全选" />
+  <language category="form" class="frmQuery" type="menueditor" id="SelectCurrentBlock" attribute="Text" name="选取目前区块" />
+  <language category="form" class="frmQuery" type="menueditor" id="Comment" attribute="Text" name="设置注释块" />
+  <language category="form" class="frmQuery" type="menueditor" id="Uncomment" attribute="Text" name="解除注释块" />
+  <language category="form" class="frmQuery" type="menueditor" id="Indent" attribute="Text" name="缩进" />
+  <language category="form" class="frmQuery" type="menueditor" id="Unindent" attribute="Text" name="凸出" />
+  <language category="form" class="frmQuery" type="menueditor" id="UpperCase" attribute="Text" name="转成大写" />
+  <language category="form" class="frmQuery" type="menueditor" id="LowerCase" attribute="Text" name="转成小写" />
+  <language category="form" class="frmQuery" type="menueditor" id="SQLFormatter" attribute="Text" name="SQL 格式化" />
+  <language category="form" class="frmQuery" type="menugrid" id="CellViewer" attribute="Text" name="单元格查看器" />
+  <language category="form" class="frmQuery" type="menugrid" id="SingleRecordViewer" attribute="Text" name="单笔记录查看器" />
+  <language category="form" class="frmQuery" type="menugrid" id="SelectAll" attribute="Text" name="全选" />
+  <language category="form" class="frmQuery" type="menugrid" id="ExportAllDataToFile" attribute="Text" name="将所有数据导出到文件 (Excel/CSV...)" />
+  <language category="form" class="frmQuery" type="menugrid" id="ExportAllDataToFileScript" attribute="Text" name="将所有数据导出到文件 (保存为 &quot;Insert Into&quot; 陈述式)" />
+  <language category="form" class="frmQuery" type="menugrid" id="ExportAllDataToClipboard" attribute="Text" name="将所有数据导出到粘贴板 (保存为 &quot;Insert Into&quot; 陈述式)" />
+  <language category="form" class="frmQuery" type="menugrid" id="ExportAllDataToClipboardCurrentRow" attribute="Text" name="将光标所在行数据导出到粘贴板 (保存为 &quot;Insert Into&quot; 陈述式)" />
+  <language category="form" class="frmQuery" type="menugrid" id="Copy" attribute="Text" name="复制" />
+  <language category="form" class="frmQuery" type="menugrid" id="CopyAsQueryCondition" attribute="Text" name="复制成查询条件" />
+  <language category="form" class="frmQuery" type="menugrid" id="CopyWithColumnName" attribute="Text" name="复制 (包含字段名称)" />
+  <language category="form" class="frmQuery" type="menugrid" id="CopyColumnName" attribute="Text" name="复制字段名称" />
+  <language category="form" class="frmQuery" type="menugrid" id="FreezeColumn" attribute="Text" name="冻结字段" />
+  <language category="form" class="frmQuery" type="menugrid" id="UnfreezeColumn" attribute="Text" name="取消冻结字段" />
+  <language category="form" class="frmQuery" type="menugrid" id="Sort" attribute="Text" name="排序" />
+  <language category="form" class="frmQuery" type="menugrid" id="SortByNumber" attribute="Text" name="按数字排序" />
+  <language category="form" class="frmQuery" type="object" id="btnExpandCollapse" attribute="ToolTipText" name="展开/收合" />
+  <language category="form" class="frmQuery" type="object" id="mnuExpandAll" attribute="Text" name="全部展开" />
+  <language category="form" class="frmQuery" type="object" id="mnuCollapseAll" attribute="Text" name="全部收合" />
+  <language category="form" class="frmQuery" type="object" id="lblSchemaType" attribute="Text" name="架构型态:" />
+  <language category="form" class="frmQuery" type="object" id="lblSchemaFilter" attribute="Text" name="筛选:" />
+  <language category="form" class="frmQuery" type="object" id="lblResultCopyQuotingWith" attribute="Text" name="复制内容包含引号:" />
+  <language category="form" class="frmQuery" type="object" id="lblResultCopyFieldSeparator" attribute="Text" name="复制内容的分隔符号:" />
+  <language category="form" class="frmQuery" type="object" id="lblAutoReplace" attribute="Text" name="自动替换" />
+  <language category="form" class="frmQuery" type="object" id="cboFindBox" attribute="ToolTipText" name="查找..." />
+  <language category="form" class="frmQuery" type="object" id="cboReplaceBox" attribute="ToolTipText" name="替换..." />
+  <language category="form" class="frmQuery" type="object" id="lblFindAndReplace" attribute="Text" name="查找及替换" />
+  <language category="form" class="frmQuery" type="object" id="btnClose" attribute="ToolTipText" name="关闭" />
+  <language category="form" class="frmQuery" type="object" id="btnFindNextBox" attribute="Text" name="查找下一个" />
+  <language category="form" class="frmQuery" type="object" id="btnFindPreviousBox" attribute="Text" name="查找上一个" />
+  <language category="form" class="frmQuery" type="object" id="btnReplace" attribute="Text" name="替换(&amp;R)" />
+  <language category="form" class="frmQuery" type="object" id="btnReplaceAll" attribute="Text" name="全部替换(&amp;A)" />
+  <language category="form" class="frmQuery" type="object" id="btnCountBox" attribute="ToolTipText" name="计算次数" />
+  <language category="form" class="frmQuery" type="object" id="btnHighlightAllBox" attribute="ToolTipText" name="将所有的关键词以高亮显示" />
+  <language category="form" class="frmQuery" type="object" id="btnClearHighlightsBox" attribute="ToolTipText" name="清除所有的高亮显示" />
+  <language category="form" class="frmQuery" type="object" id="btnMatchCase" attribute="ToolTipText" name="区分大小写" />
+  <language category="form" class="frmQuery" type="object" id="btnMatchCase2" attribute="ToolTipText" name="区分大小写" />
+  <language category="form" class="frmQuery" type="object" id="btnMatchCaseBox" attribute="ToolTipText" name="区分大小写" />
+  <language category="form" class="frmQuery" type="object" id="btnMatchCaseBox2" attribute="ToolTipText" name="区分大小写" />
+  <language category="form" class="frmQuery" type="object" id="btnMatchWholeWordOnly" attribute="ToolTipText" name="仅符合整个单字" />
+  <language category="form" class="frmQuery" type="object" id="btnMatchWholeWordOnly2" attribute="ToolTipText" name="仅符合整个单字" />
+  <language category="form" class="frmQuery" type="object" id="cboActionScope" attribute="Text" name="目前文件" />
+  <language category="form" class="frmQuery" type="object" id="btnShowSQL" attribute="ToolTipText" name="SQL 陈述式查看器" />
+  <language category="form" class="frmQuery" type="object" id="btnOptions_SchemaBrowser" attribute="ToolTipText" name="产生 SQL 的选项" />
+  <language category="form" class="frmQuery" type="object" id="btnOptions" attribute="ToolTipText" name="选项" />
+  <language category="form" class="frmQuery" type="object" id="mnuResultCopyQuotingWith" attribute="Text" name="复制内容包含引号" />
+  <language category="form" class="frmQuery" type="object" id="mnuResultCopyFieldSeparator" attribute="Text" name="复制内容的分隔符号" />
+  <language category="form" class="frmQuery" type="object" id="mnuPreviewCLOBData" attribute="Text" name="预览 CLOB 数据" />
+  <language category="form" class="frmQuery" type="object" id="mnuPreviewCLOBData" attribute="ToolTipText" name="切换「预览 CLOB 数据」" />
+  <language category="form" class="frmQuery" type="object" id="btnPaginationOn" attribute="Text" name="分页查询" />
+  <language category="form" class="frmQuery" type="object" id="btnPaginationOn" attribute="ToolTipText" name="每页 {qty} 条记录" />
+  <language category="form" class="frmQuery" type="object" id="btnPaginationOff" attribute="Text" name="分页查询" />
+  <language category="form" class="frmQuery" type="object" id="btnPaginationOff" attribute="ToolTipText" name="每页 {qty} 条记录" />
+  <language category="form" class="frmQuery" type="object" id="btnNextPage" attribute="ToolTipText" name="下一页" />
+  <language category="form" class="frmQuery" type="object" id="btnNextPage_LastPage" attribute="ToolTipText" name="已经是最后一页了！" />
+  <language category="form" class="frmQuery" type="object" id="mnuCSharpStyle1" attribute="Text" name="样式 1: Using + operator" />
+  <language category="form" class="frmQuery" type="object" id="mnuCSharpStyle2" attribute="Text" name="样式 2: New line character \r\n" />
+  <language category="form" class="frmQuery" type="object" id="mnuCSharpStyle3" attribute="Text" name="样式 3: New line character Enviroment.NewLine" />
+  <language category="form" class="frmQuery" type="object" id="mnuVBNetStyle1" attribute="Text" name="样式 1: Using &amp;&amp; operator" />
+  <language category="form" class="frmQuery" type="object" id="mnuVBNetStyle2" attribute="Text" name="样式 2: New line character VbCrLf" />
+  <language category="form" class="frmQuery" type="object" id="mnuVBNetStyle3" attribute="Text" name="样式 3: New line character Enviroment.NewLine" />
+  <language category="form" class="frmQuery" type="object" id="mnuVB6AStyle1" attribute="Text" name="样式 1: Using &amp;&amp; operator" />
+  <language category="form" class="frmQuery" type="object" id="mnuVB6AStyle2" attribute="Text" name="样式 2: New line character VbCrLf" />
+  <language category="form" class="frmQuery" type="object" id="mnuDelphi6Style1" attribute="Text" name="样式 1: Using + operator" />
+  <language category="form" class="frmQuery" type="object" id="mnuDelphi6Style2" attribute="Text" name="样式 2: New line character #13#10" />
+  <language category="form" class="frmQuery" type="dropdownlist" id="ActionScope_Current" attribute="Text" name="目前文件" />
+  <language category="form" class="frmQuery" type="dropdownlist" id="ActionScope_Selected" attribute="Text" name="选取范围" />
+  <language category="form" class="frmQuery" type="statusbarobject" id="lblEditorLength" attribute="Text" name="总长度:" />
+  <language category="form" class="frmQuery" type="statusbarobject" id="lblEditorLines" attribute="Text" name="总行数:" />
+  <language category="form" class="frmQuery" type="statusbarobject" id="lblEditorLn" attribute="Text" name="行:" />
+  <language category="form" class="frmQuery" type="statusbarobject" id="lblEditorCol" attribute="Text" name="列:" />
+  <language category="form" class="frmQuery" type="statusbarobject" id="lblEditorPos" attribute="Text" name="位置:" />
+  <language category="form" class="frmQuery" type="statusbarobject" id="lblEditorSel" attribute="Text" name="选取:" />
+  <language category="form" class="frmQuery" type="statusbarobject" id="lblExecTime" attribute="Text" name="运行时间:" />
+  <language category="form" class="frmQuery" type="statusbarobject" id="lblQueryTime" attribute="Text" name="查询时间:" />
+  <language category="form" class="frmQuery" type="statusbarobject" id="lblRows" attribute="Text" name="条记录" />
+  <language category="form" class="frmQuery" type="statusbarobject" id="lblAverage" attribute="Text" name="平均值:" />
+  <language category="form" class="frmQuery" type="statusbarobject" id="lblCount" attribute="Text" name="計数:" />
+  <language category="form" class="frmQuery" type="statusbarobject" id="lblSummary" attribute="Text" name="求和:" />
+  <language category="form" class="frmQuery" type="msg" id="KeepNonExistingFile" attribute="Text" name="保留文件" />
+  <language category="form" class="frmQuery" type="msg" id="ThisFileDoesntExist" attribute="Text" name="文件已不存在：" />
+  <language category="form" class="frmQuery" type="msg" id="FileDoesntExist" attribute="Text" name="{filename} 不存在。" />
+  <language category="form" class="frmQuery" type="msg" id="KeepThisFileInEditor" attribute="Text" name="是否要保存这个文件？" />
+  <language category="form" class="frmQuery" type="msg" id="Reload" attribute="Text" name="重新载入" />
+  <language category="form" class="frmQuery" type="msg" id="Reload1" attribute="Text" name="您要重新载入此文件并舍弃在 JasonQuery 中所做的修改吗？" />
+  <language category="form" class="frmQuery" type="msg" id="Reload2" attribute="Text" name="您要重新载入此文件吗？" />
+  <language category="form" class="frmQuery" type="msg" id="ModifiedByAnotherProgram" attribute="Text" name="此文件已被其他程式修改。" />
+  <language category="form" class="frmQuery" type="msg" id="CantFindText" attribute="Text" name="找不到查找字符串" />
+  <language category="form" class="frmQuery" type="msg" id="FindWhat" attribute="Text" name="查找字符串：" />
+  <language category="form" class="frmQuery" type="msg" id="MatchCase" attribute="Text" name="区分大小写：" />
+  <language category="form" class="frmQuery" type="msg" id="MatchWholeWordOnly" attribute="Text" name="仅符合整个单字：" />
+  <language category="form" class="frmQuery" type="msg" id="Count" attribute="Text" name="次数：" />
+  <language category="form" class="frmQuery" type="msg" id="matches" attribute="Text" name="符合。" />
+  <language category="form" class="frmQuery" type="msg" id="Save" attribute="Text" name="保存文件" />
+  <language category="form" class="frmQuery" type="msg" id="SaveFile" attribute="Text" name="保存文件？" />
+  <language category="form" class="frmQuery" type="msg" id="RecentFiles" attribute="Text" name="最近的文档" />
+  <language category="form" class="frmQuery" type="msg" id="MyFavorite" attribute="Text" name="收藏夹" />
+  <language category="form" class="frmQuery" type="msg" id="FileNotFound" attribute="Text" name="文件不存在。" />
+  <language category="form" class="frmQuery" type="msg" id="YesCreateIt" attribute="Text" name="是：建立文件！" />
+  <language category="form" class="frmQuery" type="msg" id="OKCreateIt" attribute="Text" name="确定：建立文件！" />
+  <language category="form" class="frmQuery" type="msg" id="DoNothing" attribute="Text" name="取消：不做任何处理！" />
+  <language category="form" class="frmQuery" type="msg" id="RemoveFromRecentFiles" attribute="Text" name="否：从「最近的文档」移除！ " />
+  <language category="form" class="frmQuery" type="msg" id="RemoveFromMyFavorite" attribute="Text" name="否：从「收藏夹」移除" />
+  <language category="form" class="frmQuery" type="msg" id="CreateNewFile" attribute="Text" name="建立文件" />
+  <language category="form" class="frmQuery" type="msg" id="CreateIt" attribute="Text" name="建立文件？" />
+  <language category="form" class="frmQuery" type="msg" id="ReplaceOneAndNextFound" attribute="Text" name="替换了 1 个字符串，找到下一个字符串。" />
+  <language category="form" class="frmQuery" type="msg" id="ReplaceOneAndNextNotFound" attribute="Text" name="替换了 1 个字符串，找不到下一个字符串。" />
+  <language category="form" class="frmQuery" type="msg" id="Replaced" attribute="Text" name="替换了 {qty} 个字符串。" />
+  <language category="form" class="frmQuery" type="msg" id="TableName" attribute="Text" name="表名称" />
+  <language category="form" class="frmQuery" type="msg" id="InputTableName" attribute="Text" name="请输入 &quot;Insert Into&quot; 表名称：" />
+  <language category="form" class="frmQuery" type="msg" id="DateTime2ToDate" attribute="Text" name="DateTime 字段使用 &quot;TO_DATE&quot; 函数进行转换" />
+  <language category="form" class="frmQuery" type="msg" id="DateTime2String" attribute="Text" name="DateTime 字段转换为 &quot;STRING&quot;" />
+  <language category="form" class="frmQuery" type="msg" id="ExportOK" attribute="Text" name="已导出！" />
+  <language category="form" class="frmQuery" type="msg" id="AutoOpenExportedFile" attribute="Text" name="文件产生完毕后，自动在新视窗开启文件。" />  
+  <language category="form" class="frmQuery" type="msg" id="CommitPrompt1" attribute="Text" name="您的 {DBType} 连线即将关闭。" />
+  <language category="form" class="frmQuery" type="msg" id="CommitPrompt2" attribute="Text" name="JasonQuery 已检测到您在这个连线中有尚未 Commit 的变更。" />
+  <language category="form" class="frmQuery" type="msg" id="CommitPrompt_Yes" attribute="Text" name="是：Commit！" />
+  <language category="form" class="frmQuery" type="msg" id="CommitPrompt_No" attribute="Text" name="否：Rollback！" />
+  <language category="form" class="frmQuery" type="msg" id="CommitPrompt_Cancel" attribute="Text" name="取消：不做任何处理！" />
+  <language category="form" class="frmQuery" type="msg" id="CommitPrompt" attribute="Text" name="尚未 Commit 或 Rollback！" />
+  <language category="form" class="frmQuery" type="msg" id="Help_AutoReplace1" attribute="Text" name="「自动替换」：常用查询的关键词绑定" />
+  <language category="form" class="frmQuery" type="msg" id="Help_AutoReplace2" attribute="Text" name="输入「关键词」后，按下空白键将「关键词」替换为「替换值」。 " />
+  <language category="form" class="frmQuery" type="msg" id="Help_AutoReplace3" attribute="Text" name="按下 Ctrl+Z，将「替换值」还原为「关键词」。 " />
+  <language category="form" class="frmQuery" type="msg" id="OpenFile" attribute="Text" name="开启旧档" />
+  <language category="form" class="frmQuery" type="msg" id="OpenInJasonQuery" attribute="Text" name="这个文件已在 JasonQuery 中开启。" />
+  <language category="form" class="frmQuery" type="msg" id="OpenLargeFile1" attribute="Text" name="JasonQuery 可能无法打开此文件，因为它的文件大小超过 {qty} MB." />
+  <language category="form" class="frmQuery" type="msg" id="OpenLargeFile2" attribute="Text" name="您仍然要打开此文件吗？" />
+  <language category="form" class="frmQuery" type="msg" id="OpenLargeFile3" attribute="Text" name="（您可能会收到 &quot;System.OutOfMemoryException&quot; 的异常错误。）" />
+  <language category="form" class="frmQuery" type="msg" id="OpenFileFailed1" attribute="Text" name="这似乎是一个二进制的文件。" />
+  <language category="form" class="frmQuery" type="msg" id="OpenFileFailed2" attribute="Text" name="这似乎是一个 {0} 的文件。" />
+  <language category="form" class="frmQuery" type="msg" id="OpenFileFailed3" attribute="Text" name="无法打开以下文件，因为它包含了无法辨识的字符。" />
+  <language category="form" class="frmQuery" type="msg" id="SaveFailed" attribute="Text" name="存档失败" />
+  <language category="form" class="frmQuery" type="msg" id="SaveFailed1" attribute="Text" name="请检查其他程式是否已开启此文件。" />
+  <language category="form" class="frmQuery" type="msg" id="ColumnAliasName" attribute="Text" name="也许您可以尝试赋予该字段一个别名。" />
+  <!-- frmOptions -->
+  <language category="form" class="frmOptions" type="object" id="lblRequireRestart" attribute="Text" name="需要重新开启 JasonQuery" />
+  <language category="form" class="frmOptions" type="object" id="btnRestoreDefaults" attribute="Text" name="还原设定值(&amp;R)" />
+  <language category="form" class="frmOptions" type="object" id="btnApply" attribute="Text" name="套用并关闭(&amp;A)" />
+  <language category="form" class="frmOptions" type="object" id="btnClose" attribute="Text" name="取消并关闭(&amp;C)" />
+  <language category="form" class="frmOptions" type="object" id="tabGlobal" attribute="Text" name="通用" />
+  <language category="form" class="frmOptions" type="object" id="tabGeneral" attribute="Text" name="一般" />
+  <language category="form" class="frmOptions" type="object" id="tabQueryEditor" attribute="Text" name="查询编辑器" />
+  <language category="form" class="frmOptions" type="object" id="tabAutoComplete" attribute="Text" name="自动完成" />
+  <language category="form" class="frmOptions" type="object" id="tabAutoReplace" attribute="Text" name="自动替换" />
+  <language category="form" class="frmOptions" type="object" id="tabDataGrid" attribute="Text" name="数据表格" />
+  <language category="form" class="frmOptions" type="object" id="tabKeywords" attribute="Text" name="关键词" />
+  <language category="form" class="frmOptions" type="object" id="tabSQLToCode" attribute="Text" name="SQL 陈述式转成程序代码" />
+  <language category="form" class="frmOptions" type="object" id="tabSQLFormatter" attribute="Text" name="SQL 格式化" />
+  <language category="form" class="frmOptions" type="object" id="tabGlobal2" attribute="Text" name="通用" />
+  <language category="form" class="frmOptions" type="object" id="tabGeneral2" attribute="Text" name="一般" />
+  <language category="form" class="frmOptions" type="object" id="tabQueryEditor2" attribute="Text" name="查询编辑器" />
+  <language category="form" class="frmOptions" type="object" id="tabAutoComplete2" attribute="Text" name="自动完成" />
+  <language category="form" class="frmOptions" type="object" id="tabAutoReplace2" attribute="Text" name="自动替换" />
+  <language category="form" class="frmOptions" type="object" id="tabDataGrid2" attribute="Text" name="数据表格" />
+  <language category="form" class="frmOptions" type="object" id="tabKeywords2" attribute="Text" name="关键词" />
+  <language category="form" class="frmOptions" type="object" id="tabSQLToCode2" attribute="Text" name="SQL 陈述式转成程序代码" />
+  <language category="form" class="frmOptions" type="object" id="tabSQLFormatter2" attribute="Text" name="SQL 格式化" />
+  <language category="form" class="frmOptions" type="object" id="grpEditorColors" attribute="Text" name="编辑器颜色" />
+  <language category="form" class="frmOptions" type="object" id="lblToolstripBackground" attribute="Text" name="作用中工具栏背景颜色:" />
+  <language category="form" class="frmOptions" type="object" id="lblEditorBackground" attribute="Text" name="编辑器背景颜色:" />
+  <language category="form" class="frmOptions" type="object" id="lblCurrentLineBackground" attribute="Text" name="当前所在行背景颜色:" />
+  <language category="form" class="frmOptions" type="object" id="lblSelectedTextBackground" attribute="Text" name="选取文字背景颜色:" />
+  <language category="form" class="frmOptions" type="object" id="lblComments" attribute="Text" name="设置注释块:" />
+  <language category="form" class="frmOptions" type="object" id="lblIdentifier" attribute="Text" name="文字 (标识):" />
+  <language category="form" class="frmOptions" type="object" id="lblNumber" attribute="Text" name="数字:" />
+  <language category="form" class="frmOptions" type="object" id="lblOperatorSymbol" attribute="Text" name="运算符号:" />
+  <language category="form" class="frmOptions" type="object" id="lblOperatorKeywords" attribute="Text" name="运算关键词:" />
+  <language category="form" class="frmOptions" type="object" id="lblString" attribute="Text" name="字符串 (双引号):" />
+  <language category="form" class="frmOptions" type="object" id="lblCharacter" attribute="Text" name="字符 (单引号):" />
+  <language category="form" class="frmOptions" type="object" id="lblBuiltInFunctions" attribute="Text" name="内建函数:" />
+  <language category="form" class="frmOptions" type="object" id="lblBuiltInKeywords" attribute="Text" name="内建关键词:" />
+  <language category="form" class="frmOptions" type="object" id="lblUserDefinedKeywords" attribute="Text" name="用户自定义关键词:" />
+  <language category="form" class="frmOptions" type="object" id="lblWhiteSpace" attribute="Text" name="空格符:" />
+  <language category="form" class="frmOptions" type="object" id="lblUserTables" attribute="Text" name="用户自定义表及视图:" />
+  <language category="form" class="frmOptions" type="object" id="lblUserFunctions" attribute="Text" name="用户自定义函数及触发器:" />
+  <language category="form" class="frmOptions" type="object" id="grpSchemaBrowser" attribute="Text" name="架构浏览器" />
+  <language category="form" class="frmOptions" type="object" id="chkDefaultTabSchemaBrowser" attribute="Text" name="将架构浏览器设为预设页签" />
+  <language category="form" class="frmOptions" type="object" id="chkSortByColumnName" attribute="Text" name="以字段名称排序" />
+  <language category="form" class="frmOptions" type="object" id="chkShowColumnInfo" attribute="Text" name="显示字段信息" />
+  <language category="form" class="frmOptions" type="object" id="grpPreferences" attribute="Text" name="偏好设定" />
+  <language category="form" class="frmOptions" type="object" id="lblEditorFontName" attribute="Text" name="字体:" />
+  <language category="form" class="frmOptions" type="object" id="lblEditorFontSize" attribute="Text" name="字号:" />
+  <language category="form" class="frmOptions" type="object" id="lblEditorZoom" attribute="Text" name="缩放比例:" />
+  <language category="form" class="frmOptions" type="object" id="chkCtrlMouseWheel1" attribute="Text" name="使用 Ctrl + 滑鼠滚轮 更改字体大小（缩放）" />
+  <language category="form" class="frmOptions" type="object" id="chkCtrlMouseWheel2" attribute="Text" name="使用 Ctrl + 滑鼠滚轮 更改字体大小（缩放）" />
+  <language category="form" class="frmOptions" type="object" id="chkUseReadOnlyQueries" attribute="Text" name="使用唯读查询" />
+  <language category="form" class="frmOptions" type="object" id="chkPreviewCLOBData" attribute="Text" name="预览 CLOB 数据" />
+  <language category="form" class="frmOptions" type="object" id="chkBold" attribute="Text" name="关键词以粗体显示" />
+  <language category="form" class="frmOptions" type="object" id="chkBold" attribute="ToolTipText" name="运算关键词, 内建关键词, 用户自定义关键词" />
+  <language category="form" class="frmOptions" type="object" id="chkCopyAsHTML" attribute="Text" name="将 SQL 陈述式复制成 HTML 格式" />
+  <language category="form" class="frmOptions" type="object" id="chkCopyAsHTML" attribute="ToolTipText" name="将文字复制成 RTF 格式" />
+  <language category="form" class="frmOptions" type="object" id="chkShowAllCharacters" attribute="Text" name="显示所有字符" />
+  <language category="form" class="frmOptions" type="object" id="chkSaveAsEncoding" attribute="Text" name="保存编码:" />
+  <language category="form" class="frmOptions" type="object" id="chkShowSaveAsButton" attribute="Text" name="显示 '另存为' 按钮" />
+  <language category="form" class="frmOptions" type="object" id="grpIndent" attribute="Text" name="缩进" />
+  <language category="form" class="frmOptions" type="object" id="chkShowIndentGuide" attribute="Text" name="显示缩进辅助线" />
+  <language category="form" class="frmOptions" type="object" id="lblIndentMode" attribute="Text" name="缩进模式:" />
+  <language category="form" class="frmOptions" type="object" id="cboIndentMode" attribute="ToolTipText" name="确定自动换行的缩进方式" />
+  <language category="form" class="frmOptions" type="object" id="lblTabWidth" attribute="Text" name="缩进宽度:" />
+  <language category="form" class="frmOptions" type="object" id="chkReplaceTabWithSpace" attribute="Text" name="将 Tab 替换为空格" />
+  <language category="form" class="frmOptions" type="object" id="chkEntireBlankRowAsEmptyRow4SelectBlock" attribute="Text" name="选取目前区块：将整行空白视为空白行" />
+  <language category="form" class="frmOptions" type="object" id="chkHighlightSelectedText" attribute="Text" name="将当滑鼠连点两下所选取的文字以高亮显示" />
+  <language category="form" class="frmOptions" type="object" id="grpHighlight" attribute="Text" name="高亮显示" />
+  <language category="form" class="frmOptions" type="object" id="lblHighlightColorForeColor" attribute="Text" name="前景颜色:" />
+  <language category="form" class="frmOptions" type="object" id="lblHighlightColorStyle" attribute="Text" name="样式:" />
+  <language category="form" class="frmOptions" type="object" id="lblHighlightColorOutlineAlpha" attribute="Text" name="Outline Alpha:" />
+  <language category="form" class="frmOptions" type="object" id="lblHighlightColorAlpha" attribute="Text" name="Alpha:" />
+  <language category="form" class="frmOptions" type="object" id="grpIndicate" attribute="Text" name="指示 (执行 SQL 陈述式后)" />
+  <language category="form" class="frmOptions" type="object" id="lblErrorLineBackground" attribute="Text" name="错误关键词背景颜色:" />
+  <language category="form" class="frmOptions" type="object" id="lblBookmarkBackground" attribute="Text" name="书签背景颜色:" />
+  <language category="form" class="frmOptions" type="object" id="lblBookmarkStyle" attribute="Text" name="书签样式:" />
+  <language category="form" class="frmOptions" type="object" id="chkWordWrap" attribute="Text" name="自动换行" />
+  <language category="form" class="frmOptions" type="object" id="chkStart" attribute="Text" name="开始" />
+  <language category="form" class="frmOptions" type="object" id="chkStart" attribute="ToolTipText" name="在自动换行的地方显示 '开始' 标志" />
+  <language category="form" class="frmOptions" type="object" id="chkEnd" attribute="Text" name="结束" />
+  <language category="form" class="frmOptions" type="object" id="chkEnd" attribute="ToolTipText" name="在自动换行的地方显示 '结束' 标志" />
+  <language category="form" class="frmOptions" type="object" id="chkMargin" attribute="Text" name="边界" />
+  <language category="form" class="frmOptions" type="object" id="chkMargin" attribute="ToolTipText" name="在自动换行的地方显示 '边界' 标志" />
+  <language category="form" class="frmOptions" type="object" id="grpQueryEditorPreview" attribute="Text" name="预览" />
+  <language category="form" class="frmOptions" type="object" id="grpOpenSQLFile" attribute="Text" name="启动时开启指定的 SQL 文件" />
+  <language category="form" class="frmOptions" type="object" id="lblFile1" attribute="Text" name="文件 1:" />
+  <language category="form" class="frmOptions" type="object" id="lblFile2" attribute="Text" name="文件 2:" />
+  <language category="form" class="frmOptions" type="object" id="btnSpecifiedSQLFile1" attribute="ToolTipText" name="浏览文件" />
+  <language category="form" class="frmOptions" type="object" id="btnSpecifiedSQLFile2" attribute="ToolTipText" name="浏览文件" />
+  <language category="form" class="frmOptions" type="object" id="btnClear1" attribute="ToolTipText" name="清除" />
+  <language category="form" class="frmOptions" type="object" id="btnClear2" attribute="ToolTipText" name="清除" />
+  <language category="form" class="frmOptions" type="object" id="grpAutoDisconnect" attribute="Text" name="自动中断连线" />
+  <language category="form" class="frmOptions" type="dropdownlist" id="AutoDisconnect_Never" attribute="Text" name="从不" />
+  <language category="form" class="frmOptions" type="dropdownlist" id="AutoDisconnect_1hr" attribute="Text" name="1 小时" />
+  <language category="form" class="frmOptions" type="dropdownlist" id="AutoDisconnect_3hrs" attribute="Text" name="3 小时" />
+  <language category="form" class="frmOptions" type="dropdownlist" id="AutoDisconnect_5hrs" attribute="Text" name="5 小时" />
+  <language category="form" class="frmOptions" type="dropdownlist" id="AutoDisconnect_7hrs" attribute="Text" name="7 小时" />
+  <language category="form" class="frmOptions" type="dropdownlist" id="AutoDisconnect_9hrs" attribute="Text" name="9 小时" />
+  <language category="form" class="frmOptions" type="menugrid" id="CellViewer" attribute="Text" name="单元格查看器" />
+  <language category="form" class="frmOptions" type="menugrid" id="SelectAll" attribute="Text" name="全选" />
+  <language category="form" class="frmOptions" type="menugrid" id="ExportAllDataToFile" attribute="Text" name="将所有数据导出到文件 (Excel/CSV...)" />
+  <language category="form" class="frmOptions" type="menugrid" id="ExportAllDataToFileScript" attribute="Text" name="将所有数据导出到文件 (保存为 &quot;Insert Into&quot; 陈述式)" />
+  <language category="form" class="frmOptions" type="menugrid" id="Copy" attribute="Text" name="复制" />
+  <language category="form" class="frmOptions" type="menugrid" id="CopyWithColumnName" attribute="Text" name="复制(包含字段名称)" />
+  <language category="form" class="frmOptions" type="menugrid" id="CopyColumnName" attribute="Text" name="复制字段名称" />
+  <language category="form" class="frmOptions" type="menugrid" id="FreezeColumn" attribute="Text" name="冻结字段" />
+  <language category="form" class="frmOptions" type="menugrid" id="UnfreezeColumn" attribute="Text" name="取消冻结字段" />
+  <language category="form" class="frmOptions" type="object" id="chkEnableAutoComplete" attribute="Text" name="启用「每次输入自动完成」" />
+  <language category="form" class="frmOptions" type="object" id="grpAutoCompleteFor" attribute="Text" name="自动完成适用于" />
+  <language category="form" class="frmOptions" type="object" id="chkBuiltInFunctions" attribute="Text" name="内建函数" />
+  <language category="form" class="frmOptions" type="object" id="chkBuiltInKeywords" attribute="Text" name="内建关键词" />
+  <language category="form" class="frmOptions" type="object" id="chkUserDefinedKeywords" attribute="Text" name="用户自定义关键词" />
+  <language category="form" class="frmOptions" type="object" id="chkUserDefinedSnippets" attribute="Text" name="用户自定义 Snippets" />
+  <language category="form" class="frmOptions" type="object" id="chkUserDefinedFunctions" attribute="Text" name="用户自定义函数" />
+  <language category="form" class="frmOptions" type="object" id="chkUserDefinedTables" attribute="Text" name="用户自定义表" />
+  <language category="form" class="frmOptions" type="object" id="chkUserDefinedTriggers" attribute="Text" name="用户自定义触发器" />
+  <language category="form" class="frmOptions" type="object" id="chkUserDefinedViews" attribute="Text" name="用户自定义视图" />
+  <language category="form" class="frmOptions" type="object" id="grpAutoCompleteColor" attribute="Text" name="自动完成的颜色" />
+  <language category="form" class="frmOptions" type="object" id="lblForeColor" attribute="Text" name="前景颜色:" />
+  <language category="form" class="frmOptions" type="object" id="lblBackColor" attribute="Text" name="背景颜色:" />
+  <language category="form" class="frmOptions" type="object" id="lblSelectedForeColor" attribute="Text" name="选取的前景颜色:" />
+  <language category="form" class="frmOptions" type="object" id="lblSelectedBackColor" attribute="Text" name="选取的背景颜色:" />
+  <language category="form" class="frmOptions" type="object" id="grpAutoCompletePreview" attribute="Text" name="预览" />
+  <language category="form" class="frmOptions" type="object" id="grpSnippetsDefinition" attribute="Text" name="定义 Snippets" />
+  <language category="form" class="frmOptions" type="object" id="lblMinFragmentLength" attribute="Text" name="弹出的最小 Snippets 长度:" />
+  <language category="form" class="frmOptions" type="object" id="grpDefinitionAC" attribute="Text" name="定义" />
+  <language category="form" class="frmOptions" type="object" id="chkShowFilterRowAC" attribute="Text" name="显示筛选行" />
+  <language category="form" class="frmOptions" type="object" id="btnAddAC" attribute="Text" name="新增" />
+  <language category="form" class="frmOptions" type="object" id="btnEditAC" attribute="Text" name="编辑" />
+  <language category="form" class="frmOptions" type="object" id="btnDeleteAC" attribute="Text" name="删除" />
+  <language category="form" class="frmOptions" type="object" id="grpModifyDefinitionAC" attribute="Text" name="编辑 Snippets 定义" />
+  <language category="form" class="frmOptions" type="object" id="btnSaveAC" attribute="Text" name="储存" />
+  <language category="form" class="frmOptions" type="object" id="btnCancelAC" attribute="Text" name="取消" />
+  <language category="form" class="frmOptions" type="object" id="btnClearAC" attribute="Text" name="清除" />
+  <language category="form" class="frmOptions" type="object" id="lblTips1" attribute="Text" name="提示 #1:" />
+  <language category="form" class="frmOptions" type="object" id="lblTips11" attribute="Text" name="使用 ^ 符号来定位鼠标光标" />
+  <language category="form" class="frmOptions" type="object" id="lblTips2" attribute="Text" name="提示 #2:" />
+  <language category="form" class="frmOptions" type="object" id="lblTips21" attribute="Text" name="第一个字符必须是以下其中一个" />
+  <language category="form" class="frmOptions" type="object" id="lblTips3" attribute="Text" name="使用 ^ 符号来定位鼠标光标" />
+  <language category="form" class="frmOptions" type="object" id="chkEnableAutoReplace" attribute="Text" name="启用自动替换 (常用查询的关键词绑定)" />  
+  <language category="form" class="frmOptions" type="object" id="chkShowFilterRowAR" attribute="Text" name="显示筛选行" />
+  <language category="form" class="frmOptions" type="object" id="lblARInfo1" attribute="Text" name="输入「关键词」后，按下空白键将「关键词」替换为「替换值」。 " />
+  <language category="form" class="frmOptions" type="object" id="lblARInfo2" attribute="Text" name="按下 Ctrl+Z，将「替换值」还原为「关键词」。 " />
+  <language category="form" class="frmOptions" type="object" id="grpDefinitionAR" attribute="Text" name="定义" />
+  <language category="form" class="frmOptions" type="object" id="btnAddAR" attribute="Text" name="新增" />
+  <language category="form" class="frmOptions" type="object" id="btnEditAR" attribute="Text" name="编辑" />
+  <language category="form" class="frmOptions" type="object" id="btnDeleteAR" attribute="Text" name="删除" />
+  <language category="form" class="frmOptions" type="object" id="grpModifyDefinitionAR" attribute="Text" name="编辑定义" />
+  <language category="form" class="frmOptions" type="object" id="btnSaveAR" attribute="Text" name="储存" />
+  <language category="form" class="frmOptions" type="object" id="btnCancelAR" attribute="Text" name="取消" />
+  <language category="form" class="frmOptions" type="object" id="btnClearAR" attribute="Text" name="清除" />
+  <language category="form" class="frmOptions" type="object" id="lblKeyword" attribute="Text" name="关键词:" />
+  <language category="form" class="frmOptions" type="object" id="lblReplacement" attribute="Text" name="替换值:" />
+  <language category="form" class="frmOptions" type="object" id="grpQueryResultsGrid" attribute="Text" name="查询结果表格" />
+  <language category="form" class="frmOptions" type="object" id="lblResultCopyQuotingWith" attribute="Text" name="复制内容包含引号:" />
+  <language category="form" class="frmOptions" type="object" id="lblResultCopyFieldSeparator" attribute="Text" name="复制内容的分隔符号:" />
+  <language category="form" class="frmOptions" type="object" id="lblDateFormat" attribute="Text" name="日期格式:" />
+  <language category="form" class="frmOptions" type="object" id="chkShowVersion" attribute="Text" name="在标题栏显示版本号码" />
+  <language category="form" class="frmOptions" type="object" id="lblGridVisualStyle" attribute="Text" name="外观样式:" />
+  <language category="form" class="frmOptions" type="object" id="lblGridZoom" attribute="Text" name="缩放比例:" />
+  <language category="form" class="frmOptions" type="object" id="lblGridFontName" attribute="Text" name="字体:" />
+  <language category="form" class="frmOptions" type="object" id="lblGridFontSize" attribute="Text" name="字号:" />
+  <language category="form" class="frmOptions" type="object" id="chkRawDataMode" attribute="Text" name="原始数据模式" />
+  <language category="form" class="frmOptions" type="object" id="chkPagingQuery" attribute="Text" name="分页查询" />
+  <language category="form" class="frmOptions" type="object" id="lblRowsPerPage" attribute="Text" name="每页多少条记录:" />
+  <language category="form" class="frmOptions" type="object" id="chkAppendingQueries" attribute="Text" name="附加查询" />
+  <language category="form" class="frmOptions" type="msg" id="AppendingQueries" attribute="Text" name="默认启用此功能。当您按下「下一页」时，将自动合并先前的查询结果。" />
+  <language category="form" class="frmOptions" type="object" id="chkSetFocusAfterQuery" attribute="Text" name="执行查询语句后将焦点设置为数据表格" />
+  <language category="form" class="frmOptions" type="object" id="grpNullValueStyle" attribute="Text" name="空值样式" />
+  <language category="form" class="frmOptions" type="object" id="lblNullValueShowAs" attribute="Text" name="显示为:" />
+  <language category="form" class="frmOptions" type="object" id="lblNullValueForeColor" attribute="Text" name="前景颜色:" />
+  <language category="form" class="frmOptions" type="object" id="lblGridRowHeightResizing" attribute="Text" name="调整行高方式:" />
+  <language category="form" class="frmOptions" type="dropdownlist" id="RowHeightResizing_AllRows" attribute="Text" name="针对所有行" />
+  <language category="form" class="frmOptions" type="dropdownlist" id="RowHeightResizing_IndividualRows" attribute="Text" name="针对单独行" />
+  <language category="form" class="frmOptions" type="object" id="lblGridSheetName" attribute="Text" name="导出到 Excel 的工作表名称:" />
+  <language category="form" class="frmOptions" type="object" id="chkShowColumnType" attribute="Text" name="显示字段型态" />
+  <language category="form" class="frmOptions" type="object" id="chkShowStreamlinedName" attribute="Text" name="显示精简名称 (只作用在 PostgreSQL)" />
+  <language category="form" class="frmOptions" type="object" id="chkShowFilterRow" attribute="Text" name="显示筛选行" />
+  <language category="form" class="frmOptions" type="object" id="chkSort" attribute="Text" name="自动依据字段名称将查询结果排序" />
+  <language category="form" class="frmOptions" type="object" id="chkResize" attribute="Text" name="自动依据查询结果调整" />
+  <language category="form" class="frmOptions" type="object" id="lblMaxWidth" attribute="Text" name="最大宽度:" />
+  <language category="form" class="frmOptions" type="object" id="grpDataGridColor" attribute="Text" name="数据表格颜色" />
+  <language category="form" class="frmOptions" type="object" id="lblGridHeadingForeColor" attribute="Text" name="标题栏前景颜色:" />
+  <language category="form" class="frmOptions" type="object" id="lblGridEvenRowForeColor" attribute="Text" name="偶数栏前景颜色:" />
+  <language category="form" class="frmOptions" type="object" id="lblGridEvenRowBackColor" attribute="Text" name="偶数栏背景颜色:" />
+  <language category="form" class="frmOptions" type="object" id="lblGridOddRowForeColor" attribute="Text" name="奇数栏前景颜色:" />
+  <language category="form" class="frmOptions" type="object" id="lblGridOddRowBackColor" attribute="Text" name="奇数栏背景颜色:" />
+  <language category="form" class="frmOptions" type="object" id="lblGridHighlightForeColor" attribute="Text" name="高亮前景颜色:" />
+  <language category="form" class="frmOptions" type="object" id="lblGridHighlightBackColor" attribute="Text" name="高亮背景颜色:" />
+  <language category="form" class="frmOptions" type="object" id="lblGridSelectedForeColor" attribute="Text" name="选取的前景颜色:" />
+  <language category="form" class="frmOptions" type="object" id="lblGridSelectedBackColor" attribute="Text" name="选取的背景颜色:" />
+  <language category="form" class="frmOptions" type="object" id="grpPreviewGrid" attribute="Text" name="预览" />
+  <language category="form" class="frmOptions" type="object" id="lblFindGrid" attribute="Text" name="查找:" />
+  <language category="form" class="frmOptions" type="object" id="btnFindNextGrid" attribute="ToolTipText" name="查找下一个" />
+  <language category="form" class="frmOptions" type="object" id="btnFindPreviousGrid" attribute="ToolTipText" name="查找上一个" />
+  <language category="form" class="frmOptions" type="object" id="btnCountGrid" attribute="ToolTipText" name="计算次数" />
+  <language category="form" class="frmOptions" type="object" id="btnHighlightAllGrid" attribute="ToolTipText" name="将所有的关键词以高亮显示" />
+  <language category="form" class="frmOptions" type="object" id="btnClearHighlightsGrid" attribute="ToolTipText" name="清除所有的高亮显示" />
+  <language category="form" class="frmOptions" type="object" id="grpOperatorKeywords" attribute="Text" name="运算关键词" />
+  <language category="form" class="frmOptions" type="object" id="btnNextOperatorKeywords" attribute="ToolTipText" name="查找下一个" />
+  <language category="form" class="frmOptions" type="object" id="btnPreviousOperatorKeywords" attribute="ToolTipText" name="查找上一个" />
+  <language category="form" class="frmOptions" type="object" id="btnCloseFindOperatorKeywords" attribute="ToolTipText" name="关闭" />
+  <language category="form" class="frmOptions" type="object" id="grpBuiltInFunctions" attribute="Text" name="内建函数" />
+  <language category="form" class="frmOptions" type="object" id="btnNextBuiltInFunctions" attribute="ToolTipText" name="查找下一个" />
+  <language category="form" class="frmOptions" type="object" id="btnPreviousBuiltInFunctions" attribute="ToolTipText" name="查找上一个" />
+  <language category="form" class="frmOptions" type="object" id="btnCloseFindBuiltInFunctions" attribute="ToolTipText" name="关闭" />
+  <language category="form" class="frmOptions" type="object" id="grpBuiltInKeywords" attribute="Text" name="内建关键词" />
+  <language category="form" class="frmOptions" type="object" id="btnNextBuiltInKeywords" attribute="ToolTipText" name="查找下一个" />
+  <language category="form" class="frmOptions" type="object" id="btnPreviousBuiltInKeywords" attribute="ToolTipText" name="查找上一个" />
+  <language category="form" class="frmOptions" type="object" id="btnCloseFindBuiltInKeywords" attribute="ToolTipText" name="关闭" />
+  <language category="form" class="frmOptions" type="object" id="grpUserDefinedKeywords" attribute="Text" name="用户自定义关键词" />
+  <language category="form" class="frmOptions" type="object" id="btnNextUserDefinedKeywords" attribute="ToolTipText" name="查找下一个" />
+  <language category="form" class="frmOptions" type="object" id="btnPreviousUserDefinedKeywords" attribute="ToolTipText" name="查找上一个" />
+  <language category="form" class="frmOptions" type="object" id="btnCloseFindUserDefinedKeywords" attribute="ToolTipText" name="关闭" />
+  <language category="form" class="frmOptions" type="object" id="grpSQLToCode" attribute="Text" name="SQL 陈述式转换为程序代码" />
+  <language category="form" class="frmOptions" type="object" id="grpLanguage" attribute="Text" name="语言" />
+  <language category="form" class="frmOptions" type="object" id="rdoStyle1" attribute="Text" name="样式 1" />
+  <language category="form" class="frmOptions" type="object" id="rdoStyle2" attribute="Text" name="样式 2" />
+  <language category="form" class="frmOptions" type="object" id="rdoStyle3" attribute="Text" name="样式 3" />
+  <language category="form" class="frmOptions" type="object" id="lblSQLVariableName" attribute="Text" name="变量名称:" />
+  <language category="form" class="frmOptions" type="object" id="chkStripCode" attribute="Text" name="将程序代码复制到粘贴板" />
+  <language category="form" class="frmOptions" type="object" id="grpSQLStatementCode" attribute="Text" name="SQL 陈述式" />
+  <language category="form" class="frmOptions" type="object" id="grpPreviewSQL" attribute="Text" name="预览" />
+  <language category="form" class="frmOptions" type="object" id="grpSQLFormatter" attribute="Text" name="SQL 格式化" />
+  <language category="form" class="frmOptions" type="object" id="grpFormattingOptions" attribute="Text" name="格式化选项" />
+  <language category="form" class="frmOptions" type="object" id="lblMaxWidth2" attribute="Text" name="最大宽度:" />
+  <language category="form" class="frmOptions" type="object" id="chkExpandCommaLists" attribute="Text" name="展开逗号清单" />
+  <language category="form" class="frmOptions" type="object" id="chkTrailingCommas" attribute="Text" name="尾随逗号" />
+  <language category="form" class="frmOptions" type="object" id="chkExpandBooleanExpressions" attribute="Text" name="展开 Boolean 表达式" />
+  <language category="form" class="frmOptions" type="object" id="chkExpandCaseStatements" attribute="Text" name="展开 CASE 陈述式" />
+  <language category="form" class="frmOptions" type="object" id="chkExpandBetweenConditions" attribute="Text" name="展开 BETWEEN 条件式" />
+  <language category="form" class="frmOptions" type="object" id="chkExpandInLists" attribute="Text" name="展开 IN 清单" />
+  <language category="form" class="frmOptions" type="object" id="chkBreakJoinOnSections" attribute="Text" name="中断连接 ON 区段" />
+  <language category="form" class="frmOptions" type="object" id="chkConvertCaseForKeywords" attribute="Text" name="转换关键词的大小写" />
+  <language category="form" class="frmOptions" type="object" id="rdoUpperCase" attribute="Text" name="转成大写" />
+  <language category="form" class="frmOptions" type="object" id="rdoLowerCase" attribute="Text" name="转成小写" />
+  <language category="form" class="frmOptions" type="object" id="grpSQLStatementFormatter" attribute="Text" name="SQL 陈述式" />
+  <language category="form" class="frmOptions" type="object" id="grpPreviewFormatter" attribute="Text" name="预览" />
+  <language category="form" class="frmOptions" type="object" id="picOperatorKeywords" attribute="ToolTipText" name="寻找运算关键詞 (Ctrl+F)" />
+  <language category="form" class="frmOptions" type="object" id="picBuiltInFunctions" attribute="ToolTipText" name="寻找内建函数 (Ctrl+F)" />
+  <language category="form" class="frmOptions" type="object" id="picBuiltInKeywords" attribute="ToolTipText" name="寻找内建关键詞 (Ctrl+F)" />
+  <language category="form" class="frmOptions" type="object" id="picUserDefinedKeywords" attribute="ToolTipText" name="寻找用户自定义关键词 (Ctrl+F)" />
+  <language category="form" class="frmOptions" type="dropdownlist" id="cboMaxWidth" attribute="Text" name="无限" />
+  <language category="form" class="frmOptions" type="dropdownlist" id="BookmarkStyle_Arrow" attribute="Text" name="箭头" />
+  <language category="form" class="frmOptions" type="dropdownlist" id="BookmarkStyle_Circle" attribute="Text" name="圆形" />
+  <language category="form" class="frmOptions" type="dropdownlist" id="BookmarkStyle_RoundRect" attribute="Text" name="圆角矩形" />
+  <language category="form" class="frmOptions" type="dropdownlist" id="BookmarkStyle_ShortArrow" attribute="Text" name="小箭头" />
+  <language category="form" class="frmOptions" type="dropdownlist" id="BookmarkStyle_SmallRect" attribute="Text" name="正方形" />
+  <language category="form" class="frmOptions" type="object" id="grpGlobal" attribute="Text" name="通用设定 (适用于您所有的数据库连线设定)" />
+  <language category="form" class="frmOptions" type="object" id="grpGeneral" attribute="Text" name="一般" />
+  <language category="form" class="frmOptions" type="object" id="lblLocalization" attribute="Text" name="语言:" />
+  <language category="form" class="frmOptions" type="object" id="grpColorTheme" attribute="Text" name="色彩布景主题" />
+  <language category="form" class="frmOptions" type="object" id="chkDarkMode" attribute="Text" name="深色模式" />
+  <language category="form" class="frmOptions" type="object" id="grpCheckForUpdate" attribute="Text" name="检查更新" />
+  <language category="form" class="frmOptions" type="object" id="rdoDonotCheck" attribute="Text" name="不要自动检查更新。我会手动检查更新。" />
+  <language category="form" class="frmOptions" type="object" id="rdoCheckOnly" attribute="Text" name="有可用更新时通知我，但让我手动下载更新文件。" />
+  <language category="form" class="frmOptions" type="object" id="rdoCheckForUpdates0" attribute="Text" name="程式启动时" />
+  <language category="form" class="frmOptions" type="object" id="rdoCheckForUpdates1" attribute="Text" name="每天" />
+  <language category="form" class="frmOptions" type="object" id="rdoCheckForUpdates7" attribute="Text" name="每隔7天" />
+  <language category="form" class="frmOptions" type="dropdownlist" id="IndentMode_Fixed" attribute="Text" name="固定" />
+  <language category="form" class="frmOptions" type="dropdownlist" id="IndentMode_Same" attribute="Text" name="相同" />
+  <language category="form" class="frmOptions" type="dropdownlist" id="IndentMode_Indent" attribute="Text" name="缩进" />
+  <language category="form" class="frmOptions" type="gridheader" id="Definition" attribute="Text" name="定义" />
+  <language category="form" class="frmOptions" type="gridheader" id="Keyword" attribute="Text" name="关键词" />
+  <language category="form" class="frmOptions" type="gridheader" id="Replacement" attribute="Text" name="替换值" />
+  <language category="form" class="frmOptions" type="gridheader" id="name" attribute="Text" name="姓名" />
+  <language category="form" class="frmOptions" type="gridheader" id="gender" attribute="Text" name="性别" />
+  <language category="form" class="frmOptions" type="gridheader" id="age" attribute="Text" name="年龄" />
+  <language category="form" class="frmOptions" type="gridheader" id="birthday" attribute="Text" name="生日" />
+  <language category="form" class="frmOptions" type="gridheader" id="weight" attribute="Text" name="体重" />
+  <language category="form" class="frmOptions" type="gridheader" id="height" attribute="Text" name="身高" />
+  <language category="form" class="frmOptions" type="gridheader" id="bloodgroup" attribute="Text" name="血型" />
+  <language category="form" class="frmOptions" type="gridheader" id="e-mail" attribute="Text" name="邮件地址" />
+  <language category="form" class="frmOptions" type="gridheader" id="education" attribute="Text" name="教育程度" />
+  <language category="form" class="frmOptions" type="gridheader" id="address" attribute="Text" name="地址" />
+  <language category="form" class="frmOptions" type="object" id="grpMainFormTabVisualStyle" attribute="Text" name="主画面页签外观样式" />
+  <language category="form" class="frmOptions" type="object" id="grpMainFormTabStyle" attribute="Text" name="样式" />
+  <language category="form" class="frmOptions" type="object" id="rdoIDE" attribute="Text" name="IDE" />
+  <language category="form" class="frmOptions" type="object" id="rdoPlain" attribute="Text" name="Plain" />
+  <language category="form" class="frmOptions" type="object" id="grpAppearance" attribute="Text" name="外观" />
+  <language category="form" class="frmOptions" type="object" id="rdoMultiDocument" attribute="Text" name="MultiDocument" />
+  <language category="form" class="frmOptions" type="object" id="rdoMultiForm" attribute="Text" name="MultiForm" />
+  <language category="form" class="frmOptions" type="object" id="rdoMultiBox" attribute="Text" name="MultiBox" />
+  <language category="form" class="frmOptions" type="object" id="chkShrinkPages" attribute="Text" name="收缩页签" />
+  <language category="form" class="frmOptions" type="object" id="chkShowArrows" attribute="Text" name="显示箭头符号" />
+  <language category="form" class="frmOptions" type="object" id="chkHoverSelect" attribute="Text" name="悬停选择" />
+  <language category="form" class="frmOptions" type="object" id="chkMultiLine" attribute="Text" name="多行" />
+  <language category="form" class="frmOptions" type="object" id="chkTabBold" attribute="Text" name="使用中标签以粗体显示" />
+  <language category="form" class="frmOptions" type="object" id="grpMainFormWindowsState" attribute="Text" name="主画面视窗状态 (程式启动时)" />
+  <language category="form" class="frmOptions" type="object" id="rdoMaximized" attribute="Text" name="最大化" />
+  <language category="form" class="frmOptions" type="object" id="rdoNormal" attribute="Text" name="一般" />
+  <language category="form" class="frmOptions" type="object" id="grpMaxEntries" attribute="Text" name="最大数量" />
+  <language category="form" class="frmOptions" type="object" id="lblRecentFiles" attribute="Text" name="最近的文档:" />
+  <language category="form" class="frmOptions" type="object" id="lblMyFavorite" attribute="Text" name="收藏夹:" />
+  <language category="form" class="frmOptions" type="object" id="grpOptionsTab" attribute="Text" name="选项页签颜色" />
+  <language category="form" class="frmOptions" type="object" id="lblOptionsTabActiveForeColor" attribute="Text" name="使用中前景颜色:" />
+  <language category="form" class="frmOptions" type="object" id="lblOptionsTabActiveBackColor" attribute="Text" name="使用中背景颜色:" />
+  <language category="form" class="frmOptions" type="object" id="lblOptionsTabInactiveForeColor" attribute="Text" name="非使用中前景颜色:" />
+  <language category="form" class="frmOptions" type="object" id="grpDefaultDirectory" attribute="Text" name="默认的目录 (开启/储存)     " />
+  <language category="form" class="frmOptions" type="object" id="rdoDefaultDirectory" attribute="Text" name="系统默认目录" />
+  <language category="form" class="frmOptions" type="object" id="rdoFavoriteDirectory" attribute="Text" name="喜好的目录" />
+  <language category="form" class="frmOptions" type="object" id="btnCopySettings" attribute="Text" name="复制设定值..." />
+  <language category="form" class="frmOptions" type="msg" id="From" attribute="Text" name="从" />
+  <language category="form" class="frmOptions" type="msg" id="To" attribute="Text" name="到" />
+  <language category="form" class="frmOptions" type="msg" id="ChangeColorTheme" attribute="Text" name="将色彩布景主题从深色变更为一般需要重新启动 JasonQuery，以获得最佳的显示效果。" />
+  <language category="form" class="frmOptions" type="msg" id="InputSnippet" attribute="Text" name="请输入 'Snippet'！" />
+  <language category="form" class="frmOptions" type="msg" id="SnippetExist" attribute="Text" name="'Snippet' 已存在！" />
+  <language category="form" class="frmOptions" type="msg" id="InputKeyword" attribute="Text" name="请输入「关键词」！ " />
+  <language category="form" class="frmOptions" type="msg" id="InputReplacement" attribute="Text" name="请输入「替换值」！ " />
+  <language category="form" class="frmOptions" type="msg" id="ReplacementKeywordExist" attribute="Text" name="关键词已存在！" />
+  <language category="form" class="frmOptions" type="msg" id="Help_Disconnect" attribute="Text" name="如果您的鼠标和键盘在 1~9 个小时内没有任何动作，JasonQuery 将自动关闭数据库连线。" />
+  <language category="form" class="frmOptions" type="msg" id="Help_Reconnect" attribute="Text" name="当您再次执行任何的 SQL 陈述式时，JasonQuery 将会自动连线至数据库。" />
+  <language category="form" class="frmOptions" type="msg" id="Pooling1" attribute="Text" name="如果在数据库连线时启用 'Pooling' 功能，当连线中断后，实际连线并不会关闭，以便稍后由 JasonQuery 继续使用。这极大地提高了效能。" />
+  <language category="form" class="frmOptions" type="msg" id="Pooling2" attribute="Text" name="如果在数据库连线时停用 'Pooling' 功能，当连线中断后，从服务器上将看不到该数据库连线。" />
+  <language category="form" class="frmOptions" type="msg" id="C#Style1" attribute="Text" name="Using + operator" />
+  <language category="form" class="frmOptions" type="msg" id="C#Style2" attribute="Text" name="New line character \r\n" />
+  <language category="form" class="frmOptions" type="msg" id="C#Style3" attribute="Text" name="New line character Enviroment.NewLine" />
+  <language category="form" class="frmOptions" type="msg" id="VB.NetStyle1" attribute="Text" name="Using &amp;&amp;&amp; operator" />
+  <language category="form" class="frmOptions" type="msg" id="VB.NetStyle2" attribute="Text" name="New line character VbCrLf" />
+  <language category="form" class="frmOptions" type="msg" id="VB.NetStyle3" attribute="Text" name="New line character Enviroment.NewLine" />
+  <language category="form" class="frmOptions" type="msg" id="VB6/VBAStyle1" attribute="Text" name="Using &amp;&amp;&amp; operator" />
+  <language category="form" class="frmOptions" type="msg" id="VB6/VBAStyle2" attribute="Text" name="New line character VbCrLf" />
+  <language category="form" class="frmOptions" type="msg" id="DelphiStyle1" attribute="Text" name="Using + operator" />
+  <language category="form" class="frmOptions" type="msg" id="DelphiStyle2" attribute="Text" name="New line character #13#10" />
+  <!-- frmMain -->
+  <language category="form" class="MainForm" type="menu" id="mnuFile" attribute="Text" name="文件(&amp;F)" />
+  <language category="form" class="MainForm" type="menu" id="mnuNewConnection" attribute="Text" name="新的连线" />
+  <language category="form" class="MainForm" type="menu" id="mnuOpenConnection" attribute="Text" name="开启连线" />
+  <language category="form" class="MainForm" type="menu" id="mnuCloseConnection" attribute="Text" name="结束连线" />
+  <language category="form" class="MainForm" type="menu" id="mnuNewSQLEditor" attribute="Text" name="新建(&amp;N)" />
+  <language category="form" class="MainForm" type="menu" id="mnuOpenFiles" attribute="Text" name="打开(&amp;O)" />
+  <language category="form" class="MainForm" type="menu" id="mnuFile_Save" attribute="Text" name="保存(&amp;S)" />
+  <language category="form" class="MainForm" type="menu" id="mnuFile_SaveAs" attribute="Text" name="另存为(&amp;A)" />
+  <language category="form" class="MainForm" type="menu" id="mnuExit" attribute="Text" name="离开(&amp;X)" />
+  <language category="form" class="MainForm" type="menu" id="mnuEdit" attribute="Text" name="编辑(&amp;E)" />
+  <language category="form" class="MainForm" type="menu" id="mnuEdit_Undo" attribute="Text" name="撤消(&amp;U)" />
+  <language category="form" class="MainForm" type="menu" id="mnuEdit_Redo" attribute="Text" name="重做(&amp;R)" />
+  <language category="form" class="MainForm" type="menu" id="mnuEdit_Cut" attribute="Text" name="剪切(&amp;T)" />
+  <language category="form" class="MainForm" type="menu" id="mnuEdit_Copy" attribute="Text" name="复制(&amp;C)" />
+  <language category="form" class="MainForm" type="menu" id="mnuEdit_Paste" attribute="Text" name="粘贴(&amp;P)" />
+  <language category="form" class="MainForm" type="menu" id="mnuEdit_Delete" attribute="Text" name="删除(&amp;D)" />
+  <language category="form" class="MainForm" type="menu" id="mnuEdit_SelectAll" attribute="Text" name="全选(&amp;A)" />
+  <language category="form" class="MainForm" type="menu" id="mnuEdit_SelectCurrentBlock" attribute="Text" name="选取目前区块(&amp;B)" />
+  <language category="form" class="MainForm" type="menu" id="mnuEdit_Comment" attribute="Text" name="设置注释块" />
+  <language category="form" class="MainForm" type="menu" id="mnuEdit_UnComment" attribute="Text" name="解除注释块" />
+  <language category="form" class="MainForm" type="menu" id="mnuEdit_Indent" attribute="Text" name="缩进" />
+  <language category="form" class="MainForm" type="menu" id="mnuEdit_UnIndent" attribute="Text" name="凸出" />
+  <language category="form" class="MainForm" type="menu" id="mnuEdit_UpperCase" attribute="Text" name="转成大写" />
+  <language category="form" class="MainForm" type="menu" id="mnuEdit_LowerCase" attribute="Text" name="转成小写" />
+  <language category="form" class="MainForm" type="menu" id="mnuEdit_SQLFormatter" attribute="Text" name="SQL 格式化" />
+  <language category="form" class="MainForm" type="menu" id="mnuQuery" attribute="Text" name="查询(&amp;Q)" />
+  <language category="form" class="MainForm" type="menu" id="mnuNewSQLEditor2" attribute="Text" name="打开(&amp;N)" />
+  <language category="form" class="MainForm" type="menu" id="mnuQuery_Execute" attribute="Text" name="执行" />
+  <language category="form" class="MainForm" type="menu" id="mnuQuery_ExecuteCurrentBlock" attribute="Text" name="执行目前区块" />
+  <language category="form" class="MainForm" type="menu" id="mnuQuery_Explain" attribute="Text" name="Explain" />
+  <language category="form" class="MainForm" type="menu" id="mnuQuery_ExplainAnalyze" attribute="Text" name="Explain Analyze" />
+  <language category="form" class="MainForm" type="menu" id="mnuQuery_Options" attribute="Text" name="Explain Options" />
+  <language category="form" class="MainForm" type="menu" id="mnuAutoRollback" attribute="Text" name="Auto-Rollback" />
+  <language category="form" class="MainForm" type="menu" id="mnuAutoCommit" attribute="Text" name="Auto-Commit" />
+  <language category="form" class="MainForm" type="menu" id="mnuRollback" attribute="Text" name="Rollback" />
+  <language category="form" class="MainForm" type="menu" id="mnuCommit" attribute="Text" name="Commit" />
+  <language category="form" class="MainForm" type="menu" id="mnuRecentFiles" attribute="Text" name="最近的文档(&amp;R)" />
+  <language category="form" class="MainForm" type="menu" id="EmptyRecentFiles" attribute="Text" name="清空最近的文档" />
+  <language category="form" class="MainForm" type="menu" id="mnuMyFavorite" attribute="Text" name="收藏夹(&amp;M)" />
+  <language category="form" class="MainForm" type="menu" id="EmptyMyFavorite" attribute="Text" name="清空收藏夹" />
+  <language category="form" class="MainForm" type="menu" id="mnuTools" attribute="Text" name="工具(&amp;T)" />
+  <language category="form" class="MainForm" type="menu" id="mnuOptions" attribute="Text" name="【选项】" />
+  <language category="form" class="MainForm" type="menu" id="mnuSchemaBrowser" attribute="Text" name="【架构浏览器】" />
+  <language category="form" class="MainForm" type="menu" id="mnuSQLHistory" attribute="Text" name="【SQL 历史记录】" />
+  <language category="form" class="MainForm" type="menu" id="mnuFileSplitter" attribute="Text" name="大型文本文件拆分器" />
+  <language category="form" class="MainForm" type="menu" id="mnuHelp" attribute="Text" name="帮助(&amp;H)" />
+  <language category="form" class="MainForm" type="menu" id="mnuCheckForUpdatesManually" attribute="Text" name="检查更新" />
+  <language category="form" class="MainForm" type="menu" id="mnuReleaseNotes" attribute="Text" name="版更记录" />
+  <language category="form" class="MainForm" type="menu" id="mnuReleaseNotes" attribute="ToolTipText" name="使用预设浏览器开启「releasenotes.html」" />
+  <language category="form" class="MainForm" type="menu" id="mnuReportBugs" attribute="Text" name="回报错误" />
+  <language category="form" class="MainForm" type="menu" id="mnuReportBugs" attribute="ToolTipText" name="使用预设浏览器开启「reportbugs.html」" />
+  <language category="form" class="MainForm" type="menu" id="mnuAbout" attribute="Text" name="关于" />
+  <language category="form" class="MainForm" type="menu" id="mnuInfo" attribute="Text" name="免费供商业和个人使用" />
+  <language category="form" class="MainForm" type="menu" id="Close" attribute="Text" name="关闭" />
+  <language category="form" class="MainForm" type="menu" id="NewSQLEditor" attribute="Text" name="开新文件" />
+  <language category="form" class="MainForm" type="menu" id="AddToMyFavorite" attribute="Text" name="添加到收藏夹" />
+  <language category="form" class="MainForm" type="menu" id="RemoveFromMyFavorite" attribute="Text" name="从收藏夹移除" />
+  <language category="form" class="MainForm" type="menu" id="OpenFolder" attribute="Text" name="于资源管理器开启文件位置" />
+  <language category="form" class="MainForm" type="menu" id="CopyFullFilePath" attribute="Text" name="将文件夹路径及文件名称复制到粘贴板" />
+  <language category="form" class="MainForm" type="menu" id="CopyFilename" attribute="Text" name="将文件名称复制到粘贴板" />
+  <language category="form" class="MainForm" type="menu" id="CopyCurrentPath" attribute="Text" name="将文件夹路径复制到粘贴板" />
+  <language category="form" class="MainForm" type="msg" id="msgEmptyRecentFiles" attribute="Text" name="确定要清空「最近的文档」？ " />
+  <language category="form" class="MainForm" type="msg" id="msgEmptyMyFavorite" attribute="Text" name="确定要清空「收藏夹」？ " />
+  <language category="form" class="MainForm" type="msg" id="AliasName" attribute="Text" name="别名：(选择性)" />
+  <language category="form" class="MainForm" type="msg" id="FileName" attribute="Text" name="文件名：" />
+  <!-- frmExportToFile -->
+  <language category="form" class="frmExportToFile" type="object" id="this" attribute="Text" name="将所有数据导出到文件 (Excel/CSV...)" />
+  <language category="form" class="frmExportToFile" type="object" id="lblFilename" attribute="Text" name="文件名：" />
+  <language category="form" class="frmExportToFile" type="object" id="lblSaveAsType" attribute="Text" name="保存类型：" />
+  <language category="form" class="frmExportToFile" type="object" id="lblWorksheetName" attribute="Text" name="工作表名称：" />
+  <language category="form" class="frmExportToFile" type="object" id="chkAutoOpenExcelFile" attribute="Text" name="文件导出完毕后，自动开启该文件" />
+  <language category="form" class="frmExportToFile" type="object" id="lblCSVDelimiters" attribute="Text" name="分隔符号：" />
+  <language category="form" class="frmExportToFile" type="object" id="lblEncoding" attribute="Text" name="编码：" />
+  <language category="form" class="frmExportToFile" type="object" id="chkConvertCRLF" attribute="Text" name="将 CR LF 转换为 &amp;&amp;#xD; &amp;&amp;#xA;" />
+  <language category="form" class="frmExportToFile" type="object" id="btnCancel" attribute="Text" name="取消" />
+  <language category="form" class="frmExportToFile" type="object" id="btnExport" attribute="Text" name="导出(&amp;E)" />
+  <language category="form" class="frmExportToFile" type="object" id="btnExportAndClose" attribute="Text" name="导出并关闭(&amp;X)" />
+  <language category="form" class="frmExportToFile" type="object" id="btnClose" attribute="Text" name="关闭(&amp;C)" />
+  <language category="form" class="frmExportToFile" type="object" id="btnSaveAllTheSettings" attribute="Text" name="保存所有设定值(&amp;S)" />
+  <language category="form" class="frmExportToFile" type="object" id="grpVisualStyle" attribute="Text" name="外观样式" />
+  <language category="form" class="frmExportToFile" type="object" id="grpPreview" attribute="Text" name="预览" />
+  <language category="form" class="frmExportToFile" type="object" id="grpDataGrid" attribute="Text" name="数据表格" />
+  <language category="form" class="frmExportToFile" type="object" id="lblHeadingBackColor" attribute="Text" name="标题栏背景颜色：" />
+  <language category="form" class="frmExportToFile" type="object" id="lblEvenRowBackColor" attribute="Text" name="偶数栏背景颜色：" />
+  <language category="form" class="frmExportToFile" type="object" id="lblOddRowBackColor" attribute="Text" name="奇数栏背景颜色：" />
+  <language category="form" class="frmExportToFile" type="object" id="chkColumnResize" attribute="Text" name="调整列宽" />
+  <language category="form" class="frmExportToFile" type="object" id="lblFontName" attribute="Text" name="字体：" />
+  <language category="form" class="frmExportToFile" type="object" id="lblFontSize" attribute="Text" name="字号：" />
+  <language category="form" class="frmExportToFile" type="object" id="lblRowHeight" attribute="Text" name="行高：" />
+  <language category="form" class="frmExportToFile" type="msg" id="SelectSavedFilename" attribute="Text" name="请选择导出的文件名称！" />
+  <language category="form" class="frmExportToFile" type="msg" id="SaveAllTheSettings" attribute="Text" name="所有设定值已保存！" />
+  <language category="form" class="frmExportToFile" type="msg" id="ExportAndOpenByExcel" attribute="Text" name="所有数据已导出，并显示在 Excel 中。" />
+  <language category="form" class="frmExportToFile" type="msg" id="ExportOK" attribute="Text" name="所有数据已导出。" />
+  <language category="form" class="frmExportToFile" type="msg" id="InvalidPath" attribute="Text" name="无效的路径！" />
+  <language category="form" class="frmExportToFile" type="msg" id="CellEditMode" attribute="Text" name="您的 Excel 可能处于「单元格编辑」模式，所以文件无法正常开启！" />
+  <language category="form" class="frmExportToFile" type="menugrid" id="ExportAllDataToFile" attribute="Text" name="将所有数据导出到文件" />
+  <language category="form" class="frmExportToFile" type="dropdownlist" id="Delimiters_Tab" attribute="Text" name="Tab" />
+  <language category="form" class="frmExportToFile" type="dropdownlist" id="Delimiters_Semicolon" attribute="Text" name="分号" />
+  <language category="form" class="frmExportToFile" type="dropdownlist" id="Delimiters_Comma" attribute="Text" name="逗号" />
+  <language category="form" class="frmExportToFile" type="dropdownlist" id="Delimiters_Space" attribute="Text" name="空白" />
+  <language category="form" class="frmExportToFile" type="dropdownlist" id="Delimiters_Colon" attribute="Text" name="冒号" />
+  <language category="form" class="frmExportToFile" type="dropdownlist" id="Delimiters_Slash" attribute="Text" name="斜线" />
+  <language category="form" class="frmExportToFile" type="dropdownlist" id="Delimiters_Backslash" attribute="Text" name="反斜杠" />
+  <language category="form" class="frmExportToFile" type="dropdownlist" id="Delimiters_Pipe" attribute="Text" name="垂直线" />
+  <!-- Global -->
+  <language category="Global" class="Global" type="msg" id="AnErrorHasOccurred" attribute="Text" name="发生错误！" />
+  <language category="Global" class="Global" type="msg" id="AnUnexpectedErrorHasOccurred" attribute="Text" name="发生意外的错误！" />
+  <language category="Global" class="Global" type="msg" id="ErrorConnectingToTheServer" attribute="Text" name="连线至服务器时发生错误：" />
+  <language category="Global" class="Global" type="msg" id="TestOK" attribute="Text" name="测试连线成功！" />
+  <language category="Global" class="Global" type="msg" id="TestNG" attribute="Text" name="测试连线失败！" />
+  <language category="Global" class="Global" type="msg" id="SaveAs" attribute="Text" name="另存为" />
+  <language category="Global" class="Global" type="msg" id="SavingFile" attribute="Text" name="正在保存文件，请稍候..." />
+  <language category="Global" class="Global" type="msg" id="ErrorToOpenFile" attribute="Text" name="打开 {FileType} 文件时发生错误。" />
+  <language category="Global" class="Global" type="msg" id="ErrorToSaveFile" attribute="Text" name="保存 {FileType} 文件时发生错误。" />
+  <language category="Global" class="Global" type="msg" id="PleaseTryAgain" attribute="Text" name="请再试一次！" />
+  <language category="Global" class="Global" type="msg" id="RestoreDefault" attribute="Text" name="您确定要还原除了「通用」以外的所有默认值吗？ " />
+  <language category="Global" class="Global" type="msg" id="RestoreOK" attribute="Text" name="设定值已还原完毕，请重新启动 JasonQuery！" />
+  <language category="Global" class="Global" type="msg" id="CopySettingsFrom" attribute="Text" name="您确定要复制所有的设定值？" />
+  <language category="Global" class="Global" type="msg" id="CopyOK" attribute="Text" name="设定值已复制完毕，请重新启动 JasonQuery！" />
+  <language category="Global" class="Global" type="msg" id="SettingsChanged" attribute="Text" name="所有设定值已保存完毕。" />
+  <language category="Global" class="Global" type="msg" id="RequireToRestart" attribute="Text" name="您需要重新启动 JasonQuery！" />
+  <language category="Global" class="Global" type="msg" id="OperationAborted" attribute="Text" name="操作中止！" />
+  <language category="Global" class="Global" type="msg" id="LocalizationNotFound" attribute="Text" name="找不到指定的语系文件！" />
+  <language category="Global" class="Global" type="msg" id="CancelByUser" attribute="Text" name="此操作已被取消。" />
+  <language category="Global" class="Global" type="msg" id="EnableUnicodePrompt" attribute="Text" name="在连线画面，勾选「启用 Unicode」，可以避开这个错误。 " />
+  <language category="Global" class="Global" type="msg" id="Help_RawDataMode1" attribute="Text" name="「原始数据模式」：可以大幅加快数据显示速度。 " />
+  <language category="Global" class="Global" type="msg" id="Help_RawDataMode2" attribute="Text" name="当您启用「原始数据模式」时，以下设定将不会套用在数据表格的呈现上：" />
+  <language category="Global" class="Global" type="msg" id="Help_RawDataMode3" attribute="Text" name="日期格式" />
+  <language category="Global" class="Global" type="msg" id="Help_RawDataMode4" attribute="Text" name="空值样式" />
+  <language category="Global" class="Global" type="msg" id="TheFileExists" attribute="Text" name="您试着要保存的文件已存在！" />
+  <language category="Global" class="Global" type="msg" id="ReplaceFile" attribute="Text" name="您要替换它吗？" />
+  <language category="Global" class="Global" type="msg" id="ConfirmSaveAs" attribute="Text" name="确认另存为" />
+  <language category="Global" class="Global" type="msg" id="FunctionNotYet" attribute="Text" name="该功能尚未完成！" />
+  <language category="Global" class="Global" type="msg" id="RequestToRestart" attribute="Text" name="您无法变更此项设定，除非您重新开启 JasonQuery。" />
+  <language category="Global" class="Global" type="msg" id="ExecuteNonQueryScripts" attribute="Text" name="执行非查询 SQL 脚本" />
+  <language category="Global" class="Global" type="msg" id="PleaseWait" attribute="Text" name="请稍候..." />
+  <language category="Global" class="Global" type="msg" id="GetSchemaInfo" attribute="Text" name="正在获取架构信息 ..." />
+  <language category="Global" class="Global" type="msg" id="GetSchemaInfoIncludeColumn" attribute="Text" name="正在获取架构信息 (包含表所有的字段信息) ..." />
+  <language category="Global" class="Global" type="msg" id="InfoShowColumnInfo1" attribute="Text" name="在查询编辑器的架构浏览器中显示字段信息。" />
+  <language category="Global" class="Global" type="msg" id="InfoShowColumnInfo2" attribute="Text" name="如果启用此功能，可能需要较长的时间取得表所有的字段信息。" />
+  <language category="Global" class="Global" type="msg" id="InfoShowColumnInfo3" attribute="Text" name="您可以从 [工具] > [选项] > [查询编辑器] 变更此项设定。" />
+  <language category="Global" class="Global" type="messagebox" id="OK" attribute="Text" name="确定(&amp;O)" />
+  <language category="Global" class="Global" type="messagebox" id="Cancel" attribute="Text" name="取消(&amp;C)" />
+  <language category="Global" class="Global" type="messagebox" id="Abort" attribute="Text" name="中断(&amp;A)" />
+  <language category="Global" class="Global" type="messagebox" id="Retry" attribute="Text" name="重试(&amp;R)" />
+  <language category="Global" class="Global" type="messagebox" id="Ignore" attribute="Text" name="忽略(&amp;I)" />
+  <language category="Global" class="Global" type="messagebox" id="Yes" attribute="Text" name="是(&amp;Y)" />
+  <language category="Global" class="Global" type="messagebox" id="No" attribute="Text" name="否(&amp;N)" />
+</JasonQuery>
