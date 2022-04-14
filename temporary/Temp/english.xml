@@ -1,0 +1,1057 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JasonQuery>
+  <!-- Special Characters -->
+    <!-- (<) &lt; -->
+    <!-- (>) &gt; -->
+    <!-- (&) &amp; -->
+    <!-- (") &quot; -->
+    <!-- (Line Feed) &#x000A; -->
+  <!-- Please keep the variable names enclosed in braces. -->
+  <!-- frmInitialize -->
+  <language category="form" class="frmInitialize" type="object" id="this" attribute="Text" name="Using JasonQuery for the first time" />
+  <language category="form" class="frmInitialize" type="object" id="lblTitle" attribute="Text" name="Welcome to JasonQuery" />
+  <language category="form" class="frmInitialize" type="object" id="lblTitle1" attribute="Text" name="Thank you for your interest in JasonQuery." />
+  <language category="form" class="frmInitialize" type="object" id="lblTitle2" attribute="Text" name="JasonQuery is free for commercial and personal use." />
+  <language category="form" class="frmInitialize" type="object" id="grpLocalization" attribute="Text" name="Localization" />
+  <language category="form" class="frmInitialize" type="object" id="lblGuarantee" attribute="Text" name="The following three guarantees, you can use JasonQuery with peace of mind:" />
+  <language category="form" class="frmInitialize" type="object" id="lblGuarantee1" attribute="Text" name="1. JasonQuery will not read from or write to the registry." />
+  <language category="form" class="frmInitialize" type="object" id="lblGuarantee2" attribute="Text" name="2. JasonQuery will not modify your database unless you manually execute DDL/DML SQL statements." />
+  <language category="form" class="frmInitialize" type="object" id="lblGuarantee21" attribute="Text" name="2-1. DDL/DML SQL statements, such as Create/Alter/Insert/Update/Delete..." />
+  <language category="form" class="frmInitialize" type="object" id="lblGuarantee22" attribute="Text" name="2-2. You need to press the &quot;Commit&quot; button or manually execute the &quot;Commit&quot; command." />
+  <language category="form" class="frmInitialize" type="object" id="lblGuarantee3" attribute="Text" name="3. All settings or SQL history will be stored in the following file:" />
+  <language category="form" class="frmInitialize" type="object" id="lblFeature" attribute="Text" name="Features:" />
+  <language category="form" class="frmInitialize" type="object" id="lblFeature1" attribute="Text" name="1. It is portable, multilingual, lightweight and easy to use" />
+  <language category="form" class="frmInitialize" type="object" id="lblFeature2" attribute="Text" name="2. Support version checking and one-click update" />
+  <language category="form" class="frmInitialize" type="object" id="lblFeature3" attribute="Text" name="3. Support Oracle/PostgreSQL/SQL Server/MySQL/MariaDB" />
+  <language category="form" class="frmInitialize" type="object" id="lblFeature4" attribute="Text" name="4. Connect to Oracle directly through TCP/IP protocol without involving the Oracle Client" />
+  <language category="form" class="frmInitialize" type="object" id="lblFeature5" attribute="Text" name="5. Advanced SQL editor with syntax highlighting" />
+  <language category="form" class="frmInitialize" type="object" id="lblFeature6" attribute="Text" name="6. Support Paging Query(customized): 500 records per page" />
+  <language category="form" class="frmInitialize" type="object" id="lblFeature7" attribute="Text" name="7. Support Auto Replace(customized): Keyword binding for favorite queries, such as &quot;sf =&gt; select * from&quot;" />
+  <language category="form" class="frmInitialize" type="object" id="lblFeature8" attribute="Text" name="8. Automatically detect parameters, such as &quot;WHERE id = :id AND name = :name&quot;" />
+  <language category="form" class="frmInitialize" type="object" id="lblFeature9" attribute="Text" name="9. Automatically direct to wrong location of SQL statement and display error message" />
+  <language category="form" class="frmInitialize" type="object" id="lblFeature10" attribute="Text" name="10. Schema Browser, SQL History and many useful features..." />
+  <language category="form" class="frmInitialize" type="object" id="lblFeature11" attribute="Text" name="11. Fixed bugs and added features from time to time" />
+  <language category="form" class="frmInitialize" type="object" id="lblNote" attribute="Text" name="Now click &quot;OK&quot; to get started to work with you database." />
+  <language category="form" class="frmInitialize" type="object" id="btnOK" attribute="Text" name="&amp;OK" />
+  <!-- frmCellViewer -->
+  <language category="form" class="frmCellViewer" type="object" id="this" attribute="Text" name="Cell Viewer" />
+  <language category="form" class="frmCellViewer" type="object" id="lblColumnName" attribute="Text" name="Column Name:" />
+  <language category="form" class="frmCellViewer" type="object" id="lblColumnType" attribute="Text" name="Column Type:" />
+  <language category="form" class="frmCellViewer" type="object" id="btnSelectAll" attribute="ToolTipText" name="Select All" />
+  <language category="form" class="frmCellViewer" type="object" id="btnCopy" attribute="ToolTipText" name="Copy" />
+  <language category="form" class="frmCellViewer" type="object" id="btnWordWrap" attribute="ToolTipText" name="Word Wrap" />
+  <language category="form" class="frmCellViewer" type="object" id="btnWordWrap2" attribute="ToolTipText" name="Word Wrap" />
+  <language category="form" class="frmCellViewer" type="object" id="btnShowAllCharacters" attribute="ToolTipText" name="Show All Characters" />
+  <language category="form" class="frmCellViewer" type="object" id="btnShowAllCharacters2" attribute="ToolTipText" name="Show All Characters" />
+  <language category="form" class="frmCellViewer" type="menueditor" id="SelectAll" attribute="Text" name="Select All" />
+  <language category="form" class="frmCellViewer" type="menueditor" id="Copy" attribute="Text" name="Copy" />
+  <!-- frmSingleRecordViewer -->
+  <language category="form" class="frmSingleRecordViewer" type="object" id="this" attribute="Text" name="Single Record Viewer" />
+  <language category="form" class="frmSingleRecordViewer" type="object" id="btnFirst" attribute="ToolTipText" name="First Record" />
+  <language category="form" class="frmSingleRecordViewer" type="object" id="btnPrevious" attribute="ToolTipText" name="Previous Record" />
+  <language category="form" class="frmSingleRecordViewer" type="object" id="btnNext" attribute="ToolTipText" name="Next Record" />
+  <language category="form" class="frmSingleRecordViewer" type="object" id="btnLast" attribute="ToolTipText" name="Last Record" />
+  <language category="form" class="frmSingleRecordViewer" type="object" id="btnSelectAll" attribute="ToolTipText" name="Select All" />
+  <language category="form" class="frmSingleRecordViewer" type="object" id="btnCopy" attribute="ToolTipText" name="Copy" />
+  <language category="form" class="frmSingleRecordViewer" type="object" id="btnExportToFile" attribute="ToolTipText" name="Export to File" />
+  <language category="form" class="frmSingleRecordViewer" type="object" id="chkShowFilterRow" attribute="Text" name="Show Filter Row" />
+  <language category="form" class="frmSingleRecordViewer" type="menugrid" id="SelectAll" attribute="Text" name="Select All" />
+  <language category="form" class="frmSingleRecordViewer" type="menugrid" id="Copy" attribute="Text" name="Copy" />
+  <language category="form" class="frmSingleRecordViewer" type="menugrid" id="ExportToFile" attribute="Text" name="Export to File" />
+  <!-- frmSQLStatementViewer -->
+  <language category="form" class="frmSQLStatementViewer" type="object" id="this" attribute="Text" name="SQL Statement Viewer" />
+  <language category="form" class="frmSQLStatementViewer" type="object" id="btnSelectAll" attribute="ToolTipText" name="Select All" />
+  <language category="form" class="frmSQLStatementViewer" type="object" id="btnCopy" attribute="ToolTipText" name="Copy" />
+  <language category="form" class="frmSQLStatementViewer" type="object" id="btnWordWrap" attribute="ToolTipText" name="Word Wrap" />
+  <language category="form" class="frmSQLStatementViewer" type="object" id="btnWordWrap2" attribute="ToolTipText" name="Word Wrap" />
+  <language category="form" class="frmSQLStatementViewer" type="object" id="btnShowAllCharacters" attribute="ToolTipText" name="Show All Characters" />
+  <language category="form" class="frmSQLStatementViewer" type="object" id="btnShowAllCharacters2" attribute="ToolTipText" name="Show All Characters" />
+  <language category="form" class="frmSQLStatementViewer" type="menueditor" id="SelectAll" attribute="Text" name="Select All" />
+  <language category="form" class="frmSQLStatementViewer" type="menueditor" id="Copy" attribute="Text" name="Copy" />
+  <!-- frmAbout -->
+  <language category="form" class="frmAbout" type="object" id="this" attribute="Text" name="About JasonQuery" />
+  <language category="form" class="frmAbout" type="object" id="lblInfo" attribute="Text" name="Free for commercial and personal use." />
+  <language category="form" class="frmAbout" type="object" id="lblReportBugs" attribute="Text" name="To report bugs, mail to tachiroyu@gmail.com." />
+  <language category="form" class="frmAbout" type="object" id="lnkMap" attribute="Text" name="Google map of Taiwan" />
+  <language category="form" class="frmAbout" type="object" id="btnOK" attribute="Text" name="&amp;OK" />
+  <language category="form" class="frmAbout" type="object" id="lblIcons8" attribute="Text" name="Free Icons - Icons8 (download free icons in PNG and SVG)" />
+  <language category="form" class="frmAbout" type="object" id="lblFreeFont" attribute="Text" name="Free Chinese Fonts - JasonHandwriting (SIL Open Font License)" />
+  <!-- frmParameters -->
+  <language category="form" class="frmParameters" type="object" id="this" attribute="Text" name="Parameters" />
+  <language category="form" class="frmParameters" type="object" id="btnOK" attribute="Text" name="&amp;OK" />
+  <language category="form" class="frmParameters" type="object" id="btnCancel" attribute="Text" name="&amp;Cancel" />
+  <language category="form" class="frmParameters" type="object" id="btnPreview" attribute="Text" name="&amp;Preview" />
+  <language category="form" class="frmParameters" type="object" id="lblPreview" attribute="Text" name="Preview:" />
+  <language category="form" class="frmParameters" type="gridheader" id="Name" attribute="Text" name="Name" />
+  <language category="form" class="frmParameters" type="gridheader" id="Value" attribute="Text" name="Value" />
+  <language category="form" class="frmParameters" type="gridheader" id="Type" attribute="Text" name="Type" />
+  <language category="form" class="frmParameters" type="object" id="String" attribute="Text" name="String" />
+  <language category="form" class="frmParameters" type="object" id="Number" attribute="Text" name="Number" />
+  <language category="form" class="frmParameters" type="object" id="Custom" attribute="Text" name="Custom" />
+  <language category="form" class="frmParameters" type="object" id="btnSelectAll" attribute="ToolTipText" name="Select All" />
+  <language category="form" class="frmParameters" type="object" id="btnCopy" attribute="ToolTipText" name="Copy" />
+  <language category="form" class="frmParameters" type="object" id="btnWordWrap" attribute="ToolTipText" name="Word Wrap" />
+  <language category="form" class="frmParameters" type="object" id="btnWordWrap2" attribute="ToolTipText" name="Word Wrap" />
+  <!-- frmHelpParametersType -->
+  <language category="form" class="!frmHelpParametersType" type="object" id="this" attribute="Text" name="Examples of &quot;Type&quot; Usage" />
+  <language category="form" class="!frmHelpParametersType" type="object" id="btnClose" attribute="Text" name="&amp;Close" />
+  <language category="form" class="!frmHelpParametersType" type="object" id="lblInfoParameters" attribute="Text" name="This is the parameter name in SQL statement." />
+  <language category="form" class="!frmHelpParametersType" type="object" id="lblInfoValue" attribute="Text" name="This is what you entered." />
+  <language category="form" class="!frmHelpParametersType" type="object" id="lblInfoResult" attribute="Text" name="This is the result JasonQuery replaced." />
+  <language category="form" class="!frmHelpParametersType" type="object" id="lblBlank" attribute="Text" name="The first or last character is blank." />
+  <language category="form" class="!frmHelpParametersType" type="object" id="grpString" attribute="Text" name="String" />
+  <language category="form" class="!frmHelpParametersType" type="object" id="grpNumber" attribute="Text" name="Number" />
+  <language category="form" class="!frmHelpParametersType" type="object" id="grpCustom" attribute="Text" name="Custom" />
+  <language category="form" class="!frmHelpParametersType" type="msg" id="Example" attribute="Text" name="Example" />
+  <!-- frmFileSplitter -->
+  <language category="form" class="frmFileSplitter" type="object" id="this" attribute="Text" name="Large Text File Splitter" />
+  <language category="form" class="frmFileSplitter" type="object" id="lblOriginalFile" attribute="Text" name="Original file:" />
+  <language category="form" class="frmFileSplitter" type="object" id="txtOriginalFile" attribute="ToolTipText" name="drag file here!" />
+  <language category="form" class="frmFileSplitter" type="object" id="lblDestinationFolder" attribute="Text" name="Destination folder:" />
+  <language category="form" class="frmFileSplitter" type="object" id="txtDestinationFolder" attribute="ToolTipText" name="drag folder here!" />
+  <language category="form" class="frmFileSplitter" type="object" id="btnBrowseFile" attribute="Text" name="Browse File" />
+  <language category="form" class="frmFileSplitter" type="object" id="btnBrowseFolder" attribute="Text" name="Browse Folder" />
+  <language category="form" class="frmFileSplitter" type="object" id="lblSaveAsEncoding" attribute="Text" name="Save as Encoding:" />
+  <language category="form" class="frmFileSplitter" type="object" id="lblLineBreakSymbol" attribute="Text" name="Line break symbol:" />
+  <language category="form" class="frmFileSplitter" type="object" id="lblSizeOfAPieceFile" attribute="Text" name="Size of a piece file:" />
+  <language category="form" class="frmFileSplitter" type="object" id="lblInfo" attribute="Text" name="(Split based on &quot;File Size&quot; and &quot;Line break symbol&quot; )" />
+  <language category="form" class="frmFileSplitter" type="object" id="btnSplit" attribute="Text" name="&amp;Split" />
+  <language category="form" class="frmFileSplitter" type="object" id="btnClose" attribute="Text" name="&amp;Close" />
+  <language category="form" class="frmFileSplitter" type="object" id="lblFileSize0" attribute="Text" name="File size:" />
+  <language category="form" class="frmFileSplitter" type="msg" id="SelectLargeFile" attribute="Text" name="Select a large text file..." />
+  <language category="form" class="frmFileSplitter" type="msg" id="SelectDestinationFolder" attribute="Text" name="Select Destination Folder..." />
+  <language category="form" class="frmFileSplitter" type="msg" id="SeemsBinaryFile" attribute="Text" name="It seems to be a binary file." />
+  <language category="form" class="frmFileSplitter" type="msg" id="SeemsBeA" attribute="Text" name="It seems to be a" />
+  <language category="form" class="frmFileSplitter" type="msg" id="File." attribute="Text" name="file." />
+  <language category="form" class="frmFileSplitter" type="msg" id="FileContainsBinaryData" attribute="Text" name="The following file could not be opened because it contains characters that could not be interpreted." />
+  <language category="form" class="frmFileSplitter" type="msg" id="SelectSource" attribute="Text" name="Please select an existing source file." />
+  <language category="form" class="frmFileSplitter" type="msg" id="SelectFolder" attribute="Text" name="You must indicate a destination folder for your piece files." />
+  <language category="form" class="frmFileSplitter" type="msg" id="SelectExistingFolder" attribute="Text" name="Please select an existing destination folder." />
+  <language category="form" class="frmFileSplitter" type="msg" id="DefineSize" attribute="Text" name="Please define the size of a piece file." />
+  <language category="form" class="frmFileSplitter" type="msg" id="DecreaseSize" attribute="Text" name="Please decrease the size of blocked pieces so it is lower than the size of the original file." />
+  <language category="form" class="frmFileSplitter" type="msg" id="FileBeenFound" attribute="Text" name="Parts of the file have been found in the destination folder." />
+  <language category="form" class="frmFileSplitter" type="msg" id="SomeWillBeDelete" attribute="Text" name="Some of the them will be deleted!" />
+  <language category="form" class="frmFileSplitter" type="msg" id="ContinueAnyway" attribute="Text" name="Continue anyway?" />
+  <language category="form" class="frmFileSplitter" type="msg" id="UsedByAnother" attribute="Text" name="Cannot access the file below because it is being used by another process." />
+  <language category="form" class="frmFileSplitter" type="msg" id="SkipAndContinue" attribute="Text" name="Skip this file and continue anyway?" />
+  <language category="form" class="frmFileSplitter" type="msg" id="OpenDestinationFolder" attribute="Text" name="Would you like to open the destination folder?" />
+  <language category="form" class="frmFileSplitter" type="msg" id="SplittingCompleted" attribute="Text" name="Splitting completed." />
+  <language category="form" class="frmFileSplitter" type="msg" id="FollowingFileNotFound" attribute="Text" name="The following file could not be found." />
+  <language category="form" class="frmFileSplitter" type="msg" id="CheckFileAndTry" attribute="Text" name="Please check the file name and try again." />
+  <!-- frmCheckForUpdates -->
+  <language category="form" class="frmCheckForUpdates" type="object" id="this" attribute="Text" name="Check for updates" />
+  <language category="form" class="frmCheckForUpdates" type="object" id="lblInfoHasNewVersion" attribute="Text" name="A new version of JasonQuery is available:" />
+  <language category="form" class="frmCheckForUpdates" type="object" id="lblInfoLatest" attribute="Text" name="You are using the latest version of JasonQuery." />
+  <language category="form" class="frmCheckForUpdates" type="object" id="grpCheckInfo" attribute="Text" name="Check for updates manually" />
+  <language category="form" class="frmCheckForUpdates" type="object" id="grpDownloadInfo" attribute="Text" name="Download latest version manually" />
+  <language category="form" class="frmCheckForUpdates" type="object" id="lblDownloadInfoWithout" attribute="Text" name="7z package: portable, multilingual" />
+  <language category="form" class="frmCheckForUpdates" type="object" id="btnCheckForUpdates" attribute="Text" name="Check for updates now" />
+  <language category="form" class="frmCheckForUpdates" type="object" id="btnClose" attribute="Text" name="&amp;Close" />
+  <language category="form" class="frmCheckForUpdates" type="object" id="lblRecommended" attribute="Text" name="(recommended)" />
+  <language category="form" class="frmCheckForUpdates" type="object" id="btnHelp_HowToUpdate" attribute="ToolTipText" name="How to update manually" />
+  <language category="form" class="frmCheckForUpdates" type="object" id="grpUpdateNow" attribute="Text" name="Automatically download and update" />
+  <language category="form" class="frmCheckForUpdates" type="object" id="lblUpdateNow" attribute="Text" name="Call Updater.exe to download and update lastest files." />
+  <language category="form" class="frmCheckForUpdates" type="object" id="btnUpdateNow" attribute="Text" name="Update Now (One-Click update)" />
+  <language category="form" class="frmCheckForUpdates" type="msg" id="CheckforUpdatesTitle" attribute="Text" name="Check for Updates" />
+  <language category="form" class="frmCheckForUpdates" type="msg" id="CheckforUpdatesInfo" attribute="Text" name="check for updates on startup..." />
+  <language category="form" class="frmCheckForUpdates" type="msg" id="Recommended" attribute="Text" name="recommended" />
+  <language category="form" class="frmCheckForUpdates" type="msg" id="DownloadUpdate1" attribute="Text" name="Downloading Update" />
+  <language category="form" class="frmCheckForUpdates" type="msg" id="DownloadUpdate2" attribute="Text" name="Downloading update, please wait!" />
+  <language category="form" class="frmCheckForUpdates" type="msg" id="From" attribute="Text" name="From" />
+  <language category="form" class="frmCheckForUpdates" type="msg" id="To" attribute="Text" name="To" />
+  <language category="form" class="frmCheckForUpdates" type="msg" id="OpenWithBrowser" attribute="Text" name="Open the url with your default browser" />
+  <language category="form" class="frmCheckForUpdates" type="msg" id="DownloadWithJasonQuery" attribute="Text" name="Use JasonQuery to download the file directly" />
+  <language category="form" class="frmCheckForUpdates" type="msg" id="HowToUpdate0" attribute="Text" name="How to manually update JasonQuery to the latest version:" />
+  <language category="form" class="frmCheckForUpdates" type="msg" id="HowToUpdate1" attribute="Text" name="1. Download the latest JasonQuery.7z" />
+  <language category="form" class="frmCheckForUpdates" type="msg" id="HowToUpdate2" attribute="Text" name="2. Close all open JasonQuery" />
+  <language category="form" class="frmCheckForUpdates" type="msg" id="HowToUpdate3" attribute="Text" name="3. Unzip &quot;JasonQuery x64&quot; or &quot;JasonQuery x86&quot; to the folder where JasonQuery is currently located (overwrite all, JasonQuery.7z does not include JasonQuery.db)" />
+  <language category="form" class="frmCheckForUpdates" type="msg" id="HowToUpdate4" attribute="Text" name="4. Run JasonQuery" />
+  <language category="form" class="frmCheckForUpdates" type="msg" id="UpdaterNotFound" attribute="Text" name="File not found:" />
+  <!-- frmUpdater -->
+  <language category="form" class="frmUpdater" type="object" id="this" attribute="Text" name="Updater - JasonQuery" />
+  <language category="form" class="frmUpdater" type="object" id="lblTitle" attribute="Text" name="Download and Update" />
+  <language category="form" class="frmUpdater" type="object" id="lblStep1" attribute="Text" name="Step1: Manually close all running JasonQuery" />
+  <language category="form" class="frmUpdater" type="object" id="lblStep2" attribute="Text" name="Step2: Download JasonQuery.zip to temporary folder" />
+  <language category="form" class="frmUpdater" type="object" id="lblStep3" attribute="Text" name="Step3: Unzip JasonQuery.zip to temporary folder" />
+  <language category="form" class="frmUpdater" type="object" id="lblStep4" attribute="Text" name="Step4: Update files and Delete temporary filles" />
+  <language category="form" class="frmUpdater" type="object" id="lblFrom" attribute="Text" name="From:" />
+  <language category="form" class="frmUpdater" type="object" id="lblTo" attribute="Text" name="To: (The path where JasonQuery.exe exists.)" />
+  <language category="form" class="frmUpdater" type="object" id="btnUpdate" attribute="Text" name="&amp;Update" />
+  <language category="form" class="frmUpdater" type="object" id="btnClose" attribute="Text" name="&amp;Close" />
+  <language category="form" class="frmUpdater" type="object" id="btnCancel" attribute="Text" name="Cancel" />
+  <language category="form" class="frmUpdater" type="object" id="grpComplete" attribute="Text" name="After the update is complete" />
+  <language category="form" class="frmUpdater" type="object" id="chkLaunchJQ" attribute="Text" name="Launch JasonQuery" />
+  <language category="form" class="frmUpdater" type="object" id="chkClose" attribute="Text" name="Close the program" />
+  <language category="form" class="frmUpdater" type="msg" id="UpdateOK" attribute="Text" name="All files have been successfully updated!" />
+  <language category="form" class="frmUpdater" type="msg" id="CloseJQManually" attribute="Text" name="Please close all running JasonQuery manually!" />
+  <language category="form" class="frmUpdater" type="msg" id="UpdateCompleted" attribute="Text" name="Update completed!" />
+  <language category="form" class="frmUpdater" type="msg" id="PressOK" attribute="Text" name="Press OK to close the program." />
+  <language category="form" class="frmUpdater" type="msg" id="PressOKAndLaunchJasonQuery" attribute="Text" name="Press OK to close the program and automatically launch JasonQuery." />
+  <language category="form" class="frmUpdater" type="msg" id="UpdateFailed" attribute="Text" name="Update failed!" />
+  <language category="form" class="frmUpdater" type="msg" id="FailedTryAgain" attribute="Text" name="Please try again or update manually by yourself!" />
+  <!-- frmConnect -->
+  <language category="form" class="frmConnect" type="object" id="this" attribute="Text" name="Database Connection" />
+  <language category="form" class="frmConnect" type="object" id="lblDataSource" attribute="Text" name="Data Source:" />
+  <language category="form" class="frmConnect" type="object" id="lblConnectionName" attribute="Text" name="Connection Name:" />
+  <language category="form" class="frmConnect" type="object" id="lblServer" attribute="Text" name="Server/Host:" />
+  <language category="form" class="frmConnect" type="object" id="lblDatabase" attribute="Text" name="Database:" />
+  <language category="form" class="frmConnect" type="object" id="lblPort" attribute="Text" name="Port:" />
+  <language category="form" class="frmConnect" type="object" id="lblRemark" attribute="Text" name="Remark:" />
+  <language category="form" class="frmConnect" type="object" id="lblUserID" attribute="Text" name="User ID:" />
+  <language category="form" class="frmConnect" type="object" id="lblPassword" attribute="Text" name="Password:" />
+  <language category="form" class="frmConnect" type="object" id="lblSID" attribute="Text" name="SID:" />
+  <language category="form" class="frmConnect" type="object" id="lblConnectAs" attribute="Text" name="Connect As:" />
+  <language category="form" class="frmConnect" type="object" id="chkUnicode" attribute="Text" name="Enable Unicode" />
+  <language category="form" class="frmConnect" type="object" id="chkAutoRollback" attribute="Text" name="Enable Auto Rollback" />
+  <language category="form" class="frmConnect" type="object" id="chkPooling" attribute="Text" name="Enable Pooling" />
+  <language category="form" class="frmConnect" type="object" id="lblTabBackColor" attribute="Text" name="Tab Back Color:" />
+  <language category="form" class="frmConnect" type="object" id="btnNew" attribute="Text" name="New" />
+  <language category="form" class="frmConnect" type="object" id="btnSave" attribute="Text" name="Save" />
+  <language category="form" class="frmConnect" type="object" id="btnDelete" attribute="Text" name="Delete" />
+  <language category="form" class="frmConnect" type="object" id="btnConnect" attribute="Text" name="Connect" />
+  <language category="form" class="frmConnect" type="object" id="btnTest" attribute="Text" name="Test" />
+  <language category="form" class="frmConnect" type="object" id="btnCopy" attribute="Text" name="Copy" />
+  <language category="form" class="frmConnect" type="object" id="btnCreateShortcut" attribute="Text" name="Shortcut" />
+  <language category="form" class="frmConnect" type="object" id="btnCreateShortcut" attribute="ToolTipText" name="Create a desktop shortcut" />
+  <language category="form" class="frmConnect" type="object" id="chkSavePasswords" attribute="Text" name="Save Password" />
+  <language category="form" class="frmConnect" type="object" id="grpLocalization" attribute="Text" name="Localization" />
+  <language category="form" class="frmConnect" type="object" id="grpColorTheme" attribute="Text" name="Color Theme" />
+  <language category="form" class="frmConnect" type="object" id="chkDarkMode" attribute="Text" name="Dark Mode" />
+  <language category="form" class="frmConnect" type="object" id="chkShowColumnInfo" attribute="Text" name="Show column info" />
+  <language category="form" class="frmConnect" type="object" id="rdoCreate" attribute="Text" name="Create new database file" />
+  <language category="form" class="frmConnect" type="object" id="rdoOpen" attribute="Text" name="Open existing database file" />
+  <language category="form" class="frmConnect" type="object" id="lblDatabaseFile" attribute="Text" name="Database File:" />
+  <language category="form" class="frmConnect" type="object" id="lblDatabaseType" attribute="Text" name="Database Type:" />
+  <language category="form" class="frmConnect" type="object" id="btnBrowse" attribute="ToolTipText" name="Browse existing database file on local computer" />
+  <language category="form" class="frmConnect" type="gridheader" id="ConnectionName" attribute="Text" name="Connection Name" />
+  <language category="form" class="frmConnect" type="gridheader" id="DataSource" attribute="Text" name="Data Source" />
+  <language category="form" class="frmConnect" type="gridheader" id="Server" attribute="Text" name="Server/Host" />
+  <language category="form" class="frmConnect" type="gridheader" id="SID" attribute="Text" name="SID" />
+  <language category="form" class="frmConnect" type="gridheader" id="DirectMode" attribute="Text" name="Direct Mode" />
+  <language category="form" class="frmConnect" type="gridheader" id="Database" attribute="Text" name="Database" />
+  <language category="form" class="frmConnect" type="gridheader" id="ConnectAs" attribute="Text" name="Connect As" />
+  <language category="form" class="frmConnect" type="gridheader" id="Port" attribute="Text" name="Port" />
+  <language category="form" class="frmConnect" type="gridheader" id="UserID" attribute="Text" name="User ID" />
+  <language category="form" class="frmConnect" type="gridheader" id="LastConnect" attribute="Text" name="Last Connect" />
+  <language category="form" class="frmConnect" type="gridheader" id="Remarks" attribute="Text" name="Remarks" />
+  <language category="form" class="frmConnect" type="gridheader" id="TabBackColor" attribute="Text" name="Tab Back Color" />
+  <language category="form" class="frmConnect" type="object" id="grpTabColor" attribute="Text" name="Tab Color" />
+  <language category="form" class="frmConnect" type="object" id="lblBackColor" attribute="Text" name="Back Color:" />
+  <language category="form" class="frmConnect" type="object" id="lblActiveForeColor" attribute="Text" name="Active Fore Color:" />
+  <language category="form" class="frmConnect" type="object" id="lblInactiveForeColor" attribute="Text" name="Inactive Fore Color:" />
+  <language category="form" class="frmConnect" type="object" id="chkDirectMode" attribute="Text" name="Enable Direct Mode" />
+  <language category="form" class="frmConnect" type="object" id="grpOpenFile" attribute="Text" name="Open the specified file below after connecting to database" />
+  <language category="form" class="frmConnect" type="msg" id="WrongPasswordOrNotDBFile" attribute="Text" name="Wrong password or not a database file!" />
+  <language category="form" class="frmConnect" type="msg" id="NotDBFile" attribute="Text" name="It's not a database file!" />
+  <language category="form" class="frmConnect" type="msg" id="Help_ConnectionName1" attribute="Text" name="It's an alias or nickname for easy identification." />
+  <language category="form" class="frmConnect" type="msg" id="Help_ConnectionName2" attribute="Text" name="If necessary, you can rename it next time you connect." />
+  <language category="form" class="frmConnect" type="msg" id="DeleteRecord" attribute="Text" name="Are you sure you want to delete the record below?" />
+  <language category="form" class="frmConnect" type="msg" id="AllRelatedRecords" attribute="Text" name="All related records will be deleted." />
+  <language category="form" class="frmConnect" type="msg" id="AlreadyExists" attribute="Text" name="already exists!" />
+  <language category="form" class="frmConnect" type="msg" id="EnterAnotherConnectionName" attribute="Text" name="Please enter another connection name." />
+  <language category="form" class="frmConnect" type="msg" id="InfoGetSID" attribute="Text" name="You can get the SID using one of the following SQL statements." />
+  <language category="form" class="frmConnect" type="msg" id="InfoEnableUnicode1" attribute="Text" name="If you get the error message below when you execute SQL statement:" />
+  <language category="form" class="frmConnect" type="msg" id="InfoEnableUnicode2" attribute="Text" name="You can enable Unicode function and try again." />
+  <language category="form" class="frmConnect" type="msg" id="InfoCheckDataSource" attribute="Text" name="Please select data source." />
+  <language category="form" class="frmConnect" type="msg" id="InfoCheckConnection" attribute="Text" name="Please enter connection name." />
+  <language category="form" class="frmConnect" type="msg" id="InfoCheckServer" attribute="Text" name="Please enter server name." />
+  <language category="form" class="frmConnect" type="msg" id="InfoCheckSID" attribute="Text" name="Please enter SID." />
+  <language category="form" class="frmConnect" type="msg" id="InfoCheckDatabase" attribute="Text" name="Please enter database name." />
+  <language category="form" class="frmConnect" type="msg" id="InfoCheckPort" attribute="Text" name="Please enter port number." />
+  <language category="form" class="frmConnect" type="msg" id="InfoCheckUser" attribute="Text" name="Please enter user name." />
+  <language category="form" class="frmConnect" type="msg" id="InfoCheckPassword" attribute="Text" name="Please enter password." />
+  <language category="form" class="frmConnect" type="msg" id="AutoRollback1" attribute="Text" name="By executing that wrong SQL statement, postgreSQL will not terminate the execution by itself." />
+  <language category="form" class="frmConnect" type="msg" id="AutoRollback2" attribute="Text" name="So you need to rollback manually." />
+  <language category="form" class="frmConnect" type="msg" id="DirectMode1" attribute="Text" name="In the Direct mode, JasonQuery connects to an Oracle server directly, with third party libraries - Devart.Data.Oracle." />
+  <language category="form" class="frmConnect" type="msg" id="DirectMode2" attribute="Text" name="It allows JasonQuery to work with Oracle directly through TCP/IP protocol without involving the Oracle Client software." />
+  <language category="form" class="frmConnect" type="msg" id="DirectMode3" attribute="Text" name="You only need to have operating system with TCP/IP protocol support." />
+  <language category="form" class="frmConnect" type="msg" id="ColorTheme" attribute="Text" name="You can change the color theme from [Tools] &gt; [Options] &gt; [General]." />
+  <language category="form" class="frmConnect" type="msg" id="Shortcut" attribute="Text" name="A shortcut has been created on the desktop!" />
+  <language category="form" class="frmConnect" type="msg" id="PasswordEncrypt" attribute="Text" name="Password will be encrypted with your domain username." />
+  <language category="form" class="frmConnect" type="msg" id="SavePassword" attribute="Text" name="If you do not want your password to be stored in &quot;JasonQuery.db&quot;, please uncheck &quot;Save Password&quot;." />
+  <language category="form" class="frmConnect" type="msg" id="WrongPassword" attribute="Text" name="Wrong password!" />
+  <language category="form" class="frmConnect" type="msg" id="Resolve" attribute="Text" name="Could not resolve your password correctly." />
+  <language category="form" class="frmConnect" type="msg" id="ReEnter" attribute="Text" name="You must re-enter your password." />
+  <language category="form" class="frmConnect" type="msg" id="Pooling" attribute="Text" name="Connection pooling enables JasonQuery to use a connection from a pool of connections that do not need to be reestablished for each use. Once a connection has been created and placed in a pool, JasonQuery can reuse that connection without performing the complete connection process." />
+  <language category="form" class="frmConnect" type="msg" id="Pooling1" attribute="Text" name="If it is enabled, when you disconnect the database connection, the actual connection is not closed in order to be used later by JasonQuery. This boosts performance greatly." />
+  <language category="form" class="frmConnect" type="msg" id="Pooling2" attribute="Text" name="If it is disabled, the database connection will not be seen from the server when the connection is disconnected." />
+  <!-- frmGenerateSQL -->
+  <language category="form" class="frmGenerateSQL" type="object" id="this" attribute="Text" name="Generate SQL Statement" />
+  <language category="form" class="frmGenerateSQL" type="object" id="rdoUpperAll" attribute="Text" name="Upper case - All" />
+  <language category="form" class="frmGenerateSQL" type="object" id="rdoUpperKeywords" attribute="Text" name="UPPER case - Keywords Only" />
+  <language category="form" class="frmGenerateSQL" type="object" id="rdoLowerAll" attribute="Text" name="lower case - All" />
+  <language category="form" class="frmGenerateSQL" type="object" id="rdoLowerKeywords" attribute="Text" name="lower case - Keywords Only" />
+  <language category="form" class="frmGenerateSQL" type="object" id="lblNumbers" attribute="Text" name="Number of column names per line:" />
+  <language category="form" class="frmGenerateSQL" type="object" id="chkDisplayColumnTypeInfo" attribute="Text" name="Display Column Type Info" />
+  <language category="form" class="frmGenerateSQL" type="object" id="chkDisplayPKInfo" attribute="Text" name="Display Primary Key Info" />
+  <language category="form" class="frmGenerateSQL" type="object" id="chkDisplayLimit" attribute="Text" name="Display Limit Info" />
+  <language category="form" class="frmGenerateSQL" type="object" id="btnSelectAll" attribute="Text" name="Select &amp;All" />
+  <language category="form" class="frmGenerateSQL" type="object" id="btnUnselectAll" attribute="Text" name="&amp;Unselect All" />
+  <language category="form" class="frmGenerateSQL" type="object" id="btnPreview" attribute="Text" name="&amp;Preview" />
+  <language category="form" class="frmGenerateSQL" type="object" id="grpPreview" attribute="Text" name="Preview" />
+  <language category="form" class="frmGenerateSQL" type="object" id="btnPasteToSQLEditor" attribute="Text" name="Paste to SQL Editor" />
+  <language category="form" class="frmGenerateSQL" type="object" id="btnCopyToClipboard" attribute="Text" name="Copy to Clipboard" />
+  <language category="form" class="frmGenerateSQL" type="object" id="btnClose" attribute="Text" name="&amp;Close" />
+  <language category="form" class="frmGenerateSQL" type="gridheader" id="Column_Name" attribute="Text" name="Column Name" />
+  <language category="form" class="frmGenerateSQL" type="gridheader" id="Column_ID" attribute="Text" name="Sequence" />
+  <language category="form" class="frmGenerateSQL" type="gridheader" id="DataType" attribute="Text" name="Data Type" />
+  <!-- frmSchemaBrowser -->
+  <language category="form" class="frmSchemaBrowser" type="object" id="this" attribute="Text" name="Schema Browser" />
+  <language category="form" class="frmSchemaBrowser" type="object" id="btnRefresh" attribute="ToolTipText" name="Refresh" />
+  <language category="form" class="frmSchemaBrowser" type="object" id="btnExpandCollapse" attribute="ToolTipText" name="Expand/Collapse" />
+  <language category="form" class="frmSchemaBrowser" type="object" id="mnuExpandAll" attribute="Text" name="Expand All" />
+  <language category="form" class="frmSchemaBrowser" type="object" id="mnuCollapseAll" attribute="Text" name="Collapse All" />
+  <language category="form" class="frmSchemaBrowser" type="object" id="lblSchemaType" attribute="Text" name="Schema Type:" />
+  <language category="form" class="frmSchemaBrowser" type="object" id="lblFilter" attribute="Text" name="Filter:" />
+  <language category="form" class="frmSchemaBrowser" type="object" id="tabSQLPane" attribute="Text" name="SQL Pane" />
+  <language category="form" class="frmSchemaBrowser" type="object" id="tabTableStructure" attribute="Text" name="Table Structure" />
+  <language category="form" class="frmSchemaBrowser" type="object" id="tabView100RowsTop" attribute="Text" name="View Top 100 Rows" />
+  <language category="form" class="frmSchemaBrowser" type="object" id="tabView100RowsLast" attribute="Text" name="View Last 100 Rows" />
+  <language category="form" class="frmSchemaBrowser" type="object" id="btnSelectAll" attribute="ToolTipText" name="Select All" />
+  <language category="form" class="frmSchemaBrowser" type="object" id="btnCopy" attribute="ToolTipText" name="Copy" />
+  <language category="form" class="frmSchemaBrowser" type="object" id="btnWordWrap" attribute="ToolTipText" name="Word Wrap" />
+  <language category="form" class="frmSchemaBrowser" type="object" id="btnWordWrap2" attribute="ToolTipText" name="Word Wrap" />
+  <language category="form" class="frmSchemaBrowser" type="object" id="lblTableName" attribute="Text" name="Table Name:" />
+  <language category="form" class="frmSchemaBrowser" type="object" id="lblViewName" attribute="Text" name="View Name:" />
+  <language category="form" class="frmSchemaBrowser" type="object" id="lblTableName1" attribute="Text" name="Table Name:" />
+  <language category="form" class="frmSchemaBrowser" type="object" id="btnTableSelectAll" attribute="ToolTipText" name="Select All" />
+  <language category="form" class="frmSchemaBrowser" type="object" id="btnTableCopy" attribute="ToolTipText" name="Copy" />
+  <language category="form" class="frmSchemaBrowser" type="object" id="btnTableExportToFile" attribute="ToolTipText" name="Export to File" />
+  <language category="form" class="frmSchemaBrowser" type="object" id="lblTableName2" attribute="Text" name="Table Name:" />
+  <language category="form" class="frmSchemaBrowser" type="object" id="btnTopSelectAll" attribute="ToolTipText" name="Select All" />
+  <language category="form" class="frmSchemaBrowser" type="object" id="btnTopCopy" attribute="ToolTipText" name="Copy" />
+  <language category="form" class="frmSchemaBrowser" type="object" id="btnTopExportToFile" attribute="ToolTipText" name="Export to File" />
+  <language category="form" class="frmSchemaBrowser" type="object" id="lblTableName3" attribute="Text" name="Table Name:" />
+  <language category="form" class="frmSchemaBrowser" type="object" id="btnLastSelectAll" attribute="ToolTipText" name="Select All" />
+  <language category="form" class="frmSchemaBrowser" type="object" id="btnLastCopy" attribute="ToolTipText" name="Copy" />
+  <language category="form" class="frmSchemaBrowser" type="object" id="btnLastExportToFile" attribute="ToolTipText" name="Export to File" />
+  <language category="form" class="frmSchemaBrowser" type="object" id="chkCopyAsHTML" attribute="Text" name="Copy SQL Statement As HTML" />
+  <language category="form" class="frmSchemaBrowser" type="menueditor" id="SelectAll" attribute="Text" name="Select All" />
+  <language category="form" class="frmSchemaBrowser" type="menueditor" id="Copy" attribute="Text" name="Copy" />
+  <language category="form" class="frmSchemaBrowser" type="menugrid1" id="Copy" attribute="Text" name="Copy" />
+  <language category="form" class="frmSchemaBrowser" type="menugrid1" id="SelectedCell" attribute="Text" name="Selected Cell" />
+  <language category="form" class="frmSchemaBrowser" type="menugrid1" id="SelectedCells" attribute="Text" name="Selected Cells" />
+  <language category="form" class="frmSchemaBrowser" type="menugrid2" id="SelectAll" attribute="Text" name="Select All" />
+  <language category="form" class="frmSchemaBrowser" type="menugrid2" id="Copy" attribute="Text" name="Copy" />
+  <language category="form" class="frmSchemaBrowser" type="menugrid2" id="ExportToFile" attribute="Text" name="Export to File" />
+  <language category="form" class="frmSchemaBrowser" type="msg" id="GetSchemaInformation" attribute="Text" name="Get Schema Information" />
+  <!-- frmSQLHistory -->
+  <language category="form" class="frmSQLHistory" type="object" id="this" attribute="Text" name="SQL History" />
+  <language category="form" class="frmSQLHistory" type="object" id="lblDataSource" attribute="Text" name="Data Source:" />
+  <language category="form" class="frmSQLHistory" type="object" id="lblConnectionName" attribute="Text" name="Connection Name:" />
+  <language category="form" class="frmSQLHistory" type="object" id="lblHistoryPeriod" attribute="Text" name="History Period:" />
+  <language category="form" class="frmSQLHistory" type="object" id="btnSearch" attribute="ToolTipText" name="Search SQL History" />
+  <language category="form" class="frmSQLHistory" type="object" id="btnSelectAll" attribute="ToolTipText" name="Select All" />
+  <language category="form" class="frmSQLHistory" type="object" id="btnUnselectAll" attribute="ToolTipText" name="Unselect All" />
+  <language category="form" class="frmSQLHistory" type="object" id="btnDelete" attribute="ToolTipText" name="Delete Selected Records" />
+  <language category="form" class="frmSQLHistory" type="object" id="btnCompact" attribute="ToolTipText" name="Compact 'JasonQuery.db'" />
+  <language category="form" class="frmSQLHistory" type="object" id="chkShowFilterRow" attribute="Text" name="Show Filter Row" />
+  <language category="form" class="frmSQLHistory" type="object" id="btnSelectAll2" attribute="ToolTipText" name="Select All" />
+  <language category="form" class="frmSQLHistory" type="object" id="btnCopy" attribute="ToolTipText" name="Copy" />
+  <language category="form" class="frmSQLHistory" type="object" id="btnWordWrap" attribute="ToolTipText" name="Word Wrap" />
+  <language category="form" class="frmSQLHistory" type="object" id="btnWordWrap2" attribute="ToolTipText" name="Word Wrap" />
+  <language category="form" class="frmSQLHistory" type="object" id="btnShowAllCharacters" attribute="ToolTipText" name="Show All Characters" />
+  <language category="form" class="frmSQLHistory" type="object" id="btnShowAllCharacters2" attribute="ToolTipText" name="Show All Characters" />
+  <language category="form" class="frmSQLHistory" type="object" id="btnCompact" attribute="ToolTipText" name="Compact 'JasonQuery.db'" />
+  <language category="form" class="frmSQLHistory" type="object" id="chkCopyAsHTML" attribute="Text" name="Copy SQL Statement As HTML" />
+  <language category="form" class="frmSQLHistory" type="gridheader" id="DataSource" attribute="Text" name="Data Source" />
+  <language category="form" class="frmSQLHistory" type="gridheader" id="ConnectionName" attribute="Text" name="Connection Name" />
+  <language category="form" class="frmSQLHistory" type="gridheader" id="ExecutionDate" attribute="Text" name="Execution Date" />
+  <language category="form" class="frmSQLHistory" type="gridheader" id="ExecutionTime" attribute="Text" name="Execution Time" />
+  <language category="form" class="frmSQLHistory" type="gridheader" id="QueryTime" attribute="Text" name="Query Time" />
+  <language category="form" class="frmSQLHistory" type="gridheader" id="Rows" attribute="Text" name="Rows" />
+  <language category="form" class="frmSQLHistory" type="gridheader" id="Result" attribute="Text" name="Result" />
+  <language category="form" class="frmSQLHistory" type="gridheader" id="Message" attribute="Text" name="Message" />
+  <language category="form" class="frmSQLHistory" type="gridheader" id="SQLStatement" attribute="Text" name="SQL Statement" />
+  <language category="form" class="frmSQLHistory" type="dropdownlist" id="HistoryPeriod_within7days" attribute="Text" name="within 7 days" />
+  <language category="form" class="frmSQLHistory" type="dropdownlist" id="HistoryPeriod_within14days" attribute="Text" name="within 14 days" />
+  <language category="form" class="frmSQLHistory" type="dropdownlist" id="HistoryPeriod_within30days" attribute="Text" name="within 30 days" />
+  <language category="form" class="frmSQLHistory" type="dropdownlist" id="HistoryPeriod_before30days" attribute="Text" name="before 30 days" />
+  <language category="form" class="frmSQLHistory" type="dropdownlist" id="HistoryPeriod_All" attribute="Text" name="All" />
+  <language category="form" class="frmSQLHistory" type="menugrid" id="ExportAllDataToFile" attribute="Text" name="Export All Data to File" />
+  <language category="form" class="frmSQLHistory" type="menueditor" id="SelectAll" attribute="Text" name="Select All" />
+  <language category="form" class="frmSQLHistory" type="menueditor" id="Copy" attribute="Text" name="Copy" />
+  <language category="form" class="frmSQLHistory" type="msg" id="AllWillBeDeleted" attribute="Text" name="All selected records will be deleted!" />
+  <language category="form" class="frmSQLHistory" type="msg" id="WantToContinue" attribute="Text" name="Are you sure you want to continue?" />
+  <language category="form" class="frmSQLHistory" type="msg" id="AllHaveBeenDeleted" attribute="Text" name="All selected records have been deleted!" />
+  <!-- frmQuery -->
+  <language category="form" class="frmQuery" type="object" id="btnNew" attribute="ToolTipText" name="Open New SQL Editor (Ctrl+N)" />
+  <language category="form" class="frmQuery" type="object" id="btnOpen" attribute="ToolTipText" name="Open Query file (Ctrl+O)" />
+  <language category="form" class="frmQuery" type="object" id="btnSave" attribute="ToolTipText" name="Save (Ctrl+S)&#x000A;Save as Encoding: UTF8" />
+  <language category="form" class="frmQuery" type="object" id="btnSaveRed" attribute="ToolTipText" name="Save (Ctrl+S)&#x000A;Save as Encoding: UTF8" />
+  <language category="form" class="frmQuery" type="object" id="btnSaveAs" attribute="ToolTipText" name="Save As (F12)&#x000A;Save as Encoding: UTF8" />
+  <language category="form" class="frmQuery" type="object" id="btnQuery" attribute="ToolTipText" name="Execute Statement (F5)&#x000A;(Selected or All)" />
+  <language category="form" class="frmQuery" type="object" id="btnSelectCurrentBlock" attribute="ToolTipText" name="Select Current Block (Ctrl+B)" />
+  <language category="form" class="frmQuery" type="object" id="btnExecuteCurrentBlock" attribute="ToolTipText" name="Execute Current Block (Ctrl+Enter)" />
+  <language category="form" class="frmQuery" type="object" id="btnCancelQuery" attribute="ToolTipText" name="Cancel Query" />
+  <language category="form" class="frmQuery" type="object" id="btnCode2SQL" attribute="ToolTipText" name="Code to SQL&#x000A;(Strip SQL from non-SQL code)" />
+  <language category="form" class="frmQuery" type="object" id="btnSQL2Code" attribute="ToolTipText" name="SQL to Code&#x000A;(Make non-SQL code statement from SQL)" />
+  <language category="form" class="frmQuery" type="object" id="btnComment" attribute="ToolTipText" name="Comment" />
+  <language category="form" class="frmQuery" type="object" id="btnRemoveComment" attribute="ToolTipText" name="Un-Comment" />
+  <language category="form" class="frmQuery" type="object" id="btnIndent" attribute="ToolTipText" name="Indent (Tab)" />
+  <language category="form" class="frmQuery" type="object" id="btnUnIndent" attribute="ToolTipText" name="Un-Indent (Shift + Tab)" />
+  <language category="form" class="frmQuery" type="object" id="txtIndentWord" attribute="ToolTipText" name="Indent / Un-Indent Width" />
+  <language category="form" class="frmQuery" type="object" id="btnWordWrap" attribute="ToolTipText" name="Word Wrap" />
+  <language category="form" class="frmQuery" type="object" id="btnWordWrap2" attribute="ToolTipText" name="Word Wrap" />
+  <language category="form" class="frmQuery" type="object" id="btnShowAllCharacters" attribute="ToolTipText" name="Show All Characters" />
+  <language category="form" class="frmQuery" type="object" id="btnShowAllCharacters2" attribute="ToolTipText" name="Show All Characters" />
+  <language category="form" class="frmQuery" type="object" id="btnShowIndentGuide" attribute="ToolTipText" name="Show Indent Guide" />
+  <language category="form" class="frmQuery" type="object" id="btnShowIndentGuide2" attribute="ToolTipText" name="Show Indent Guide" />
+  <language category="form" class="frmQuery" type="object" id="lblFind" attribute="Text" name="Find:" />
+  <language category="form" class="frmQuery" type="object" id="btnFindNext" attribute="ToolTipText" name="Find Next" />
+  <language category="form" class="frmQuery" type="object" id="btnFindPrevious" attribute="ToolTipText" name="Find Previous" />
+  <language category="form" class="frmQuery" type="object" id="btnCount" attribute="ToolTipText" name="Count" />
+  <language category="form" class="frmQuery" type="object" id="btnHighlightAll" attribute="ToolTipText" name="Highlight All" />
+  <language category="form" class="frmQuery" type="object" id="btnClearHighlights" attribute="ToolTipText" name="Clear Highlights" />
+  <language category="form" class="frmQuery" type="object" id="lblFindGrid" attribute="Text" name="Find:" />
+  <language category="form" class="frmQuery" type="object" id="btnFindNextGrid" attribute="ToolTipText" name="Find Next" />
+  <language category="form" class="frmQuery" type="object" id="btnFindPreviousGrid" attribute="ToolTipText" name="Find Previous" />
+  <language category="form" class="frmQuery" type="object" id="btnCountGrid" attribute="ToolTipText" name="Count" />
+  <language category="form" class="frmQuery" type="object" id="btnHighlightAllGrid" attribute="ToolTipText" name="Highlight All" />
+  <language category="form" class="frmQuery" type="object" id="btnClearHighlightsGrid" attribute="ToolTipText" name="Clear Highlights" />
+  <language category="form" class="frmQuery" type="object" id="btnCommit" attribute="ToolTipText" name="Commit" />
+  <language category="form" class="frmQuery" type="object" id="btnRollback" attribute="ToolTipText" name="Rollback" />
+  <language category="form" class="frmQuery" type="object" id="btnExportToFile" attribute="ToolTipText" name="Export All Data to File (Excel/CSV...)" />
+  <language category="form" class="frmQuery" type="object" id="btnFreezeColumn" attribute="ToolTipText" name="Freeze Column" />
+  <language category="form" class="frmQuery" type="object" id="btnAutoSize" attribute="ToolTipText" name="Automatically Resize Column Width according to Data Result" />
+  <language category="form" class="frmQuery" type="object" id="btnAutoSort" attribute="ToolTipText" name="Automatically Sort Data Result according to Column Header" />
+  <language category="form" class="frmQuery" type="object" id="chkShowFilterRow" attribute="Text" name="Show Filter Row" />
+  <language category="form" class="frmQuery" type="object" id="chkShowFilterRow" attribute="ToolTipText" name="Show Filter Row" />
+  <language category="form" class="frmQuery" type="object" id="chkSize" attribute="Text" name="Resize" />
+  <language category="form" class="frmQuery" type="object" id="chkSize" attribute="ToolTipText" name="Automatically Resize Column Width according to Data Result" />
+  <language category="form" class="frmQuery" type="object" id="Width" attribute="Text" name="width" />
+  <language category="form" class="frmQuery" type="object" id="chkSort" attribute="Text" name="Sort" />
+  <language category="form" class="frmQuery" type="object" id="chkSort" attribute="ToolTipText" name="Automatically Sort Data Result according to Column Header" />
+  <language category="form" class="frmQuery" type="object" id="chkRawDataMode" attribute="Text" name="Raw Data Mode" />
+  <language category="form" class="frmQuery" type="object" id="chkShowColumnType" attribute="Text" name="Show Column Type" />
+  <language category="form" class="frmQuery" type="object" id="tabMessage" attribute="Text" name="Message" />
+  <language category="form" class="frmQuery" type="object" id="tabDataGrid" attribute="Text" name="Data Grid" />
+  <language category="form" class="frmQuery" type="object" id="tabSQLHistory" attribute="Text" name="SQL History" />
+  <language category="form" class="frmQuery" type="menueditor" id="Execute" attribute="Text" name="Execute" />
+  <language category="form" class="frmQuery" type="menueditor" id="ExecuteCurrentBlock" attribute="Text" name="Execute Current Block" />
+  <language category="form" class="frmQuery" type="menueditor" id="Undo" attribute="Text" name="Undo" />
+  <language category="form" class="frmQuery" type="menueditor" id="Redo" attribute="Text" name="Redo" />
+  <language category="form" class="frmQuery" type="menueditor" id="Cut" attribute="Text" name="Cut" />
+  <language category="form" class="frmQuery" type="menueditor" id="Copy" attribute="Text" name="Copy" />
+  <language category="form" class="frmQuery" type="menueditor" id="CopyTo" attribute="Text" name="CopyTo..." />
+  <language category="form" class="frmQuery" type="menueditor" id="Paste" attribute="Text" name="Paste" />
+  <language category="form" class="frmQuery" type="menueditor" id="Delete" attribute="Text" name="Delete" />
+  <language category="form" class="frmQuery" type="menueditor" id="Find" attribute="Text" name="Find" />
+  <language category="form" class="frmQuery" type="menueditor" id="Replace" attribute="Text" name="Replace" />
+  <language category="form" class="frmQuery" type="menueditor" id="SelectAll" attribute="Text" name="Select All" />
+  <language category="form" class="frmQuery" type="menueditor" id="SelectCurrentBlock" attribute="Text" name="Select Current Block" />
+  <language category="form" class="frmQuery" type="menueditor" id="Comment" attribute="Text" name="Comment" />
+  <language category="form" class="frmQuery" type="menueditor" id="Uncomment" attribute="Text" name="Un-Comment" />
+  <language category="form" class="frmQuery" type="menueditor" id="Indent" attribute="Text" name="Indent" />
+  <language category="form" class="frmQuery" type="menueditor" id="Unindent" attribute="Text" name="Un-Indent" />
+  <language category="form" class="frmQuery" type="menueditor" id="UpperCase" attribute="Text" name="Upper Case" />
+  <language category="form" class="frmQuery" type="menueditor" id="LowerCase" attribute="Text" name="Lower Case" />
+  <language category="form" class="frmQuery" type="menueditor" id="SQLFormatter" attribute="Text" name="SQL Formatter" />
+  <language category="form" class="frmQuery" type="menugrid" id="CellViewer" attribute="Text" name="Cell Viewer" />
+  <language category="form" class="frmQuery" type="menugrid" id="SingleRecordViewer" attribute="Text" name="Single Record Viewer" />
+  <language category="form" class="frmQuery" type="menugrid" id="SelectAll" attribute="Text" name="Select All" />
+  <language category="form" class="frmQuery" type="menugrid" id="ExportAllDataToFile" attribute="Text" name="Export All Data to File (Excel/CSV...)" />
+  <language category="form" class="frmQuery" type="menugrid" id="ExportAllDataToFileScript" attribute="Text" name="Export All Data to File (as &quot;Insert Into&quot; Script)" />
+  <language category="form" class="frmQuery" type="menugrid" id="ExportAllDataToClipboard" attribute="Text" name="Export All Data to Clipboard (as &quot;Insert Into&quot; Script)" />
+  <language category="form" class="frmQuery" type="menugrid" id="ExportAllDataToClipboardCurrentRow" attribute="Text" name="Export Current Row Data to Clipboard (as &quot;Insert Into&quot; Script)" />
+  <language category="form" class="frmQuery" type="menugrid" id="Copy" attribute="Text" name="Copy" />
+  <language category="form" class="frmQuery" type="menugrid" id="CopyAsQueryCondition" attribute="Text" name="Copy as Query Condition" />
+  <language category="form" class="frmQuery" type="menugrid" id="CopyWithColumnName" attribute="Text" name="Copy with Column Name(s)" />
+  <language category="form" class="frmQuery" type="menugrid" id="CopyColumnName" attribute="Text" name="Copy Column Name(s)" />
+  <language category="form" class="frmQuery" type="menugrid" id="FreezeColumn" attribute="Text" name="Freeze Column" />
+  <language category="form" class="frmQuery" type="menugrid" id="UnfreezeColumn" attribute="Text" name="Unfreeze Column" />
+  <language category="form" class="frmQuery" type="menugrid" id="Sort" attribute="Text" name="Sort" />
+  <language category="form" class="frmQuery" type="menugrid" id="SortByNumber" attribute="Text" name="Sort by NUMBER" />
+  <language category="form" class="frmQuery" type="object" id="btnExpandCollapse" attribute="ToolTipText" name="Expand/Collapse" />
+  <language category="form" class="frmQuery" type="object" id="mnuExpandAll" attribute="Text" name="Expand All" />
+  <language category="form" class="frmQuery" type="object" id="mnuCollapseAll" attribute="Text" name="Collapse All" />
+  <language category="form" class="frmQuery" type="object" id="lblSchemaType" attribute="Text" name="Schema Type:" />
+  <language category="form" class="frmQuery" type="object" id="lblSchemaFilter" attribute="Text" name="Filter:" />
+  <language category="form" class="frmQuery" type="object" id="lblResultCopyQuotingWith" attribute="Text" name="Result Copy Quoting with:" />
+  <language category="form" class="frmQuery" type="object" id="lblResultCopyFieldSeparator" attribute="Text" name="Result Copy Field Separator:" />
+  <language category="form" class="frmQuery" type="object" id="lblAutoReplace" attribute="Text" name="Auto Replace" />
+  <language category="form" class="frmQuery" type="object" id="cboFindBox" attribute="ToolTipText" name="Find..." />
+  <language category="form" class="frmQuery" type="object" id="cboReplaceBox" attribute="ToolTipText" name="Replace..." />
+  <language category="form" class="frmQuery" type="object" id="lblFindAndReplace" attribute="Text" name="Find And Replace" />
+  <language category="form" class="frmQuery" type="object" id="btnClose" attribute="ToolTipText" name="Close" />
+  <language category="form" class="frmQuery" type="object" id="btnFindNextBox" attribute="Text" name="Find Next" />
+  <language category="form" class="frmQuery" type="object" id="btnFindPreviousBox" attribute="Text" name="Find Previous" />
+  <language category="form" class="frmQuery" type="object" id="btnReplace" attribute="Text" name="&amp;Replace" />
+  <language category="form" class="frmQuery" type="object" id="btnReplaceAll" attribute="Text" name="Replace &amp;All" />
+  <language category="form" class="frmQuery" type="object" id="btnCountBox" attribute="ToolTipText" name="Count" />
+  <language category="form" class="frmQuery" type="object" id="btnHighlightAllBox" attribute="ToolTipText" name="Highlight All" />
+  <language category="form" class="frmQuery" type="object" id="btnClearHighlightsBox" attribute="ToolTipText" name="Clear Highlights" />
+  <language category="form" class="frmQuery" type="object" id="btnMatchCase" attribute="ToolTipText" name="Match Case" />
+  <language category="form" class="frmQuery" type="object" id="btnMatchCase2" attribute="ToolTipText" name="Match Case" />
+  <language category="form" class="frmQuery" type="object" id="btnMatchCaseBox" attribute="ToolTipText" name="Match Case" />
+  <language category="form" class="frmQuery" type="object" id="btnMatchCaseBox2" attribute="ToolTipText" name="Match Case" />
+  <language category="form" class="frmQuery" type="object" id="btnMatchWholeWordOnly" attribute="ToolTipText" name="Match Whole Word Only" />
+  <language category="form" class="frmQuery" type="object" id="btnMatchWholeWordOnly2" attribute="ToolTipText" name="Match Whole Word Only" />
+  <language category="form" class="frmQuery" type="object" id="cboActionScope" attribute="Text" name="Current Document" />
+  <language category="form" class="frmQuery" type="object" id="btnShowSQL" attribute="ToolTipText" name="SQL Statement Viewer" />
+  <language category="form" class="frmQuery" type="object" id="btnOptions_SchemaBrowser" attribute="ToolTipText" name="Options for Generating SQL" />
+  <language category="form" class="frmQuery" type="object" id="btnOptions" attribute="ToolTipText" name="Options" />
+  <language category="form" class="frmQuery" type="object" id="mnuResultCopyQuotingWith" attribute="Text" name="Result Copy Quoting With" />
+  <language category="form" class="frmQuery" type="object" id="mnuResultCopyFieldSeparator" attribute="Text" name="Result Copy Field Separator" />
+  <language category="form" class="frmQuery" type="object" id="mnuPreviewCLOBData" attribute="Text" name="Preview CLOB Data" />
+  <language category="form" class="frmQuery" type="object" id="mnuPreviewCLOBData" attribute="ToolTipText" name="Toggle &quot;Preview CLOB Data&quot;" />
+  <language category="form" class="frmQuery" type="object" id="btnPaginationOn" attribute="Text" name="Paging Query" />
+  <language category="form" class="frmQuery" type="object" id="btnPaginationOn" attribute="ToolTipText" name="{qty} rows per page" />
+  <language category="form" class="frmQuery" type="object" id="btnPaginationOff" attribute="Text" name="Paging Query" />
+  <language category="form" class="frmQuery" type="object" id="btnPaginationOff" attribute="ToolTipText" name="{qty} rows per page" />
+  <language category="form" class="frmQuery" type="object" id="btnNextPage" attribute="ToolTipText" name="Next Page" />
+  <language category="form" class="frmQuery" type="object" id="btnNextPage_LastPage" attribute="ToolTipText" name="It's the last page!" />
+  <language category="form" class="frmQuery" type="object" id="mnuCSharpStyle1" attribute="Text" name="Style 1: Using + operator" />
+  <language category="form" class="frmQuery" type="object" id="mnuCSharpStyle2" attribute="Text" name="Style 2: New line character \r\n" />
+  <language category="form" class="frmQuery" type="object" id="mnuCSharpStyle3" attribute="Text" name="Style 3: New line character Enviroment.NewLine" />
+  <language category="form" class="frmQuery" type="object" id="mnuVBNetStyle1" attribute="Text" name="Style 1: Using &amp;&amp; operator" />
+  <language category="form" class="frmQuery" type="object" id="mnuVBNetStyle2" attribute="Text" name="Style 2: New line character VbCrLf" />
+  <language category="form" class="frmQuery" type="object" id="mnuVBNetStyle3" attribute="Text" name="Style 3: New line character Enviroment.NewLine" />
+  <language category="form" class="frmQuery" type="object" id="mnuVB6AStyle1" attribute="Text" name="Style 1: Using &amp;&amp; operator" />
+  <language category="form" class="frmQuery" type="object" id="mnuVB6AStyle2" attribute="Text" name="Style 2: New line character VbCrLf" />
+  <language category="form" class="frmQuery" type="object" id="mnuDelphi6Style1" attribute="Text" name="Style 1: Using + operator" />
+  <language category="form" class="frmQuery" type="object" id="mnuDelphi6Style2" attribute="Text" name="Style 2: New line character #13#10" />
+  <language category="form" class="frmQuery" type="dropdownlist" id="ActionScope_Current" attribute="Text" name="Current Document" />
+  <language category="form" class="frmQuery" type="dropdownlist" id="ActionScope_Selected" attribute="Text" name="In Selection" />
+  <language category="form" class="frmQuery" type="statusbarobject" id="lblEditorLength" attribute="Text" name="Length:" />
+  <language category="form" class="frmQuery" type="statusbarobject" id="lblEditorLines" attribute="Text" name="Lines:" />
+  <language category="form" class="frmQuery" type="statusbarobject" id="lblEditorLn" attribute="Text" name="Ln:" />
+  <language category="form" class="frmQuery" type="statusbarobject" id="lblEditorCol" attribute="Text" name="Col:" />
+  <language category="form" class="frmQuery" type="statusbarobject" id="lblEditorPos" attribute="Text" name="Pos:" />
+  <language category="form" class="frmQuery" type="statusbarobject" id="lblEditorSel" attribute="Text" name="Sel:" />
+  <language category="form" class="frmQuery" type="statusbarobject" id="lblExecTime" attribute="Text" name="Exec Time:" />
+  <language category="form" class="frmQuery" type="statusbarobject" id="lblQueryTime" attribute="Text" name="Query Time:" />
+  <language category="form" class="frmQuery" type="statusbarobject" id="lblRows" attribute="Text" name="row(s)" />
+  <language category="form" class="frmQuery" type="statusbarobject" id="lblAverage" attribute="Text" name="Average:" />
+  <language category="form" class="frmQuery" type="statusbarobject" id="lblCount" attribute="Text" name="Count:" />
+  <language category="form" class="frmQuery" type="statusbarobject" id="lblSummary" attribute="Text" name="Sum:" />
+  <language category="form" class="frmQuery" type="msg" id="KeepNonExistingFile" attribute="Text" name="Keep non existing file" />
+  <language category="form" class="frmQuery" type="msg" id="ThisFileDoesntExist" attribute="Text" name="This file doesn't exist anymore." />
+  <language category="form" class="frmQuery" type="msg" id="FileDoesntExist" attribute="Text" name="{filename} doesn't exist." />
+  <language category="form" class="frmQuery" type="msg" id="KeepThisFileInEditor" attribute="Text" name="Keep this file in editor?" />
+  <language category="form" class="frmQuery" type="msg" id="Reload" attribute="Text" name="Reload" />
+  <language category="form" class="frmQuery" type="msg" id="Reload1" attribute="Text" name="Do you want to reload it and lose the changes made in JasonQuery?" />
+  <language category="form" class="frmQuery" type="msg" id="Reload2" attribute="Text" name="Do you want to reload it?" />
+  <language category="form" class="frmQuery" type="msg" id="ModifiedByAnotherProgram" attribute="Text" name="This file has been modified by another program." />
+  <language category="form" class="frmQuery" type="msg" id="CantFindText" attribute="Text" name="Can't find the text" />
+  <language category="form" class="frmQuery" type="msg" id="FindWhat" attribute="Text" name="Find What:" />
+  <language category="form" class="frmQuery" type="msg" id="MatchCase" attribute="Text" name="Match Case:" />
+  <language category="form" class="frmQuery" type="msg" id="MatchWholeWordOnly" attribute="Text" name="Match Whole Word Only:" />
+  <language category="form" class="frmQuery" type="msg" id="Count" attribute="Text" name="Count:" />
+  <language category="form" class="frmQuery" type="msg" id="matches" attribute="Text" name="matches." />
+  <language category="form" class="frmQuery" type="msg" id="Save" attribute="Text" name="Save" />
+  <language category="form" class="frmQuery" type="msg" id="SaveFile" attribute="Text" name="Save file?" />
+  <language category="form" class="frmQuery" type="msg" id="RecentFiles" attribute="Text" name="Recent Files" />
+  <language category="form" class="frmQuery" type="msg" id="MyFavorite" attribute="Text" name="My Favorite" />
+  <language category="form" class="frmQuery" type="msg" id="FileNotFound" attribute="Text" name="File not found." />
+  <language category="form" class="frmQuery" type="msg" id="YesCreateIt" attribute="Text" name="Yes: Create it!" />
+  <language category="form" class="frmQuery" type="msg" id="OKCreateIt" attribute="Text" name="OK: Create it!" />
+  <language category="form" class="frmQuery" type="msg" id="DoNothing" attribute="Text" name="Cancel: Do nothing!" />
+  <language category="form" class="frmQuery" type="msg" id="RemoveFromRecentFiles" attribute="Text" name="No: Remove the file from &quot;Recent Files&quot;!" />
+  <language category="form" class="frmQuery" type="msg" id="RemoveFromMyFavorite" attribute="Text" name="No: Remove the file from &quot;My Favorite&quot;" />
+  <language category="form" class="frmQuery" type="msg" id="CreateNewFile" attribute="Text" name="Create new file" />
+  <language category="form" class="frmQuery" type="msg" id="CreateIt" attribute="Text" name="Create it?" />
+  <language category="form" class="frmQuery" type="msg" id="ReplaceOneAndNextFound" attribute="Text" name="1 occurrence was replaced. The next occurrence found." />
+  <language category="form" class="frmQuery" type="msg" id="ReplaceOneAndNextNotFound" attribute="Text" name="1 occurrence was replaced. The next occurrence not found." />
+  <language category="form" class="frmQuery" type="msg" id="Replaced" attribute="Text" name="{qty} occurrence(s) were replaced." />
+  <language category="form" class="frmQuery" type="msg" id="TableName" attribute="Text" name="Table name" />
+  <language category="form" class="frmQuery" type="msg" id="InputTableName" attribute="Text" name="Please input the &quot;Insert Into&quot; table name:" />
+  <language category="form" class="frmQuery" type="msg" id="DateTime2ToDate" attribute="Text" name="DateTime field(s) will be converted using &quot;TO_DATE&quot; function" />
+  <language category="form" class="frmQuery" type="msg" id="DateTime2String" attribute="Text" name="DateTime field(s) will be converted to &quot;STRING&quot;" />
+  <language category="form" class="frmQuery" type="msg" id="ExportOK" attribute="Text" name="has been exported!" />
+  <language category="form" class="frmQuery" type="msg" id="AutoOpenExportedFile" attribute="Text" name="After the file is generated, the file will be opened automatically in a new window." />
+  <language category="form" class="frmQuery" type="msg" id="CommitPrompt1" attribute="Text" name="Your connection to {DBType} is closing." />
+  <language category="form" class="frmQuery" type="msg" id="CommitPrompt2" attribute="Text" name="JasonQuery has detected that you have uncommitted changes in that session." />
+  <language category="form" class="frmQuery" type="msg" id="CommitPrompt_Yes" attribute="Text" name="Yes: Commit!" />
+  <language category="form" class="frmQuery" type="msg" id="CommitPrompt_No" attribute="Text" name="No: Rollback!" />
+  <language category="form" class="frmQuery" type="msg" id="CommitPrompt_Cancel" attribute="Text" name="Cancel: Do nothing!" />
+  <language category="form" class="frmQuery" type="msg" id="CommitPrompt" attribute="Text" name="Not yet committed or rollbacked!" />
+  <language category="form" class="frmQuery" type="msg" id="Help_AutoReplace1" attribute="Text" name="&quot;Auto Replace&quot;: Keyword binding for favorite queries." />
+  <language category="form" class="frmQuery" type="msg" id="Help_AutoReplace2" attribute="Text" name="After entering the &quot;Keyword&quot;, press the blank key to replace the &quot;Keyword&quot; with the &quot;Replacement&quot;." />
+  <language category="form" class="frmQuery" type="msg" id="Help_AutoReplace3" attribute="Text" name="Press Ctrl+Z to restore &quot;Replacement&quot; to &quot;Keyword&quot;." />
+  <language category="form" class="frmQuery" type="msg" id="OpenFile" attribute="Text" name="Open File" />
+  <language category="form" class="frmQuery" type="msg" id="OpenInJasonQuery" attribute="Text" name="The file is already opened in the JasonQuery." />
+  <language category="form" class="frmQuery" type="msg" id="OpenLargeFile1" attribute="Text" name="JasonQuery may not open this file because it is larger than {qty} MB." />
+  <language category="form" class="frmQuery" type="msg" id="OpenLargeFile2" attribute="Text" name="Do you still want to open this file?" />
+  <language category="form" class="frmQuery" type="msg" id="OpenLargeFile3" attribute="Text" name="(You may get the exception error of 'System.OutOfMemoryException'.)" />
+  <language category="form" class="frmQuery" type="msg" id="OpenFileFailed1" attribute="Text" name="It seems to be a binary file." />
+  <language category="form" class="frmQuery" type="msg" id="OpenFileFailed2" attribute="Text" name="It seems to be a {0} file." />
+  <language category="form" class="frmQuery" type="msg" id="OpenFileFailed3" attribute="Text" name="The following file could not be opened because it contains characters that could not be interpreted." />
+  <language category="form" class="frmQuery" type="msg" id="SaveFailed" attribute="Text" name="Save failed" />
+  <language category="form" class="frmQuery" type="msg" id="SaveFailed1" attribute="Text" name="Please check if this file is opened in another program." />
+  <language category="form" class="frmQuery" type="msg" id="ColumnAliasName" attribute="Text" name="Maybe you can try giving the column an alias." />
+  <!-- frmOptions -->
+  <language category="form" class="frmOptions" type="object" id="lblRequireRestart" attribute="Text" name="Require to restart JasonQuery" />
+  <language category="form" class="frmOptions" type="object" id="btnRestoreDefaults" attribute="Text" name="&amp;Restore Defaults" />
+  <language category="form" class="frmOptions" type="object" id="btnApply" attribute="Text" name="&amp;Apply &amp;&amp; Close" />
+  <language category="form" class="frmOptions" type="object" id="btnClose" attribute="Text" name="Cancel &amp;&amp; &amp;Close" />
+  <language category="form" class="frmOptions" type="object" id="tabGlobal" attribute="Text" name="Global" />
+  <language category="form" class="frmOptions" type="object" id="tabGeneral" attribute="Text" name="General" />
+  <language category="form" class="frmOptions" type="object" id="tabQueryEditor" attribute="Text" name="Query Editor" />
+  <language category="form" class="frmOptions" type="object" id="tabAutoComplete" attribute="Text" name="Auto Complete" />
+  <language category="form" class="frmOptions" type="object" id="tabAutoReplace" attribute="Text" name="Auto Replace" />
+  <language category="form" class="frmOptions" type="object" id="tabDataGrid" attribute="Text" name="Data Grid" />
+  <language category="form" class="frmOptions" type="object" id="tabKeywords" attribute="Text" name="Keywords" />
+  <language category="form" class="frmOptions" type="object" id="tabSQLToCode" attribute="Text" name="SQL to Code" />
+  <language category="form" class="frmOptions" type="object" id="tabSQLFormatter" attribute="Text" name="SQL Formatter" />
+  <language category="form" class="frmOptions" type="object" id="tabGlobal2" attribute="Text" name="Global" />
+  <language category="form" class="frmOptions" type="object" id="tabGeneral2" attribute="Text" name="General" />
+  <language category="form" class="frmOptions" type="object" id="tabQueryEditor2" attribute="Text" name="Query Editor" />
+  <language category="form" class="frmOptions" type="object" id="tabAutoComplete2" attribute="Text" name="Auto Complete" />
+  <language category="form" class="frmOptions" type="object" id="tabAutoReplace2" attribute="Text" name="Auto Replace" />
+  <language category="form" class="frmOptions" type="object" id="tabDataGrid2" attribute="Text" name="Data Grid" />
+  <language category="form" class="frmOptions" type="object" id="tabKeywords2" attribute="Text" name="Keywords" />
+  <language category="form" class="frmOptions" type="object" id="tabSQLToCode2" attribute="Text" name="SQL to Code" />
+  <language category="form" class="frmOptions" type="object" id="tabSQLFormatter2" attribute="Text" name="SQL Formatter" />
+  <language category="form" class="frmOptions" type="object" id="grpEditorColors" attribute="Text" name="Editor Colors" />
+  <language category="form" class="frmOptions" type="object" id="lblToolstripBackground" attribute="Text" name="Focused Toolstrip Background:" />
+  <language category="form" class="frmOptions" type="object" id="lblEditorBackground" attribute="Text" name="Editor Background:" />
+  <language category="form" class="frmOptions" type="object" id="lblCurrentLineBackground" attribute="Text" name="Current Line Background:" />
+  <language category="form" class="frmOptions" type="object" id="lblSelectedTextBackground" attribute="Text" name="Selected Text Background:" />
+  <language category="form" class="frmOptions" type="object" id="lblComments" attribute="Text" name="Comments:" />
+  <language category="form" class="frmOptions" type="object" id="lblIdentifier" attribute="Text" name="Text (Identifier):" />
+  <language category="form" class="frmOptions" type="object" id="lblNumber" attribute="Text" name="Number:" />
+  <language category="form" class="frmOptions" type="object" id="lblOperatorSymbol" attribute="Text" name="Operator Symbol:" />
+  <language category="form" class="frmOptions" type="object" id="lblOperatorKeywords" attribute="Text" name="Operator Keywords:" />
+  <language category="form" class="frmOptions" type="object" id="lblString" attribute="Text" name="String (Double Quoted):" />
+  <language category="form" class="frmOptions" type="object" id="lblCharacter" attribute="Text" name="Character (Single Quoted):" />
+  <language category="form" class="frmOptions" type="object" id="lblBuiltInFunctions" attribute="Text" name="Built-in Functions:" />
+  <language category="form" class="frmOptions" type="object" id="lblBuiltInKeywords" attribute="Text" name="Built-in Keywords:" />
+  <language category="form" class="frmOptions" type="object" id="lblUserDefinedKeywords" attribute="Text" name="User-defined Keywords:" />
+  <language category="form" class="frmOptions" type="object" id="lblWhiteSpace" attribute="Text" name="WhiteSpace:" />
+  <language category="form" class="frmOptions" type="object" id="lblUserTables" attribute="Text" name="User-defined Tables and Views:" />
+  <language category="form" class="frmOptions" type="object" id="lblUserFunctions" attribute="Text" name="User-defined Functions and Triggers:" />
+  <language category="form" class="frmOptions" type="object" id="grpSchemaBrowser" attribute="Text" name="Schema Browser" />
+  <language category="form" class="frmOptions" type="object" id="chkDefaultTabSchemaBrowser" attribute="Text" name="Make Schema Browser the default tab" />
+  <language category="form" class="frmOptions" type="object" id="chkSortByColumnName" attribute="Text" name="Sort by Column Name" />
+  <language category="form" class="frmOptions" type="object" id="chkShowColumnInfo" attribute="Text" name="Show Column Information" />
+  <language category="form" class="frmOptions" type="object" id="grpPreferences" attribute="Text" name="Preferences" />
+  <language category="form" class="frmOptions" type="object" id="lblEditorFontName" attribute="Text" name="Font Name:" />
+  <language category="form" class="frmOptions" type="object" id="lblEditorFontSize" attribute="Text" name="Font Size:" />
+  <language category="form" class="frmOptions" type="object" id="lblEditorZoom" attribute="Text" name="Zoom:" />
+  <language category="form" class="frmOptions" type="object" id="chkCtrlMouseWheel1" attribute="Text" name="Change Font Size (Zoom) with Ctrl + Mouse Wheel" />
+  <language category="form" class="frmOptions" type="object" id="chkCtrlMouseWheel2" attribute="Text" name="Change Font Size (Zoom) with Ctrl + Mouse Wheel" />
+  <language category="form" class="frmOptions" type="object" id="chkUseReadOnlyQueries" attribute="Text" name="Use Read-Only Queries" />
+  <language category="form" class="frmOptions" type="object" id="chkPreviewCLOBData" attribute="Text" name="Preview CLOB Data" />
+  <language category="form" class="frmOptions" type="object" id="chkBold" attribute="Text" name="Using Bold Text for Keywords" />
+  <language category="form" class="frmOptions" type="object" id="chkBold" attribute="ToolTipText" name="Operator Keywords, Built-in Keywords, User-defined Keywords" />
+  <language category="form" class="frmOptions" type="object" id="chkCopyAsHTML" attribute="Text" name="Copy SQL Statement as HTML" />
+  <language category="form" class="frmOptions" type="object" id="chkCopyAsHTML" attribute="ToolTipText" name="Copy Text in Rich Text Format" />
+  <language category="form" class="frmOptions" type="object" id="chkShowAllCharacters" attribute="Text" name="Show All Characters" />
+  <language category="form" class="frmOptions" type="object" id="chkSaveAsEncoding" attribute="Text" name="Save as Encoding:" />
+  <language category="form" class="frmOptions" type="object" id="chkShowSaveAsButton" attribute="Text" name="Show 'Save As' Button" />
+  <language category="form" class="frmOptions" type="object" id="grpIndent" attribute="Text" name="Indent" />
+  <language category="form" class="frmOptions" type="object" id="chkShowIndentGuide" attribute="Text" name="Show Indent Guide" />
+  <language category="form" class="frmOptions" type="object" id="lblIndentMode" attribute="Text" name="Indent Mode:" />
+  <language category="form" class="frmOptions" type="object" id="cboIndentMode" attribute="ToolTipText" name="Determines how wrapped sublines are indented" />
+  <language category="form" class="frmOptions" type="object" id="lblTabWidth" attribute="Text" name="Tab Width:" />
+  <language category="form" class="frmOptions" type="object" id="chkReplaceTabWithSpace" attribute="Text" name="Replace Tab with Space" />
+  <language category="form" class="frmOptions" type="object" id="chkEntireBlankRowAsEmptyRow4SelectBlock" attribute="Text" name="Select Current Block: The entire row of blanks is regarded as an empty row" />
+  <language category="form" class="frmOptions" type="object" id="chkHighlightSelectedText" attribute="Text" name="Highlight Selected Text When Mouse Double Click" />
+  <language category="form" class="frmOptions" type="object" id="grpHighlight" attribute="Text" name="Highlight" />
+  <language category="form" class="frmOptions" type="object" id="lblHighlightColorForeColor" attribute="Text" name="Fore Color:" />
+  <language category="form" class="frmOptions" type="object" id="lblHighlightColorStyle" attribute="Text" name="Style:" />
+  <language category="form" class="frmOptions" type="object" id="lblHighlightColorOutlineAlpha" attribute="Text" name="Outline Alpha:" />
+  <language category="form" class="frmOptions" type="object" id="lblHighlightColorAlpha" attribute="Text" name="Alpha:" />
+  <language category="form" class="frmOptions" type="object" id="grpIndicate" attribute="Text" name="Indicate (after executing SQL statement)" />
+  <language category="form" class="frmOptions" type="object" id="lblErrorLineBackground" attribute="Text" name="Error Keyword Background:" />
+  <language category="form" class="frmOptions" type="object" id="lblBookmarkBackground" attribute="Text" name="Bookmark Background:" />
+  <language category="form" class="frmOptions" type="object" id="lblBookmarkStyle" attribute="Text" name="Bookmark Style:" />
+  <language category="form" class="frmOptions" type="object" id="chkWordWrap" attribute="Text" name="Word Wrap" />
+  <language category="form" class="frmOptions" type="object" id="chkStart" attribute="Text" name="Start" />
+  <language category="form" class="frmOptions" type="object" id="chkStart" attribute="ToolTipText" name="Display 'Start' flag on a wrapped line" />
+  <language category="form" class="frmOptions" type="object" id="chkEnd" attribute="Text" name="End" />
+  <language category="form" class="frmOptions" type="object" id="chkEnd" attribute="ToolTipText" name="Display 'End' flag on a wrapped line" />
+  <language category="form" class="frmOptions" type="object" id="chkMargin" attribute="Text" name="Margin" />
+  <language category="form" class="frmOptions" type="object" id="chkMargin" attribute="ToolTipText" name="Display 'Margin' flag on a wrapped line" />
+  <language category="form" class="frmOptions" type="object" id="grpQueryEditorPreview" attribute="Text" name="Preview" />
+  <language category="form" class="frmOptions" type="object" id="grpOpenSQLFile" attribute="Text" name="Open the specified SQL file on startup" />
+  <language category="form" class="frmOptions" type="object" id="lblFile1" attribute="Text" name="File 1:" />
+  <language category="form" class="frmOptions" type="object" id="lblFile2" attribute="Text" name="File 2:" />
+  <language category="form" class="frmOptions" type="object" id="btnSpecifiedSQLFile1" attribute="ToolTipText" name="Browse File" />
+  <language category="form" class="frmOptions" type="object" id="btnSpecifiedSQLFile2" attribute="ToolTipText" name="Browse File" />
+  <language category="form" class="frmOptions" type="object" id="btnClear1" attribute="ToolTipText" name="Clear" />
+  <language category="form" class="frmOptions" type="object" id="btnClear2" attribute="ToolTipText" name="Clear" />
+  <language category="form" class="frmOptions" type="object" id="grpAutoDisconnect" attribute="Text" name="Disconnect automatically" />
+  <language category="form" class="frmOptions" type="dropdownlist" id="AutoDisconnect_Never" attribute="Text" name="Never" />
+  <language category="form" class="frmOptions" type="dropdownlist" id="AutoDisconnect_1hr" attribute="Text" name="1 Hour" />
+  <language category="form" class="frmOptions" type="dropdownlist" id="AutoDisconnect_3hrs" attribute="Text" name="3 Hours" />
+  <language category="form" class="frmOptions" type="dropdownlist" id="AutoDisconnect_5hrs" attribute="Text" name="5 Hours" />
+  <language category="form" class="frmOptions" type="dropdownlist" id="AutoDisconnect_7hrs" attribute="Text" name="7 Hours" />
+  <language category="form" class="frmOptions" type="dropdownlist" id="AutoDisconnect_9hrs" attribute="Text" name="9 Hours" />
+  <language category="form" class="frmOptions" type="menugrid" id="CellViewer" attribute="Text" name="Cell Viewer" />
+  <language category="form" class="frmOptions" type="menugrid" id="SelectAll" attribute="Text" name="Select All" />
+  <language category="form" class="frmOptions" type="menugrid" id="ExportAllDataToFile" attribute="Text" name="Export All Data to File (Excel/CSV...)" />
+  <language category="form" class="frmOptions" type="menugrid" id="ExportAllDataToFileScript" attribute="Text" name="Export All Data to File (as &quot;Insert Into&quot; Script)" />
+  <language category="form" class="frmOptions" type="menugrid" id="Copy" attribute="Text" name="Copy" />
+  <language category="form" class="frmOptions" type="menugrid" id="CopyWithColumnName" attribute="Text" name="Copy with Column Name(s)" />
+  <language category="form" class="frmOptions" type="menugrid" id="CopyColumnName" attribute="Text" name="Copy Column Name(s)" />
+  <language category="form" class="frmOptions" type="menugrid" id="FreezeColumn" attribute="Text" name="Freeze Column" />
+  <language category="form" class="frmOptions" type="menugrid" id="UnfreezeColumn" attribute="Text" name="Unfreeze Column" />
+  <language category="form" class="frmOptions" type="object" id="chkEnableAutoComplete" attribute="Text" name="Enable Auto Complete on each input" />
+  <language category="form" class="frmOptions" type="object" id="grpAutoCompleteFor" attribute="Text" name="Auto Complete for" />
+  <language category="form" class="frmOptions" type="object" id="chkBuiltInFunctions" attribute="Text" name="Built-in Functions" />
+  <language category="form" class="frmOptions" type="object" id="chkBuiltInKeywords" attribute="Text" name="Built-in Keywords" />
+  <language category="form" class="frmOptions" type="object" id="chkUserDefinedKeywords" attribute="Text" name="User-defined Keywords" />
+  <language category="form" class="frmOptions" type="object" id="chkUserDefinedSnippets" attribute="Text" name="User-defined Snippets" />
+  <language category="form" class="frmOptions" type="object" id="chkUserDefinedFunctions" attribute="Text" name="User-defined Functions" />
+  <language category="form" class="frmOptions" type="object" id="chkUserDefinedTables" attribute="Text" name="User-defined Tables" />
+  <language category="form" class="frmOptions" type="object" id="chkUserDefinedTriggers" attribute="Text" name="User-defined Triggers" />
+  <language category="form" class="frmOptions" type="object" id="chkUserDefinedViews" attribute="Text" name="User-defined Views" />
+  <language category="form" class="frmOptions" type="object" id="grpAutoCompleteColor" attribute="Text" name="Auto Complete Color" />
+  <language category="form" class="frmOptions" type="object" id="lblForeColor" attribute="Text" name="Fore Color:" />
+  <language category="form" class="frmOptions" type="object" id="lblBackColor" attribute="Text" name="Back Color:" />
+  <language category="form" class="frmOptions" type="object" id="lblSelectedForeColor" attribute="Text" name="Selected Fore Color:" />
+  <language category="form" class="frmOptions" type="object" id="lblSelectedBackColor" attribute="Text" name="Selected Back Color:" />
+  <language category="form" class="frmOptions" type="object" id="grpAutoCompletePreview" attribute="Text" name="Preview" />
+  <language category="form" class="frmOptions" type="object" id="grpSnippetsDefinition" attribute="Text" name="Snippets Definition" />
+  <language category="form" class="frmOptions" type="object" id="lblMinFragmentLength" attribute="Text" name="Mininum fragment length for popup:" />
+  <language category="form" class="frmOptions" type="object" id="grpDefinitionAC" attribute="Text" name="Definition" />
+  <language category="form" class="frmOptions" type="object" id="chkShowFilterRowAC" attribute="Text" name="Show Filter Row" />
+  <language category="form" class="frmOptions" type="object" id="btnAddAC" attribute="Text" name="Add" />
+  <language category="form" class="frmOptions" type="object" id="btnEditAC" attribute="Text" name="Edit" />
+  <language category="form" class="frmOptions" type="object" id="btnDeleteAC" attribute="Text" name="Delete" />
+  <language category="form" class="frmOptions" type="object" id="grpModifyDefinitionAC" attribute="Text" name="Modify Snippets Definition" />
+  <language category="form" class="frmOptions" type="object" id="btnSaveAC" attribute="Text" name="Save" />
+  <language category="form" class="frmOptions" type="object" id="btnCancelAC" attribute="Text" name="Cancel" />
+  <language category="form" class="frmOptions" type="object" id="btnClearAC" attribute="Text" name="Clear" />
+  <language category="form" class="frmOptions" type="object" id="lblTips1" attribute="Text" name="Tips #1:" />
+  <language category="form" class="frmOptions" type="object" id="lblTips11" attribute="Text" name="Using the symbol ^ to position your cursor" />
+  <language category="form" class="frmOptions" type="object" id="lblTips2" attribute="Text" name="Tips #2:" />
+  <language category="form" class="frmOptions" type="object" id="lblTips21" attribute="Text" name="The first character must be one of the following character" />
+  <language category="form" class="frmOptions" type="object" id="lblTips3" attribute="Text" name="Using the symbol ^ to position your cursor" />
+  <language category="form" class="frmOptions" type="object" id="chkEnableAutoReplace" attribute="Text" name="Enable Auto Replace (Keyword binding for favorite queries)" />
+  <language category="form" class="frmOptions" type="object" id="chkShowFilterRowAR" attribute="Text" name="Show Filter Row" />
+  <language category="form" class="frmOptions" type="object" id="lblARInfo1" attribute="Text" name="After entering the &quot;Keyword&quot;, press the blank key to replace the &quot;Keyword&quot; with the &quot;Replacement&quot;." />
+  <language category="form" class="frmOptions" type="object" id="lblARInfo2" attribute="Text" name="Press Ctrl+Z to restore &quot;Replacement&quot; to &quot;Keyword&quot;." />
+  <language category="form" class="frmOptions" type="object" id="grpDefinitionAR" attribute="Text" name="Definition" />
+  <language category="form" class="frmOptions" type="object" id="btnAddAR" attribute="Text" name="Add" />
+  <language category="form" class="frmOptions" type="object" id="btnEditAR" attribute="Text" name="Edit" />
+  <language category="form" class="frmOptions" type="object" id="btnDeleteAR" attribute="Text" name="Delete" />
+  <language category="form" class="frmOptions" type="object" id="grpModifyDefinitionAR" attribute="Text" name="Modify Definition" />
+  <language category="form" class="frmOptions" type="object" id="btnSaveAR" attribute="Text" name="Save" />
+  <language category="form" class="frmOptions" type="object" id="btnCancelAR" attribute="Text" name="Cancel" />
+  <language category="form" class="frmOptions" type="object" id="btnClearAR" attribute="Text" name="Clear" />
+  <language category="form" class="frmOptions" type="object" id="lblKeyword" attribute="Text" name="Keyword:" />
+  <language category="form" class="frmOptions" type="object" id="lblReplacement" attribute="Text" name="Replacement:" />
+  <language category="form" class="frmOptions" type="object" id="grpQueryResultsGrid" attribute="Text" name="Query Results Grid" />
+  <language category="form" class="frmOptions" type="object" id="lblResultCopyQuotingWith" attribute="Text" name="Result Copy Quoting With:" />
+  <language category="form" class="frmOptions" type="object" id="lblResultCopyFieldSeparator" attribute="Text" name="Result Copy Field Separator:" />
+  <language category="form" class="frmOptions" type="object" id="lblDateFormat" attribute="Text" name="Date Format:" />
+  <language category="form" class="frmOptions" type="object" id="chkShowVersion" attribute="Text" name="Display the version number in the title bar" />
+  <language category="form" class="frmOptions" type="object" id="lblGridVisualStyle" attribute="Text" name="Visual Style:" />
+  <language category="form" class="frmOptions" type="object" id="lblGridZoom" attribute="Text" name="Zoom:" />
+  <language category="form" class="frmOptions" type="object" id="lblGridFontName" attribute="Text" name="Font Name:" />
+  <language category="form" class="frmOptions" type="object" id="lblGridFontSize" attribute="Text" name="Font Size:" />
+  <language category="form" class="frmOptions" type="object" id="chkRawDataMode" attribute="Text" name="Raw Data Mode" />
+  <language category="form" class="frmOptions" type="object" id="chkPagingQuery" attribute="Text" name="Paging Query" />
+  <language category="form" class="frmOptions" type="object" id="lblRowsPerPage" attribute="Text" name="Rows Per Page:" />
+  <language category="form" class="frmOptions" type="object" id="chkAppendingQueries" attribute="Text" name="Appending Queries" />
+  <language category="form" class="frmOptions" type="msg" id="AppendingQueries" attribute="Text" name="This feature is enabled by default. When you press &quot;Next Page&quot;, the previous query results will be automatically merged." />
+  <language category="form" class="frmOptions" type="object" id="chkSetFocusAfterQuery" attribute="Text" name="Set Focus to Data Grid after Execute Query Statement" />
+  <language category="form" class="frmOptions" type="object" id="grpNullValueStyle" attribute="Text" name="Null Value Style" />
+  <language category="form" class="frmOptions" type="object" id="lblNullValueShowAs" attribute="Text" name="Show as:" />
+  <language category="form" class="frmOptions" type="object" id="lblNullValueForeColor" attribute="Text" name="Fore Color:" />
+  <language category="form" class="frmOptions" type="object" id="lblGridRowHeightResizing" attribute="Text" name="Row (Height) Resizing:" />
+  <language category="form" class="frmOptions" type="dropdownlist" id="RowHeightResizing_AllRows" attribute="Text" name="All Rows" />
+  <language category="form" class="frmOptions" type="dropdownlist" id="RowHeightResizing_IndividualRows" attribute="Text" name="Individual Rows" />
+  <language category="form" class="frmOptions" type="object" id="lblGridSheetName" attribute="Text" name="Export to Excel, Specific Sheet Name:" />
+  <language category="form" class="frmOptions" type="object" id="chkShowColumnType" attribute="Text" name="Show Column Type" />
+  <language category="form" class="frmOptions" type="object" id="chkShowStreamlinedName" attribute="Text" name="Show Streamlined Name (for PostgreSQL only)" />
+  <language category="form" class="frmOptions" type="object" id="chkShowFilterRow" attribute="Text" name="Show Filter Row" />
+  <language category="form" class="frmOptions" type="object" id="chkSort" attribute="Text" name="Automatically Sort Data Result according to Column Header" />
+  <language category="form" class="frmOptions" type="object" id="chkResize" attribute="Text" name="Automatically Resize Column Width according to Data Result" />
+  <language category="form" class="frmOptions" type="object" id="lblMaxWidth" attribute="Text" name="Max Width:" />
+  <language category="form" class="frmOptions" type="object" id="grpDataGridColor" attribute="Text" name="Data Grid Color" />
+  <language category="form" class="frmOptions" type="object" id="lblGridHeadingForeColor" attribute="Text" name="Heading Fore Color:" />
+  <language category="form" class="frmOptions" type="object" id="lblGridEvenRowForeColor" attribute="Text" name="Even Row Fore Color:" />
+  <language category="form" class="frmOptions" type="object" id="lblGridEvenRowBackColor" attribute="Text" name="Even Row Back Color:" />
+  <language category="form" class="frmOptions" type="object" id="lblGridOddRowForeColor" attribute="Text" name="Odd Row Fore Color:" />
+  <language category="form" class="frmOptions" type="object" id="lblGridOddRowBackColor" attribute="Text" name="Odd Row Back Color:" />
+  <language category="form" class="frmOptions" type="object" id="lblGridHighlightForeColor" attribute="Text" name="Highlight Fore Color:" />
+  <language category="form" class="frmOptions" type="object" id="lblGridHighlightBackColor" attribute="Text" name="Highlight Back Color:" />
+  <language category="form" class="frmOptions" type="object" id="lblGridSelectedForeColor" attribute="Text" name="Selected Fore Color:" />
+  <language category="form" class="frmOptions" type="object" id="lblGridSelectedBackColor" attribute="Text" name="Selected Back Color:" />
+  <language category="form" class="frmOptions" type="object" id="grpPreviewGrid" attribute="Text" name="Preview" />
+  <language category="form" class="frmOptions" type="object" id="lblFindGrid" attribute="Text" name="Find:" />
+  <language category="form" class="frmOptions" type="object" id="btnFindNextGrid" attribute="ToolTipText" name="Find Next" />
+  <language category="form" class="frmOptions" type="object" id="btnFindPreviousGrid" attribute="ToolTipText" name="Find Previous" />
+  <language category="form" class="frmOptions" type="object" id="btnCountGrid" attribute="ToolTipText" name="Count" />
+  <language category="form" class="frmOptions" type="object" id="btnHighlightAllGrid" attribute="ToolTipText" name="Highlight All" />
+  <language category="form" class="frmOptions" type="object" id="btnClearHighlightsGrid" attribute="ToolTipText" name="Clear Highlights" />
+  <language category="form" class="frmOptions" type="object" id="grpOperatorKeywords" attribute="Text" name="Operator Keywords" />
+  <language category="form" class="frmOptions" type="object" id="btnNextOperatorKeywords" attribute="ToolTipText" name="Find Next" />
+  <language category="form" class="frmOptions" type="object" id="btnPreviousOperatorKeywords" attribute="ToolTipText" name="Find Previous" />
+  <language category="form" class="frmOptions" type="object" id="btnCloseFindOperatorKeywords" attribute="ToolTipText" name="Close" />
+  <language category="form" class="frmOptions" type="object" id="grpBuiltInFunctions" attribute="Text" name="Built-in Functions" />
+  <language category="form" class="frmOptions" type="object" id="btnNextBuiltInFunctions" attribute="ToolTipText" name="Find Next" />
+  <language category="form" class="frmOptions" type="object" id="btnPreviousBuiltInFunctions" attribute="ToolTipText" name="Find Previous" />
+  <language category="form" class="frmOptions" type="object" id="btnCloseFindBuiltInFunctions" attribute="ToolTipText" name="Close" />
+  <language category="form" class="frmOptions" type="object" id="grpBuiltInKeywords" attribute="Text" name="Built-in Keywords" />
+  <language category="form" class="frmOptions" type="object" id="btnNextBuiltInKeywords" attribute="ToolTipText" name="Find Next" />
+  <language category="form" class="frmOptions" type="object" id="btnPreviousBuiltInKeywords" attribute="ToolTipText" name="Find Previous" />
+  <language category="form" class="frmOptions" type="object" id="btnCloseFindBuiltInKeywords" attribute="ToolTipText" name="Close" />
+  <language category="form" class="frmOptions" type="object" id="grpUserDefinedKeywords" attribute="Text" name="User-defined Keywords" />
+  <language category="form" class="frmOptions" type="object" id="btnNextUserDefinedKeywords" attribute="ToolTipText" name="Find Next" />
+  <language category="form" class="frmOptions" type="object" id="btnPreviousUserDefinedKeywords" attribute="ToolTipText" name="Find Previous" />
+  <language category="form" class="frmOptions" type="object" id="btnCloseFindUserDefinedKeywords" attribute="ToolTipText" name="Close" />
+  <language category="form" class="frmOptions" type="object" id="grpSQLToCode" attribute="Text" name="SQL to Code" />
+  <language category="form" class="frmOptions" type="object" id="grpLanguage" attribute="Text" name="Language" />
+  <language category="form" class="frmOptions" type="object" id="rdoStyle1" attribute="Text" name="Style 1" />
+  <language category="form" class="frmOptions" type="object" id="rdoStyle2" attribute="Text" name="Style 2" />
+  <language category="form" class="frmOptions" type="object" id="rdoStyle3" attribute="Text" name="Style 3" />
+  <language category="form" class="frmOptions" type="object" id="lblSQLVariableName" attribute="Text" name="Variable Name:" />
+  <language category="form" class="frmOptions" type="object" id="chkStripCode" attribute="Text" name="Strip Code copies to clipboard" />
+  <language category="form" class="frmOptions" type="object" id="grpSQLStatementCode" attribute="Text" name="SQL Statement" />
+  <language category="form" class="frmOptions" type="object" id="grpPreviewSQL" attribute="Text" name="Preview" />
+  <language category="form" class="frmOptions" type="object" id="grpSQLFormatter" attribute="Text" name="SQL Formatter" />
+  <language category="form" class="frmOptions" type="object" id="grpFormattingOptions" attribute="Text" name="Formatting Options" />
+  <language category="form" class="frmOptions" type="object" id="lblMaxWidth2" attribute="Text" name="Max Width:" />
+  <language category="form" class="frmOptions" type="object" id="chkExpandCommaLists" attribute="Text" name="Expand Comma Lists" />
+  <language category="form" class="frmOptions" type="object" id="chkTrailingCommas" attribute="Text" name="Trailing Commas" />
+  <language category="form" class="frmOptions" type="object" id="chkExpandBooleanExpressions" attribute="Text" name="Expand Boolean Expressions" />
+  <language category="form" class="frmOptions" type="object" id="chkExpandCaseStatements" attribute="Text" name="Expand CASE Statements" />
+  <language category="form" class="frmOptions" type="object" id="chkExpandBetweenConditions" attribute="Text" name="Expand BETWEEN Conditions" />
+  <language category="form" class="frmOptions" type="object" id="chkExpandInLists" attribute="Text" name="Expand IN Lists" />
+  <language category="form" class="frmOptions" type="object" id="chkBreakJoinOnSections" attribute="Text" name="Break Join ON Sections" />
+  <language category="form" class="frmOptions" type="object" id="chkConvertCaseForKeywords" attribute="Text" name="Convert Case for Keywords" />
+  <language category="form" class="frmOptions" type="object" id="rdoUpperCase" attribute="Text" name="UPPER Case" />
+  <language category="form" class="frmOptions" type="object" id="rdoLowerCase" attribute="Text" name="lower Case" />
+  <language category="form" class="frmOptions" type="object" id="grpSQLStatementFormatter" attribute="Text" name="SQL Statement" />
+  <language category="form" class="frmOptions" type="object" id="grpPreviewFormatter" attribute="Text" name="Preview" />
+  <language category="form" class="frmOptions" type="object" id="picOperatorKeywords" attribute="ToolTipText" name="Find Operator Keywords (Ctrl+F)" />
+  <language category="form" class="frmOptions" type="object" id="picBuiltInFunctions" attribute="ToolTipText" name="Find Built-In Functions (Ctrl+F)" />
+  <language category="form" class="frmOptions" type="object" id="picBuiltInKeywords" attribute="ToolTipText" name="Find Built-In Keywords (Ctrl+F)" />
+  <language category="form" class="frmOptions" type="object" id="picUserDefinedKeywords" attribute="ToolTipText" name="Find User-Defined Keywords (Ctrl+F)" />
+  <language category="form" class="frmOptions" type="dropdownlist" id="cboMaxWidth" attribute="Text" name="Unlimited" />
+  <language category="form" class="frmOptions" type="dropdownlist" id="BookmarkStyle_Arrow" attribute="Text" name="Arrow" />
+  <language category="form" class="frmOptions" type="dropdownlist" id="BookmarkStyle_Circle" attribute="Text" name="Circle" />
+  <language category="form" class="frmOptions" type="dropdownlist" id="BookmarkStyle_RoundRect" attribute="Text" name="RoundRect" />
+  <language category="form" class="frmOptions" type="dropdownlist" id="BookmarkStyle_ShortArrow" attribute="Text" name="ShortArrow" />
+  <language category="form" class="frmOptions" type="dropdownlist" id="BookmarkStyle_SmallRect" attribute="Text" name="SmallRect" />
+  <language category="form" class="frmOptions" type="object" id="grpGlobal" attribute="Text" name="Global Setting (for all your database connection)" />
+  <language category="form" class="frmOptions" type="object" id="grpGeneral" attribute="Text" name="General" />
+  <language category="form" class="frmOptions" type="object" id="lblLocalization" attribute="Text" name="Localization:" />
+  <language category="form" class="frmOptions" type="object" id="grpColorTheme" attribute="Text" name="Color Theme" />
+  <language category="form" class="frmOptions" type="object" id="chkDarkMode" attribute="Text" name="Dark Mode" />
+  <language category="form" class="frmOptions" type="object" id="grpCheckForUpdate" attribute="Text" name="Check for Updates" />
+  <language category="form" class="frmOptions" type="object" id="rdoDonotCheck" attribute="Text" name="Don't automatically check for updates. I will check for updates manually." />
+  <language category="form" class="frmOptions" type="object" id="rdoCheckOnly" attribute="Text" name="Notify me when an update is available, but let me download it manually." />
+  <language category="form" class="frmOptions" type="object" id="rdoCheckForUpdates0" attribute="Text" name="on startup" />
+  <language category="form" class="frmOptions" type="object" id="rdoCheckForUpdates1" attribute="Text" name="every day" />
+  <language category="form" class="frmOptions" type="object" id="rdoCheckForUpdates7" attribute="Text" name="every 7 days" />
+  <language category="form" class="frmOptions" type="dropdownlist" id="IndentMode_Fixed" attribute="Text" name="Fixed" />
+  <language category="form" class="frmOptions" type="dropdownlist" id="IndentMode_Same" attribute="Text" name="Same" />
+  <language category="form" class="frmOptions" type="dropdownlist" id="IndentMode_Indent" attribute="Text" name="Indent" />
+  <language category="form" class="frmOptions" type="gridheader" id="Definition" attribute="Text" name="Definition" />
+  <language category="form" class="frmOptions" type="gridheader" id="Keyword" attribute="Text" name="Keyword" />
+  <language category="form" class="frmOptions" type="gridheader" id="Replacement" attribute="Text" name="Replacement" />
+  <language category="form" class="frmOptions" type="gridheader" id="name" attribute="Text" name="name" />
+  <language category="form" class="frmOptions" type="gridheader" id="gender" attribute="Text" name="gender" />
+  <language category="form" class="frmOptions" type="gridheader" id="age" attribute="Text" name="age" />
+  <language category="form" class="frmOptions" type="gridheader" id="birthday" attribute="Text" name="birthday" />
+  <language category="form" class="frmOptions" type="gridheader" id="weight" attribute="Text" name="weight" />
+  <language category="form" class="frmOptions" type="gridheader" id="height" attribute="Text" name="height" />
+  <language category="form" class="frmOptions" type="gridheader" id="bloodgroup" attribute="Text" name="blood group" />
+  <language category="form" class="frmOptions" type="gridheader" id="e-mail" attribute="Text" name="e-mail" />
+  <language category="form" class="frmOptions" type="gridheader" id="education" attribute="Text" name="education" />
+  <language category="form" class="frmOptions" type="gridheader" id="address" attribute="Text" name="address" />
+  <language category="form" class="frmOptions" type="object" id="grpMainFormTabVisualStyle" attribute="Text" name="Main Form Tab Visual Style" />
+  <language category="form" class="frmOptions" type="object" id="grpMainFormTabStyle" attribute="Text" name="Style" />
+  <language category="form" class="frmOptions" type="object" id="rdoIDE" attribute="Text" name="IDE" />
+  <language category="form" class="frmOptions" type="object" id="rdoPlain" attribute="Text" name="Plain" />
+  <language category="form" class="frmOptions" type="object" id="grpAppearance" attribute="Text" name="Apperance" />
+  <language category="form" class="frmOptions" type="object" id="rdoMultiDocument" attribute="Text" name="MultiDocument" />
+  <language category="form" class="frmOptions" type="object" id="rdoMultiForm" attribute="Text" name="MultiForm" />
+  <language category="form" class="frmOptions" type="object" id="rdoMultiBox" attribute="Text" name="MultiBox" />
+  <language category="form" class="frmOptions" type="object" id="chkShrinkPages" attribute="Text" name="Shrink Pages" />
+  <language category="form" class="frmOptions" type="object" id="chkShowArrows" attribute="Text" name="Show Arrows" />
+  <language category="form" class="frmOptions" type="object" id="chkHoverSelect" attribute="Text" name="Hover Select" />
+  <language category="form" class="frmOptions" type="object" id="chkMultiLine" attribute="Text" name="MultiLine" />
+  <language category="form" class="frmOptions" type="object" id="chkTabBold" attribute="Text" name="Active Tab is shown in bold" />
+  <language category="form" class="frmOptions" type="object" id="grpMainFormWindowsState" attribute="Text" name="Main Form Windows State (on startup)" />
+  <language category="form" class="frmOptions" type="object" id="rdoMaximized" attribute="Text" name="Maximized" />
+  <language category="form" class="frmOptions" type="object" id="rdoNormal" attribute="Text" name="Normal" />
+  <language category="form" class="frmOptions" type="object" id="grpMaxEntries" attribute="Text" name="Max. number of entries" />
+  <language category="form" class="frmOptions" type="object" id="lblRecentFiles" attribute="Text" name="Recent files:" />
+  <language category="form" class="frmOptions" type="object" id="lblMyFavorite" attribute="Text" name="My favorite:" />
+  <language category="form" class="frmOptions" type="object" id="grpOptionsTab" attribute="Text" name="Options Tab" />
+  <language category="form" class="frmOptions" type="object" id="lblOptionsTabActiveForeColor" attribute="Text" name="Active Fore Color:" />
+  <language category="form" class="frmOptions" type="object" id="lblOptionsTabActiveBackColor" attribute="Text" name="Active Back Color:" />
+  <language category="form" class="frmOptions" type="object" id="lblOptionsTabInactiveForeColor" attribute="Text" name="Inactive Fore Color:" />
+  <language category="form" class="frmOptions" type="object" id="grpDefaultDirectory" attribute="Text" name="Default Directory (Open/Save)     " />
+  <language category="form" class="frmOptions" type="object" id="rdoDefaultDirectory" attribute="Text" name="System Default Directory" />
+  <language category="form" class="frmOptions" type="object" id="rdoFavoriteDirectory" attribute="Text" name="Favarite Directory" />
+  <language category="form" class="frmOptions" type="object" id="btnCopySettings" attribute="Text" name="Copy Settings..." />
+  <language category="form" class="frmOptions" type="msg" id="From" attribute="Text" name="From" />
+  <language category="form" class="frmOptions" type="msg" id="To" attribute="Text" name="To" />
+  <language category="form" class="frmOptions" type="msg" id="ChangeColorTheme" attribute="Text" name="Changing the color theme from dark to normal requires restarting JasonQuery for the best display." />
+  <language category="form" class="frmOptions" type="msg" id="InputSnippet" attribute="Text" name="Please input 'Snippet'!" />
+  <language category="form" class="frmOptions" type="msg" id="SnippetExist" attribute="Text" name="The 'Snippet' already exists!" />
+  <language category="form" class="frmOptions" type="msg" id="InputKeyword" attribute="Text" name="Please input 'Keyword'!" />
+  <language category="form" class="frmOptions" type="msg" id="InputReplacement" attribute="Text" name="Please input 'Replacement'!" />
+  <language category="form" class="frmOptions" type="msg" id="ReplacementKeywordExist" attribute="Text" name="The 'Keyword' already exists!" />
+  <language category="form" class="frmOptions" type="msg" id="Help_Disconnect" attribute="Text" name="If your mouse or keyboard have no activity within 1~9 hour(s), JasonQuery will automatically close the database connection." />
+  <language category="form" class="frmOptions" type="msg" id="Help_Reconnect" attribute="Text" name="When you execute any SQL statement again, JasonQuery will automatically connect to the database." />
+  <language category="form" class="frmOptions" type="msg" id="Pooling1" attribute="Text" name="If the'Pooling' function is enabled when the database is connected, the actual connection will not be closed after the connection is disconnected, so that JasonQuery can continue to use it later. This greatly improves performance." />
+  <language category="form" class="frmOptions" type="msg" id="Pooling2" attribute="Text" name="If the'Pooling' function is disabled when the database is connected, the database connection will not be seen from the server when the connection is disconnected." />
+  <language category="form" class="frmOptions" type="msg" id="C#Style1" attribute="Text" name="Using + operator" />
+  <language category="form" class="frmOptions" type="msg" id="C#Style2" attribute="Text" name="New line character \r\n" />
+  <language category="form" class="frmOptions" type="msg" id="C#Style3" attribute="Text" name="New line character Enviroment.NewLine" />
+  <language category="form" class="frmOptions" type="msg" id="VB.NetStyle1" attribute="Text" name="Using &amp;&amp;&amp; operator" />
+  <language category="form" class="frmOptions" type="msg" id="VB.NetStyle2" attribute="Text" name="New line character VbCrLf" />
+  <language category="form" class="frmOptions" type="msg" id="VB.NetStyle3" attribute="Text" name="New line character Enviroment.NewLine" />
+  <language category="form" class="frmOptions" type="msg" id="VB6/VBAStyle1" attribute="Text" name="Using &amp;&amp;&amp; operator" />
+  <language category="form" class="frmOptions" type="msg" id="VB6/VBAStyle2" attribute="Text" name="New line character VbCrLf" />
+  <language category="form" class="frmOptions" type="msg" id="DelphiStyle1" attribute="Text" name="Using + operator" />
+  <language category="form" class="frmOptions" type="msg" id="DelphiStyle2" attribute="Text" name="New line character #13#10" />
+  <!-- frmMain -->
+  <language category="form" class="MainForm" type="menu" id="mnuFile" attribute="Text" name="&amp;File" />
+  <language category="form" class="MainForm" type="menu" id="mnuNewConnection" attribute="Text" name="New Connection" />
+  <language category="form" class="MainForm" type="menu" id="mnuOpenConnection" attribute="Text" name="Open Connection" />
+  <language category="form" class="MainForm" type="menu" id="mnuCloseConnection" attribute="Text" name="Close Connection" />
+  <language category="form" class="MainForm" type="menu" id="mnuNewSQLEditor" attribute="Text" name="&amp;New SQL Editor" />
+  <language category="form" class="MainForm" type="menu" id="mnuOpenFiles" attribute="Text" name="&amp;Open File(s)" />
+  <language category="form" class="MainForm" type="menu" id="mnuFile_Save" attribute="Text" name="&amp;Save" />
+  <language category="form" class="MainForm" type="menu" id="mnuFile_SaveAs" attribute="Text" name="Save &amp;As" />
+  <language category="form" class="MainForm" type="menu" id="mnuExit" attribute="Text" name="E&amp;xit" />
+  <language category="form" class="MainForm" type="menu" id="mnuEdit" attribute="Text" name="&amp;Edit" />
+  <language category="form" class="MainForm" type="menu" id="mnuEdit_Undo" attribute="Text" name="&amp;Undo" />
+  <language category="form" class="MainForm" type="menu" id="mnuEdit_Redo" attribute="Text" name="&amp;Redo" />
+  <language category="form" class="MainForm" type="menu" id="mnuEdit_Cut" attribute="Text" name="Cu&amp;t" />
+  <language category="form" class="MainForm" type="menu" id="mnuEdit_Copy" attribute="Text" name="&amp;Copy" />
+  <language category="form" class="MainForm" type="menu" id="mnuEdit_Paste" attribute="Text" name="&amp;Paste" />
+  <language category="form" class="MainForm" type="menu" id="mnuEdit_Delete" attribute="Text" name="&amp;Delete" />
+  <language category="form" class="MainForm" type="menu" id="mnuEdit_SelectAll" attribute="Text" name="Select &amp;All" />
+  <language category="form" class="MainForm" type="menu" id="mnuEdit_SelectCurrentBlock" attribute="Text" name="Select Current &amp;Block" />
+  <language category="form" class="MainForm" type="menu" id="mnuEdit_Comment" attribute="Text" name="Comment" />
+  <language category="form" class="MainForm" type="menu" id="mnuEdit_UnComment" attribute="Text" name="Un-Comment" />
+  <language category="form" class="MainForm" type="menu" id="mnuEdit_Indent" attribute="Text" name="Indent" />
+  <language category="form" class="MainForm" type="menu" id="mnuEdit_UnIndent" attribute="Text" name="Un-Indent" />
+  <language category="form" class="MainForm" type="menu" id="mnuEdit_UpperCase" attribute="Text" name="UPPER Case" />
+  <language category="form" class="MainForm" type="menu" id="mnuEdit_LowerCase" attribute="Text" name="lower Case" />
+  <language category="form" class="MainForm" type="menu" id="mnuEdit_SQLFormatter" attribute="Text" name="SQL Formatter" />
+  <language category="form" class="MainForm" type="menu" id="mnuQuery" attribute="Text" name="&amp;Query" />
+  <language category="form" class="MainForm" type="menu" id="mnuNewSQLEditor2" attribute="Text" name="&amp;New SQL Editor" />
+  <language category="form" class="MainForm" type="menu" id="mnuQuery_Execute" attribute="Text" name="Execute" />
+  <language category="form" class="MainForm" type="menu" id="mnuQuery_ExecuteCurrentBlock" attribute="Text" name="Execute Current Block" />
+  <language category="form" class="MainForm" type="menu" id="mnuQuery_Explain" attribute="Text" name="Explain" />
+  <language category="form" class="MainForm" type="menu" id="mnuQuery_ExplainAnalyze" attribute="Text" name="Explain Analyze" />
+  <language category="form" class="MainForm" type="menu" id="mnuQuery_Options" attribute="Text" name="Explain Options" />
+  <language category="form" class="MainForm" type="menu" id="mnuAutoRollback" attribute="Text" name="Auto-Rollback" />
+  <language category="form" class="MainForm" type="menu" id="mnuAutoCommit" attribute="Text" name="Auto-Commit" />
+  <language category="form" class="MainForm" type="menu" id="mnuRollback" attribute="Text" name="Rollback" />
+  <language category="form" class="MainForm" type="menu" id="mnuCommit" attribute="Text" name="Commit" />
+  <language category="form" class="MainForm" type="menu" id="mnuRecentFiles" attribute="Text" name="&amp;Recent Files" />
+  <language category="form" class="MainForm" type="menu" id="EmptyRecentFiles" attribute="Text" name="Empty Recent Files" />
+  <language category="form" class="MainForm" type="menu" id="mnuMyFavorite" attribute="Text" name="&amp;My Favorite" />
+  <language category="form" class="MainForm" type="menu" id="EmptyMyFavorite" attribute="Text" name="Empty My Favorite" />
+  <language category="form" class="MainForm" type="menu" id="mnuTools" attribute="Text" name="&amp;Tools" />
+  <language category="form" class="MainForm" type="menu" id="mnuOptions" attribute="Text" name="&lt;Options&gt;" />
+  <language category="form" class="MainForm" type="menu" id="mnuSchemaBrowser" attribute="Text" name="&lt;Schema Browser&gt;" />
+  <language category="form" class="MainForm" type="menu" id="mnuSQLHistory" attribute="Text" name="&lt;SQL History&gt;" />
+  <language category="form" class="MainForm" type="menu" id="mnuFileSplitter" attribute="Text" name="Large Text File Splitter" />
+  <language category="form" class="MainForm" type="menu" id="mnuHelp" attribute="Text" name="&amp;Help" />
+  <language category="form" class="MainForm" type="menu" id="mnuCheckForUpdatesManually" attribute="Text" name="Check for updates" />
+  <language category="form" class="MainForm" type="menu" id="mnuReleaseNotes" attribute="Text" name="Release Notes" />
+  <language category="form" class="MainForm" type="menu" id="mnuReleaseNotes" attribute="ToolTipText" name="Open the &quot;releasenotes.html&quot; with your default browser" />
+  <language category="form" class="MainForm" type="menu" id="mnuReportBugs" attribute="Text" name="Report Bugs" />
+  <language category="form" class="MainForm" type="menu" id="mnuReportBugs" attribute="ToolTipText" name="Open the &quot;reportbugs.html&quot; with your default browser" />
+  <language category="form" class="MainForm" type="menu" id="mnuAbout" attribute="Text" name="About" />
+  <language category="form" class="MainForm" type="menu" id="mnuInfo" attribute="Text" name="Free for commercial and personal use." />
+  <language category="form" class="MainForm" type="menu" id="Close" attribute="Text" name="Close" />
+  <language category="form" class="MainForm" type="menu" id="NewSQLEditor" attribute="Text" name="New SQL Editor" />
+  <language category="form" class="MainForm" type="menu" id="AddToMyFavorite" attribute="Text" name="Add to &quot;My Favorite&quot;" />
+  <language category="form" class="MainForm" type="menu" id="RemoveFromMyFavorite" attribute="Text" name="Remove from &quot;My Favorite&quot;" />
+  <language category="form" class="MainForm" type="menu" id="OpenFolder" attribute="Text" name="Open Containing Folder in Explorer" />
+  <language category="form" class="MainForm" type="menu" id="CopyFullFilePath" attribute="Text" name="Copy Full File Path to Clipboard" />
+  <language category="form" class="MainForm" type="menu" id="CopyFilename" attribute="Text" name="Copy Filename to Clipboard" />
+  <language category="form" class="MainForm" type="menu" id="CopyCurrentPath" attribute="Text" name="Copy Current Dir. Path to Clipboard" />
+  <language category="form" class="MainForm" type="msg" id="msgEmptyRecentFiles" attribute="Text" name="Are you sure you want to empty &quot;Recent Files&quot; ?" />
+  <language category="form" class="MainForm" type="msg" id="msgEmptyMyFavorite" attribute="Text" name="Are you sure you want to empty &quot;My Favorite&quot; ?" />
+  <language category="form" class="MainForm" type="msg" id="AliasName" attribute="Text" name="Alias Name: (Optional)" />
+  <language category="form" class="MainForm" type="msg" id="FileName" attribute="Text" name="File Name:" />
+  <!-- frmExportToFile -->
+  <language category="form" class="frmExportToFile" type="object" id="this" attribute="Text" name="Export All Data to File (Excel/CSV...)" />
+  <language category="form" class="frmExportToFile" type="object" id="lblFilename" attribute="Text" name="File name:" />
+  <language category="form" class="frmExportToFile" type="object" id="lblSaveAsType" attribute="Text" name="Save as type:" />
+  <language category="form" class="frmExportToFile" type="object" id="lblWorksheetName" attribute="Text" name="Worksheet Name:" />
+  <language category="form" class="frmExportToFile" type="object" id="chkAutoOpenExcelFile" attribute="Text" name="After the file is exported, the file will be opened automatically" />
+  <language category="form" class="frmExportToFile" type="object" id="lblCSVDelimiters" attribute="Text" name="Delimiters:" />
+  <language category="form" class="frmExportToFile" type="object" id="lblEncoding" attribute="Text" name="Encoding:" />
+  <language category="form" class="frmExportToFile" type="object" id="chkConvertCRLF" attribute="Text" name="Convert CR LF to &amp;&amp;#xD; &amp;&amp;#xA;" />
+  <language category="form" class="frmExportToFile" type="object" id="btnCancel" attribute="Text" name="Cancel" />
+  <language category="form" class="frmExportToFile" type="object" id="btnExport" attribute="Text" name="&amp;Export" />
+  <language category="form" class="frmExportToFile" type="object" id="btnExportAndClose" attribute="Text" name="E&amp;xport &amp;&amp; Close" />
+  <language category="form" class="frmExportToFile" type="object" id="btnClose" attribute="Text" name="&amp;Close" />
+  <language category="form" class="frmExportToFile" type="object" id="btnSaveAllTheSettings" attribute="Text" name="&amp;Save all the settings" />
+  <language category="form" class="frmExportToFile" type="object" id="grpVisualStyle" attribute="Text" name="Visual Style" />
+  <language category="form" class="frmExportToFile" type="object" id="grpPreview" attribute="Text" name="Preview" />
+  <language category="form" class="frmExportToFile" type="object" id="grpDataGrid" attribute="Text" name="Data Grid" />
+  <language category="form" class="frmExportToFile" type="object" id="lblHeadingBackColor" attribute="Text" name="Heading Back Color:" />
+  <language category="form" class="frmExportToFile" type="object" id="lblEvenRowBackColor" attribute="Text" name="Even Row Back Color:" />
+  <language category="form" class="frmExportToFile" type="object" id="lblOddRowBackColor" attribute="Text" name="Odd Row Back Color:" />
+  <language category="form" class="frmExportToFile" type="object" id="chkColumnResize" attribute="Text" name="Adjust column width" />
+  <language category="form" class="frmExportToFile" type="object" id="lblFontName" attribute="Text" name="Font Name:" />
+  <language category="form" class="frmExportToFile" type="object" id="lblFontSize" attribute="Text" name="Font Size:" />
+  <language category="form" class="frmExportToFile" type="object" id="lblRowHeight" attribute="Text" name="Row Height:" />
+  <language category="form" class="frmExportToFile" type="msg" id="SelectSavedFilename" attribute="Text" name="Please select the name of the exported file!" />
+  <language category="form" class="frmExportToFile" type="msg" id="SaveAllTheSettings" attribute="Text" name="All the settings have been saved!" />
+  <language category="form" class="frmExportToFile" type="msg" id="ExportAndOpenByExcel" attribute="Text" name="All data has been exported and displayed in an excel spreadsheet." />
+  <language category="form" class="frmExportToFile" type="msg" id="ExportOK" attribute="Text" name="All data has been exported." />
+  <language category="form" class="frmExportToFile" type="msg" id="InvalidPath" attribute="Text" name="Invalid path!" />
+  <language category="form" class="frmExportToFile" type="msg" id="CellEditMode" attribute="Text" name="Your Excel may be in &quot;cell-edit&quot; mode, so the file cannot be opened normally!" />
+  <language category="form" class="frmExportToFile" type="menugrid" id="ExportAllDataToFile" attribute="Text" name="Export All Data to File" />
+  <language category="form" class="frmExportToFile" type="dropdownlist" id="Delimiters_Tab" attribute="Text" name="Tab" />
+  <language category="form" class="frmExportToFile" type="dropdownlist" id="Delimiters_Semicolon" attribute="Text" name="Semicolon" />
+  <language category="form" class="frmExportToFile" type="dropdownlist" id="Delimiters_Comma" attribute="Text" name="Comma" />
+  <language category="form" class="frmExportToFile" type="dropdownlist" id="Delimiters_Space" attribute="Text" name="Space" />
+  <language category="form" class="frmExportToFile" type="dropdownlist" id="Delimiters_Colon" attribute="Text" name="Colon" />
+  <language category="form" class="frmExportToFile" type="dropdownlist" id="Delimiters_Slash" attribute="Text" name="Slash" />
+  <language category="form" class="frmExportToFile" type="dropdownlist" id="Delimiters_Backslash" attribute="Text" name="Backslash" />
+  <language category="form" class="frmExportToFile" type="dropdownlist" id="Delimiters_Pipe" attribute="Text" name="Pipe" />
+  <!-- Global -->
+  <language category="Global" class="Global" type="msg" id="AnErrorHasOccurred" attribute="Text" name="An error has occurred!" />
+  <language category="Global" class="Global" type="msg" id="AnUnexpectedErrorHasOccurred" attribute="Text" name="An unexpected error has occurred!" />
+  <language category="Global" class="Global" type="msg" id="ErrorConnectingToTheServer" attribute="Text" name="Error connecting to the server:" />
+  <language category="Global" class="Global" type="msg" id="TestOK" attribute="Text" name="Test connection succeeded." />
+  <language category="Global" class="Global" type="msg" id="TestNG" attribute="Text" name="Test connection failed." />
+  <language category="Global" class="Global" type="msg" id="SaveAs" attribute="Text" name="Save As" />
+  <language category="Global" class="Global" type="msg" id="SavingFile" attribute="Text" name="Saving File, please wait..." />
+  <language category="Global" class="Global" type="msg" id="ErrorToOpenFile" attribute="Text" name="An error occurred while opening {FileType} file." />
+  <language category="Global" class="Global" type="msg" id="ErrorToSaveFile" attribute="Text" name="An error occurred while saving {FileType} file." />
+  <language category="Global" class="Global" type="msg" id="PleaseTryAgain" attribute="Text" name="Please try again!" />
+  <language category="Global" class="Global" type="msg" id="RestoreDefault" attribute="Text" name="Are you sure you want to restore all default settings except &quot;Global&quot;?" />
+  <language category="Global" class="Global" type="msg" id="RestoreOK" attribute="Text" name="The settings have been restored. Please restart JasonQuery!" />
+  <language category="Global" class="Global" type="msg" id="CopySettingsFrom" attribute="Text" name="Are you sure you want to copy all settings?" />
+  <language category="Global" class="Global" type="msg" id="CopyOK" attribute="Text" name="The settings have been copied. Please restart JasonQuery!" />
+  <language category="Global" class="Global" type="msg" id="SettingsChanged" attribute="Text" name="All settings have been changed." />
+  <language category="Global" class="Global" type="msg" id="RequireToRestart" attribute="Text" name="You need to restart JasonQuery!" />
+  <language category="Global" class="Global" type="msg" id="OperationAborted" attribute="Text" name="Current operation was aborted." />
+  <language category="Global" class="Global" type="msg" id="LocalizationNotFound" attribute="Text" name="Localization file not found!" />
+  <language category="Global" class="Global" type="msg" id="CancelByUser" attribute="Text" name="This operation has been cancelled." />
+  <language category="Global" class="Global" type="msg" id="EnableUnicodePrompt" attribute="Text" name="On the connection screen, check &quot;Enable Unicode&quot; to avoid this error." />
+  <language category="Global" class="Global" type="msg" id="Help_RawDataMode1" attribute="Text" name="&quot;Raw Data Mode&quot;: It can speed up data display greatly." />
+  <language category="Global" class="Global" type="msg" id="Help_RawDataMode2" attribute="Text" name="When you enable &quot;Raw Data Mode&quot;, the following settings will not be applied to the presentation of the data table:" />
+  <language category="Global" class="Global" type="msg" id="Help_RawDataMode3" attribute="Text" name="Date Format" />
+  <language category="Global" class="Global" type="msg" id="Help_RawDataMode4" attribute="Text" name="Null Value Style" />
+  <language category="Global" class="Global" type="msg" id="TheFileExists" attribute="Text" name="The file you are trying to save already exists!" />
+  <language category="Global" class="Global" type="msg" id="ReplaceFile" attribute="Text" name="Do you want to replace it?" />
+  <language category="Global" class="Global" type="msg" id="ConfirmSaveAs" attribute="Text" name="Confirm Save As" />
+  <language category="Global" class="Global" type="msg" id="FunctionNotYet" attribute="Text" name="The function is not yet complete!" />
+  <language category="Global" class="Global" type="msg" id="RequestToRestart" attribute="Text" name="You cannot change this setting unless you restart JasonQuery." />
+  <language category="Global" class="Global" type="msg" id="ExecuteNonQueryScripts" attribute="Text" name="Execute non-query SQL scripts" />
+  <language category="Global" class="Global" type="msg" id="PleaseWait" attribute="Text" name="Please wait..." />
+  <language category="Global" class="Global" type="msg" id="GetSchemaInfo" attribute="Text" name="Getting schema information..." />
+  <language category="Global" class="Global" type="msg" id="GetSchemaInfoIncludeColumn" attribute="Text" name="Getting schema information (include all column information of Tables) ..." />
+  <language category="Global" class="Global" type="msg" id="InfoShowColumnInfo1" attribute="Text" name="Show column information in the Query Editor's Schema Browser." />
+  <language category="Global" class="Global" type="msg" id="InfoShowColumnInfo2" attribute="Text" name="If it is enabled, it may take a long time to get all column information of Tables." />
+  <language category="Global" class="Global" type="msg" id="InfoShowColumnInfo3" attribute="Text" name="You can change the setting from [Tools] &gt; [Options] &gt; [Query Editor]." />
+  <language category="Global" class="Global" type="messagebox" id="OK" attribute="Text" name="&amp;OK" />
+  <language category="Global" class="Global" type="messagebox" id="Cancel" attribute="Text" name="&amp;Cancel" />
+  <language category="Global" class="Global" type="messagebox" id="Abort" attribute="Text" name="&amp;Abort" />
+  <language category="Global" class="Global" type="messagebox" id="Retry" attribute="Text" name="&amp;Retry" />
+  <language category="Global" class="Global" type="messagebox" id="Ignore" attribute="Text" name="&amp;Ignore" />
+  <language category="Global" class="Global" type="messagebox" id="Yes" attribute="Text" name="&amp;Yes" />
+  <language category="Global" class="Global" type="messagebox" id="No" attribute="Text" name="&amp;No" />
+</JasonQuery>
