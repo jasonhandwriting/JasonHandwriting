@@ -9,9 +9,10 @@ JasonHandwriting 1/2/3/4/5/6/7/8 are created by Jason(Yu Ching Sung) under SIL O
 持續更新、持續創作！
 個人/企業使用100%完全免費！
 任何型式的商用，只要是合法的也100%完全免費！
-目前已經釋出5套不同風格的清松手寫體
+目前已經釋出8套不同風格的清松手寫體
 
 原作者：
+
 游清松
 
 Facebook社團：
