@@ -12,7 +12,6 @@ JasonHandwriting 1/2/3/4/5/6/7/8 are created by Jason(Yu Ching Sung) under SIL O
 目前已經釋出8套不同風格的清松手寫體
 
 原作者：
-
 游清松
 
 Facebook社團：
